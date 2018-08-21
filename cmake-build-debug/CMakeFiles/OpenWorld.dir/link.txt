@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/OpenWorld.dir/main.cpp.o CMakeFiles/OpenWorld.dir/src/Shader.cpp.o  -o OpenWorld /usr/lib64/libglfw.so.3.2 -lSOIL /usr/lib64/libGL.so /usr/lib64/libGLEW.so 
