@@ -57,9 +57,12 @@ public:
         if ( !glfwInit()) {
             std::cerr << "CANNOT START GLFW\n";
             exit( EXIT_FAILURE );
-        } else {
+        }
+#ifdef DEBUG
+        else {
             std::cout << "GLFW INIT\n";
         }
+#endif
 
         glfwWindowHint( GLFW_SAMPLES, 4 );
         glfwWindowHint( GLFW_CONTEXT_VERSION_MAJOR, 3 );
@@ -73,9 +76,12 @@ public:
             std::cerr << "WINDOW IS NULL\n";
             glfwTerminate();
             exit( EXIT_FAILURE );
-        } else {
+        }
+#ifdef DEBUG
+        else {
             std::cout << "WINDOW CREATED\n";
         }
+#endif
 
         glfwMakeContextCurrent( this->window );
 
@@ -83,6 +89,11 @@ public:
         if ( glewInit() != GLEW_OK ) {
             std::cerr << "CANNOT START GLEW\n";
         }
+#ifdef DEBUG
+        else {
+            std::cout << "GLEW init" << std::endl;
+        }
+#endif
         glGetError(); // Call it once to catch glewInit() bug, all other errors are now from our application.
         glfwSetInputMode( this->window, GLFW_STICKY_KEYS, GL_TRUE );
         glfwSetKeyCallback( this->window, key_callback );
