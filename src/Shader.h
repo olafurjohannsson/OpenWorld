@@ -68,8 +68,8 @@ public:
         // load shaders annd get id
         std::cout << "Loading shaders\n";
         this->programId = this->loadShaders(
-                "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/vertex.glsl",
-                "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl" );
+                "/home/olafurj/OpenWorld/src/Shaders/vertex.glsl",
+                "/home/olafurj/OpenWorld/src/Shaders/fragment.glsl" );
         this->getUniforms();
         this->use();
     }

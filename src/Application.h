@@ -71,7 +71,7 @@ public:
         glfwWindowHint( GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE );
         glfwWindowHint( GLFW_RESIZABLE, GL_FALSE );
 
-        this->window = glfwCreateWindow( 800, 600, "Breakout", nullptr, nullptr );
+        this->window = glfwCreateWindow( 800, 600, "OpenGL 3D", nullptr, nullptr );
         if ( this->window == NULL ) {
             std::cerr << "WINDOW IS NULL\n";
             glfwTerminate();
@@ -88,6 +88,7 @@ public:
         glewExperimental = GL_TRUE;
         if ( glewInit() != GLEW_OK ) {
             std::cerr << "CANNOT START GLEW\n";
+            exit( EXIT_FAILURE );
         }
 #ifdef DEBUG
         else {

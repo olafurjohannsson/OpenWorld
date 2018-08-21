@@ -12,10 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e08641f-6fd5-4201-9471-8d3603a3897f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenWorld" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenWorld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Application.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shader.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +76,8 @@
               <file leaf-file-name="Shader.h" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Shader.h">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="214">
-                      <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+                    <state relative-caret-position="340">
+                      <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
                       <folding>
                         <element signature="e#97#114#0" expanded="true" />
                       </folding>
@@ -93,12 +92,13 @@
               <file leaf-file-name="Application.h" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Application.h">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="178">
-                      <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+                    <state relative-caret-position="183">
+                      <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
                       <folding>
                         <element signature="e#107#126#0" expanded="true" />
                         <element signature="e#1501#1557#0" expanded="true" />
                         <element signature="e#2181#2242#0" expanded="true" />
+                        <element signature="e#2454#2483#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -176,6 +176,8 @@
       <find>loadShaders</find>
       <find>createProgram</find>
       <find>linkProgram</find>
+      <find>this-&gt;window</find>
+      <find>cannot star</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,8 +194,8 @@
         <option value="$PROJECT_DIR$/src/Shaders/vertex.glsl" />
         <option value="$PROJECT_DIR$/src/Shaders/fragment.glsl" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/src/Shader.h" />
         <option value="$PROJECT_DIR$/src/Application.h" />
+        <option value="$PROJECT_DIR$/src/Shader.h" />
       </list>
     </option>
   </component>
@@ -263,12 +265,12 @@
       <workItem from="1534543609927" duration="6571000" />
       <workItem from="1534555513918" duration="13000" />
       <workItem from="1534633038792" duration="4318000" />
-      <workItem from="1534888898222" duration="3817000" />
+      <workItem from="1534888898222" duration="4154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26386000" />
+    <option name="totallyTimeSpent" value="26723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="27" width="3440" height="1413" extended-state="6" />
@@ -407,6 +409,7 @@
             <element signature="e#107#126#0" expanded="true" />
             <element signature="e#1501#1557#0" expanded="true" />
             <element signature="e#2181#2242#0" expanded="true" />
+            <element signature="e#2454#2483#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,6 +459,7 @@
             <element signature="e#107#126#0" expanded="true" />
             <element signature="e#1501#1557#0" expanded="true" />
             <element signature="e#2181#2242#0" expanded="true" />
+            <element signature="e#2454#2483#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -512,6 +516,7 @@
             <element signature="e#107#126#0" expanded="true" />
             <element signature="e#1501#1557#0" expanded="true" />
             <element signature="e#2181#2242#0" expanded="true" />
+            <element signature="e#2454#2483#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -650,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Shader.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
           <folding>
             <element signature="e#97#114#0" expanded="true" />
           </folding>
@@ -660,12 +665,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+        <state relative-caret-position="183">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
           <folding>
             <element signature="e#107#126#0" expanded="true" />
             <element signature="e#1501#1557#0" expanded="true" />
             <element signature="e#2181#2242#0" expanded="true" />
+            <element signature="e#2454#2483#0" expanded="true" />
           </folding>
         </state>
       </provider>
