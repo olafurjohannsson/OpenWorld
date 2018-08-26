@@ -113,6 +113,11 @@ public:
 
     }
 
+    template<typename T>
+    size_t ArrayLength( T (&arr)) {
+        return sizeof( arr ) / sizeof( arr[ 0 ] );
+    };
+
     void start() {
         if ( this->appState == AppState::ACTIVE ) {
             return;
@@ -122,6 +127,8 @@ public:
         GLfloat lastFrame = 0.0f;
 
         float vertices[] = { 0.0f, 0.5f, 0.5f, -0.5f, -0.5f, -0.5f };
+
+
         GLuint vbo;
         glGenBuffers( 1, &vbo );
         GLenum target = GL_ARRAY_BUFFER;
@@ -135,13 +142,18 @@ public:
         glVertexAttribPointer( attr, values, GL_FLOAT, false, stride, offset );
         glEnableVertexAttribArray( attr );
 
+        auto size = this->ArrayLength( vertices );
+        auto verticeCount = size / values;
+
+        std::cout << size << std::endl;
+        std::cout << verticeCount << std::endl;
         GLuint vao;
         glGenVertexArrays( 1, &vao );
         glBindVertexArray( vao );
 
 
         while ( !glfwWindowShouldClose( window )) {
-            // Calculate delta time
+            // Calculnette delta time
             GLfloat currentFrame = glfwGetTime();
             deltaTime = currentFrame - lastFrame;
             lastFrame = currentFrame;
@@ -156,8 +168,10 @@ public:
             this->update( deltaTime );
 
 
-            glClearColor( 0.0f, 0.0f, 0.0f, 1.0f );
+            glClearColor( 0.3f, 0.3f, 0.3f, 1.0f );
             glClear( GL_COLOR_BUFFER_BIT );
+
+            glDrawArrays( GL_TRIANGLES, 0, verticeCount );
 
             // RenderFrame
             this->render( deltaTime );

@@ -1,0 +1,2 @@
+1. Create hardware shader using OpenGL
+2. Create software renderer, rendering should support writing to a .tga file (instead of the window)
