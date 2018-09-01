@@ -45,7 +45,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
-					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/include"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/backward"/>
@@ -68,7 +70,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
-					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/include"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/backward"/>
@@ -84,6 +88,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL/SOIL.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL/SOIL.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.h">
+			<Option target="OpenWorld"/>
+		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h">
 			<Option target="OpenWorld"/>
 		</Unit>

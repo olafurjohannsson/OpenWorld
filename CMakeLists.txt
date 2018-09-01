@@ -10,16 +10,21 @@ add_executable(OpenWorld main.cpp
         src/World.h
         src/Renderer.h
         src/Util.h
+        includes/glad/include/glad/glad.c
+
         learnopengl/shader_m.h
         learnopengl/camera.h
         learnopengl/filesystem.h
         learnopengl/model.h
+
+        includes/stb_image/stb_image.cpp
+        includes/SOIL/SOIL.c
+        includes/glad/include/glad/glad.c
         )
 find_package(Threads REQUIRED)
 find_package(glfw3 3.2 REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
-#find_package(glad REQUIRED)
 find_package(glm REQUIRED)
 
 target_include_directories(OpenWorld PUBLIC
@@ -27,11 +32,14 @@ target_include_directories(OpenWorld PUBLIC
         ${GLEW_INCLUDE_DIRS}
         ${GLUT_INCLUDE_DIRS}
         ${glm_INCLUDE_DIRS}
-        "/home/olafurj/Dropbox/dev/OpenWorld/include")
+        includes/stb_image
+        includes/SOIL
+        includes/glad/include)
+
 target_link_libraries(OpenWorld
         glfw
-        #SOIL
-
+        SOIL
+        dl
         ${OPENGL_gl_LIBRARY}
         ${GLEW_LIBRARIES}
         ${GLUT_LIBRARIES}

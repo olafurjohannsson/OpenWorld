@@ -123,6 +123,87 @@ OpenWorld/fast:
 	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/build
 .PHONY : OpenWorld/fast
 
+includes/SOIL/SOIL.o: includes/SOIL/SOIL.c.o
+
+.PHONY : includes/SOIL/SOIL.o
+
+# target to build an object file
+includes/SOIL/SOIL.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o
+.PHONY : includes/SOIL/SOIL.c.o
+
+includes/SOIL/SOIL.i: includes/SOIL/SOIL.c.i
+
+.PHONY : includes/SOIL/SOIL.i
+
+# target to preprocess a source file
+includes/SOIL/SOIL.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.i
+.PHONY : includes/SOIL/SOIL.c.i
+
+includes/SOIL/SOIL.s: includes/SOIL/SOIL.c.s
+
+.PHONY : includes/SOIL/SOIL.s
+
+# target to generate assembly for a file
+includes/SOIL/SOIL.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.s
+.PHONY : includes/SOIL/SOIL.c.s
+
+includes/glad/include/glad/glad.o: includes/glad/include/glad/glad.c.o
+
+.PHONY : includes/glad/include/glad/glad.o
+
+# target to build an object file
+includes/glad/include/glad/glad.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o
+.PHONY : includes/glad/include/glad/glad.c.o
+
+includes/glad/include/glad/glad.i: includes/glad/include/glad/glad.c.i
+
+.PHONY : includes/glad/include/glad/glad.i
+
+# target to preprocess a source file
+includes/glad/include/glad/glad.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.i
+.PHONY : includes/glad/include/glad/glad.c.i
+
+includes/glad/include/glad/glad.s: includes/glad/include/glad/glad.c.s
+
+.PHONY : includes/glad/include/glad/glad.s
+
+# target to generate assembly for a file
+includes/glad/include/glad/glad.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.s
+.PHONY : includes/glad/include/glad/glad.c.s
+
+includes/stb_image/stb_image.o: includes/stb_image/stb_image.cpp.o
+
+.PHONY : includes/stb_image/stb_image.o
+
+# target to build an object file
+includes/stb_image/stb_image.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o
+.PHONY : includes/stb_image/stb_image.cpp.o
+
+includes/stb_image/stb_image.i: includes/stb_image/stb_image.cpp.i
+
+.PHONY : includes/stb_image/stb_image.i
+
+# target to preprocess a source file
+includes/stb_image/stb_image.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.i
+.PHONY : includes/stb_image/stb_image.cpp.i
+
+includes/stb_image/stb_image.s: includes/stb_image/stb_image.cpp.s
+
+.PHONY : includes/stb_image/stb_image.s
+
+# target to generate assembly for a file
+includes/stb_image/stb_image.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.s
+.PHONY : includes/stb_image/stb_image.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +267,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpenWorld"
+	@echo "... includes/SOIL/SOIL.o"
+	@echo "... includes/SOIL/SOIL.i"
+	@echo "... includes/SOIL/SOIL.s"
+	@echo "... includes/glad/include/glad/glad.o"
+	@echo "... includes/glad/include/glad/glad.i"
+	@echo "... includes/glad/include/glad/glad.s"
+	@echo "... includes/stb_image/stb_image.o"
+	@echo "... includes/stb_image/stb_image.i"
+	@echo "... includes/stb_image/stb_image.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

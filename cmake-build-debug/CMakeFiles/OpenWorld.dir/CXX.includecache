@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/KHR/khrplatform.h
+../includes/glad/include/KHR/khrplatform.h
 stdint.h
 -
 inttypes.h
@@ -14,7 +14,7 @@ inttypes.h
 stdint.h
 -
 
-../include/glad/glad.h
+../includes/glad/include/glad/glad.h
 windows.h
 -
 stddef.h
@@ -34,9 +34,43 @@ stdint.h
 inttypes.h
 -
 
-../include/stb_image.h
+../includes/stb_image/stb_image.h
 stb_image.h
-../include/stb_image.h
+../includes/stb_image/stb_image.h
+stdio.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+assert.h
+-
+stdint.h
+-
+emmintrin.h
+-
+intrin.h
+-
+arm_neon.h
+-
+
+/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp
+stb_image.h
+/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.h
+
+/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.h
+stb_image.h
+/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.h
 stdio.h
 -
 stdarg.h
@@ -65,8 +99,8 @@ arm_neon.h
 -
 
 /home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h
-../glad/glad.h
-/home/olafurj/Dropbox/dev/OpenWorld/glad/glad.h
+glad/glad.h
+-
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp

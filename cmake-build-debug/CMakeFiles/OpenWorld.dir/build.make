@@ -105,22 +105,100 @@ CMakeFiles/OpenWorld.dir/src/Shader.cpp.o.provides: CMakeFiles/OpenWorld.dir/src
 CMakeFiles/OpenWorld.dir/src/Shader.cpp.o.provides.build: CMakeFiles/OpenWorld.dir/src/Shader.cpp.o
 
 
+CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o: ../includes/glad/include/glad/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.c
+
+CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.c > CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.i
+
+CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.c -o CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.s
+
+CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.provides: CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o
+
+
+CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o: ../includes/stb_image/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o -c /home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp
+
+CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp > CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.i
+
+CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp -o CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.s
+
+CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.provides: CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.provides.build: CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o
+
+
+CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o: ../includes/SOIL/SOIL.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL/SOIL.c
+
+CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL/SOIL.c > CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.i
+
+CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL/SOIL.c -o CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.s
+
+CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.provides: CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o
+
+
 # Object files for target OpenWorld
 OpenWorld_OBJECTS = \
 "CMakeFiles/OpenWorld.dir/main.cpp.o" \
-"CMakeFiles/OpenWorld.dir/src/Shader.cpp.o"
+"CMakeFiles/OpenWorld.dir/src/Shader.cpp.o" \
+"CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o" \
+"CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o"
 
 # External object files for target OpenWorld
 OpenWorld_EXTERNAL_OBJECTS =
 
 OpenWorld: CMakeFiles/OpenWorld.dir/main.cpp.o
 OpenWorld: CMakeFiles/OpenWorld.dir/src/Shader.cpp.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o
 OpenWorld: CMakeFiles/OpenWorld.dir/build.make
 OpenWorld: /usr/lib64/libglfw.so.3.2
 OpenWorld: /usr/lib64/libGL.so
 OpenWorld: /usr/lib64/libGLEW.so
 OpenWorld: CMakeFiles/OpenWorld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OpenWorld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenWorld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +208,9 @@ CMakeFiles/OpenWorld.dir/build: OpenWorld
 
 CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/main.cpp.o.requires
 CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/src/Shader.cpp.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.requires
 
 .PHONY : CMakeFiles/OpenWorld.dir/requires
 
