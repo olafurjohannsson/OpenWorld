@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = -DGLFW_DLL
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/olafurj/Dropbox/dev/OpenWorld/include 
 

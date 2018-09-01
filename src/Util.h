@@ -7,8 +7,11 @@
 
 #include <fstream>
 #include <sstream>
+#include <functional>
+#include <chrono>
 #include <stdexcept>
 
+using namespace std::chrono;
 class Util {
 
 public:
@@ -22,6 +25,17 @@ public:
         stream << inFile.rdbuf();
         return stream.str();
     }
+
+
+    struct Fn {
+        static unsigned long long int measure( std::function<void()> fn ) {
+            high_resolution_clock::time_point started = std::chrono::high_resolution_clock::now();
+            fn();
+            high_resolution_clock::time_point done = std::chrono::high_resolution_clock::now();
+            unsigned long long int time = duration_cast<std::chrono::milliseconds>( done - started ).count();
+            return time;
+        }
+    };
 };
 
 #endif //OPENWORLD_UTIL_H
