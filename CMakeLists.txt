@@ -5,16 +5,18 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(OpenWorld main.cpp
 
-        includes/glad/include/glad/glad.c
+
 
 #        learnopengl/shader_m.h
         learnopengl/camera.h
 #        learnopengl/filesystem.h
 #        learnopengl/model.h
 
+        includes/glad/include/glad/glad.c
         includes/stb_image/stb_image.cpp
         includes/SOIL/SOIL.c
-        includes/glad/include/glad/glad.c
+        includes/spdlog/spdlog/spdlog.h
+
 
         OpenEngine/Cubemap.cpp
         OpenEngine/Cubemap.h
@@ -26,6 +28,7 @@ add_executable(OpenWorld main.cpp
         OpenEngine/Texture.cpp
         OpenEngine/Texture.h
         OpenEngine/TextureManager.h
+        OpenEngine/Application.h
         )
 find_package(Threads REQUIRED)
 find_package(glfw3 3.2 REQUIRED)
@@ -38,6 +41,7 @@ target_include_directories(OpenWorld PUBLIC
         ${GLEW_INCLUDE_DIRS}
         ${GLUT_INCLUDE_DIRS}
         ${glm_INCLUDE_DIRS}
+        includes/spdlog
         includes/stb_image
         includes/SOIL
         includes/glad/include)

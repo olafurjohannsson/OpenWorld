@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include"/>
@@ -70,6 +71,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include"/>
@@ -88,6 +90,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.h">
+			<Option target="OpenWorld"/>
+		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.cpp">
 			<Option target="OpenWorld"/>
 		</Unit>
@@ -128,6 +133,9 @@
 			<Option target="OpenWorld"/>
 		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog/spdlog/spdlog.h">
 			<Option target="OpenWorld"/>
 		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp">

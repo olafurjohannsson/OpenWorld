@@ -17,6 +17,9 @@
 
 #include "learnopengl/shader.h"
 
+
+#include "OpenEngine/Application.h"
+
 using namespace ow::graphics;
 
 void processInput( GLFWwindow *window ) {
@@ -33,12 +36,12 @@ void processInput( GLFWwindow *window ) {
         camera.ProcessKeyboard( RIGHT, deltaTime );
 }
 
+
+
 int main() {
+    Application::init();
 
-
-    exit( 0 );
-
-    Display *display = DisplayManager::createDisplay( "test" );
+    Display *display = DisplayManager::createDisplay( Application::title );
 
     Shader shader( "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/vertex.glsl",
                    "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl" );
