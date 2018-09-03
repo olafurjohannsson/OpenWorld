@@ -4,22 +4,28 @@ project(OpenWorld)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(OpenWorld main.cpp
-        src/Shader.cpp src/Shader.h
-        src/Application.h
-        src/Model.h
-        src/World.h
-        src/Renderer.h
-        src/Util.h
+
         includes/glad/include/glad/glad.c
 
-        learnopengl/shader_m.h
+#        learnopengl/shader_m.h
         learnopengl/camera.h
-        learnopengl/filesystem.h
-        learnopengl/model.h
+#        learnopengl/filesystem.h
+#        learnopengl/model.h
 
         includes/stb_image/stb_image.cpp
         includes/SOIL/SOIL.c
         includes/glad/include/glad/glad.c
+
+        OpenEngine/Cubemap.cpp
+        OpenEngine/Cubemap.h
+        OpenEngine/Display.h
+        OpenEngine/DisplayManager.h
+        OpenEngine/RawModel.h
+        OpenEngine/Loader.h
+        OpenEngine/Renderer.h
+        OpenEngine/Texture.cpp
+        OpenEngine/Texture.h
+        OpenEngine/TextureManager.h
         )
 find_package(Threads REQUIRED)
 find_package(glfw3 3.2 REQUIRED)

@@ -30,6 +30,7 @@ public:
             std::string vPath = px + std::string( vertexPath );
             std::string fPath = px + std::string( fragmentPath );
             std::cout << "Opening FRAGMENT: " << fPath << std::endl;
+            std::cout << "Opening VERTEX: " << vPath << std::endl;
             vShaderFile.open( vPath );
             fShaderFile.open( fPath );
 
@@ -49,6 +50,7 @@ public:
         }
         const char *vShaderCode = vertexCode.c_str();
         const char *fShaderCode = fragmentCode.c_str();
+        std::cout << "COMPILING\n";
         // 2. compile shaders
         unsigned int vertex, fragment;
         int success;

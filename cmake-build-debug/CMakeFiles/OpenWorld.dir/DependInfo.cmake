@@ -22,9 +22,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../includes/glad/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.cpp" "/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o"
+  "/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.cpp" "/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o"
   "/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp" "/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o"
   "/home/olafurj/Dropbox/dev/OpenWorld/main.cpp" "/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles/OpenWorld.dir/main.cpp.o"
-  "/home/olafurj/Dropbox/dev/OpenWorld/src/Shader.cpp" "/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/CMakeFiles/OpenWorld.dir/src/Shader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

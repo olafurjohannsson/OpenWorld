@@ -11,6 +11,7 @@ private:
 
 public:
     static std::string getPath( const std::string &path ) {
+        return std::string("/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/") + path;
         static std::string (*pathBuilder)( std::string const & ) = getPathBuilder();
         return ( *pathBuilder )( path );
     }

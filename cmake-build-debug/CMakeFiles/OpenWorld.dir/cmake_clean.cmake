@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OpenWorld.dir/main.cpp.o"
-  "CMakeFiles/OpenWorld.dir/src/Shader.cpp.o"
   "CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o"
   "CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o"
   "CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o"
+  "CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o"
+  "CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o"
   "OpenWorld.pdb"
   "OpenWorld"
 )

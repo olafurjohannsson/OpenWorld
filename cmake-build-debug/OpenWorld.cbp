@@ -17,21 +17,21 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -88,6 +88,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.cpp">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Display.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/DisplayManager.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.cpp">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/TextureManager.h">
+			<Option target="OpenWorld"/>
+		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL/SOIL.c">
 			<Option target="OpenWorld"/>
 		</Unit>
@@ -109,58 +139,25 @@
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h">
 			<Option target="OpenWorld"/>
 		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/filesystem.h">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/model.h">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/shader_m.h">
-			<Option target="OpenWorld"/>
-		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/main.cpp">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/src/Application.h">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/src/Model.h">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/src/Renderer.h">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/src/Shader.cpp">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/src/Util.h">
-			<Option target="OpenWorld"/>
-		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/src/World.h">
 			<Option target="OpenWorld"/>
 		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
-		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake">
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
 		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/share/cmake/glm/glmConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\cmake\glm\"/>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/share/cmake/glm/glmConfigVersion.cmake">
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/share/cmake/glm/glmConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\cmake\glm\"/>
 		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/share/cmake/glm/glmTargets.cmake">
