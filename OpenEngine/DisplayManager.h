@@ -24,6 +24,8 @@ public:
         return DisplayManager::display;
     }
 
+
+
     static void updateDisplay() {
         Display::sync( FPS_CAP );
         Display::update();

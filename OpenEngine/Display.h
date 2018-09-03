@@ -5,6 +5,7 @@
 #ifndef OPENWORLD_DISPLAY_H
 #define OPENWORLD_DISPLAY_H
 
+#include "Sync.h"
 #include <GLFW/glfw3.h>
 #include <cstdlib>
 #include <iostream>
@@ -85,14 +86,18 @@ public:
     }
 
     static void scrollCallback( GLFWwindow *window, double xoffset, double yoffset ) {
-
+        camera.ProcessMouseScroll( yoffset );
     }
 
     static void sync( int fps ) {
-
+        Sync::sync( fps );
     }
 
     static void update() {
+        float currentFrame = glfwGetTime();
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
+
         glfwSwapBuffers( m_window );
         glfwPollEvents();
     }
@@ -104,7 +109,9 @@ public:
     static bool isCloseRequested() {
         return glfwWindowShouldClose( m_window ) || glfwGetKey( m_window, GLFW_KEY_ESCAPE ) == GLFW_PRESS;
     }
-
+    static GLFWwindow *getWindow() {
+        return m_window;
+    }
 private:
     static GLFWwindow *m_window;
 };

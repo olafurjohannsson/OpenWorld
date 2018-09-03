@@ -35,6 +35,7 @@ CMakeFiles/OpenWorld.dir/main.cpp.o: ../OpenEngine/DisplayManager.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../OpenEngine/Loader.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../OpenEngine/RawModel.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../OpenEngine/Renderer.h
+CMakeFiles/OpenWorld.dir/main.cpp.o: ../OpenEngine/Sync.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../OpenEngine/Texture.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../OpenEngine/TextureManager.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../learnopengl/camera.h
