@@ -72,6 +72,24 @@ mutex
 windows.h
 -
 
+../includes/spdlog/spdlog/details/file_helper.h
+spdlog/details/log_msg.h
+../includes/spdlog/spdlog/details/spdlog/details/log_msg.h
+spdlog/details/os.h
+../includes/spdlog/spdlog/details/spdlog/details/os.h
+cerrno
+-
+chrono
+-
+cstdio
+-
+string
+-
+thread
+-
+tuple
+-
+
 ../includes/spdlog/spdlog/details/fmt_helper.h
 chrono
 ../includes/spdlog/spdlog/details/chrono
@@ -328,6 +346,30 @@ string
 unordered_map
 -
 
+../includes/spdlog/spdlog/sinks/base_sink.h
+spdlog/common.h
+../includes/spdlog/spdlog/sinks/spdlog/common.h
+spdlog/details/log_msg.h
+../includes/spdlog/spdlog/sinks/spdlog/details/log_msg.h
+spdlog/formatter.h
+../includes/spdlog/spdlog/sinks/spdlog/formatter.h
+spdlog/sinks/sink.h
+../includes/spdlog/spdlog/sinks/spdlog/sinks/sink.h
+
+../includes/spdlog/spdlog/sinks/basic_file_sink.h
+spdlog/details/file_helper.h
+../includes/spdlog/spdlog/sinks/spdlog/details/file_helper.h
+spdlog/details/null_mutex.h
+../includes/spdlog/spdlog/sinks/spdlog/details/null_mutex.h
+spdlog/sinks/base_sink.h
+../includes/spdlog/spdlog/sinks/spdlog/sinks/base_sink.h
+spdlog/spdlog.h
+../includes/spdlog/spdlog/sinks/spdlog/spdlog.h
+mutex
+-
+string
+-
+
 ../includes/spdlog/spdlog/sinks/sink.h
 spdlog/details/log_msg.h
 ../includes/spdlog/spdlog/sinks/spdlog/details/log_msg.h
@@ -421,6 +463,8 @@ spdlog/spdlog.h
 -
 spdlog/sinks/stdout_color_sinks.h
 -
+spdlog/sinks/basic_file_sink.h
+-
 spdlog/common.h
 -
 
@@ -451,10 +495,14 @@ iostream
 -
 ../learnopengl/camera.h
 /home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h
+Application.h
+/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.h
 
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/DisplayManager.h
 Display.h
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Display.h
+Application.h
+/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.h
 
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h
 RawModel.h

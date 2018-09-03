@@ -31,6 +31,7 @@ CMakeFiles/OpenWorld.dir/main.cpp.o
  ../includes/glad/include/glad/glad.h
  ../includes/spdlog/spdlog/common.h
  ../includes/spdlog/spdlog/details/console_globals.h
+ ../includes/spdlog/spdlog/details/file_helper.h
  ../includes/spdlog/spdlog/details/fmt_helper.h
  ../includes/spdlog/spdlog/details/log_msg.h
  ../includes/spdlog/spdlog/details/logger_impl.h
@@ -46,6 +47,8 @@ CMakeFiles/OpenWorld.dir/main.cpp.o
  ../includes/spdlog/spdlog/formatter.h
  ../includes/spdlog/spdlog/logger.h
  ../includes/spdlog/spdlog/sinks/ansicolor_sink.h
+ ../includes/spdlog/spdlog/sinks/base_sink.h
+ ../includes/spdlog/spdlog/sinks/basic_file_sink.h
  ../includes/spdlog/spdlog/sinks/sink.h
  ../includes/spdlog/spdlog/sinks/stdout_color_sinks.h
  ../includes/spdlog/spdlog/sinks/wincolor_sink.h

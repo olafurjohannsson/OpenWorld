@@ -10,6 +10,7 @@
 #include <cstdlib>
 #include <iostream>
 #include "../learnopengl/camera.h"
+#include "Application.h"
 
 Camera camera( glm::vec3( 0.0f, 0.0f, 3.0f ));
 float lastX = 0;
@@ -25,8 +26,8 @@ public:
 
     Display( int screenWidth, int screenHeight, const char *name, bool fullscreen = false ) {
         if ( !glfwInit()) {
-            std::cout << "FAILED TO INIT GLFW\n";
-            exit( 0 );
+            Application::console->critical( "FAILED TO INIT GLFW" );
+            exit( EXIT_FAILURE );
         }
 
         lastX = (float) screenWidth / 2.0;

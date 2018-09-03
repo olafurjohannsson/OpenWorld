@@ -30,6 +30,7 @@ CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/glad/include/KHR/khrplatform.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/glad/include/glad/glad.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/common.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/details/console_globals.h
+CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/details/file_helper.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/details/fmt_helper.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/details/log_msg.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/details/logger_impl.h
@@ -45,6 +46,8 @@ CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/fmt/fmt.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/formatter.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/logger.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/sinks/ansicolor_sink.h
+CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/sinks/base_sink.h
+CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/sinks/basic_file_sink.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/sinks/sink.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/sinks/stdout_color_sinks.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: ../includes/spdlog/spdlog/sinks/wincolor_sink.h

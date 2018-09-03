@@ -23,19 +23,31 @@
 using namespace ow::graphics;
 
 void processInput( GLFWwindow *window ) {
-    if ( glfwGetKey( window, GLFW_KEY_ESCAPE ) == GLFW_PRESS )
+    if ( glfwGetKey( window, GLFW_KEY_ESCAPE ) == GLFW_PRESS ) {
+        Application::console->debug( "ESC pressed." );
         glfwSetWindowShouldClose( window, true );
+    }
 
-    if ( glfwGetKey( window, GLFW_KEY_W ) == GLFW_PRESS )
+    if ( glfwGetKey( window, GLFW_KEY_W ) == GLFW_PRESS ) {
+        Application::console->debug( "W pressed." );
         camera.ProcessKeyboard( FORWARD, deltaTime );
-    if ( glfwGetKey( window, GLFW_KEY_S ) == GLFW_PRESS )
-        camera.ProcessKeyboard( BACKWARD, deltaTime );
-    if ( glfwGetKey( window, GLFW_KEY_A ) == GLFW_PRESS )
-        camera.ProcessKeyboard( LEFT, deltaTime );
-    if ( glfwGetKey( window, GLFW_KEY_D ) == GLFW_PRESS )
-        camera.ProcessKeyboard( RIGHT, deltaTime );
-}
+    }
 
+    if ( glfwGetKey( window, GLFW_KEY_S ) == GLFW_PRESS ) {
+        Application::console->debug( "S pressed." );
+        camera.ProcessKeyboard( BACKWARD, deltaTime );
+    }
+
+    if ( glfwGetKey( window, GLFW_KEY_A ) == GLFW_PRESS ) {
+        Application::console->debug( "A pressed." );
+        camera.ProcessKeyboard( LEFT, deltaTime );
+    }
+
+    if ( glfwGetKey( window, GLFW_KEY_D ) == GLFW_PRESS ) {
+        Application::console->debug( "D pressed." );
+        camera.ProcessKeyboard( RIGHT, deltaTime );
+    }
+}
 
 
 int main() {

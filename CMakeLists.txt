@@ -16,6 +16,7 @@ add_executable(OpenWorld main.cpp
         includes/stb_image/stb_image.cpp
         includes/SOIL/SOIL.c
         includes/spdlog/spdlog/spdlog.h
+        #includes/fmt/include/format.h
 
 
         OpenEngine/Cubemap.cpp
