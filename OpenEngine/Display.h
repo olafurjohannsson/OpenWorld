@@ -29,6 +29,9 @@ public:
             Application::console->critical( "FAILED TO INIT GLFW" );
             exit( EXIT_FAILURE );
         }
+        else {
+            Application::console->debug( "GLFW Initialized" );
+        }
 
         lastX = (float) screenWidth / 2.0;
         lastY = (float) screenHeight / 2.0;
@@ -47,6 +50,7 @@ public:
 
             m_window = glfwCreateWindow( screenWidth, screenHeight, name, nullptr, nullptr );
         }
+
 
         // Context and callbacks
 
@@ -68,6 +72,8 @@ public:
         }
 
         glEnable( GL_DEPTH_TEST );
+
+        Application::console->info( "Display created." );
     }
 
     static void mouseCallback( GLFWwindow *glfWwindow, double xpos, double ypos ) {

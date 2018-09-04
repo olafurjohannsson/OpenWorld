@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.9.6)
+cmake_minimum_required(VERSION 3.9.0)
 project(OpenWorld)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -16,7 +16,7 @@ add_executable(OpenWorld main.cpp
         includes/stb_image/stb_image.cpp
         includes/SOIL/SOIL.c
         includes/spdlog/spdlog/spdlog.h
-        #includes/fmt/include/format.h
+        includes/fmt/include/fmt/format.h
 
 
         OpenEngine/Cubemap.cpp
@@ -43,6 +43,7 @@ target_include_directories(OpenWorld PUBLIC
         ${GLUT_INCLUDE_DIRS}
         ${glm_INCLUDE_DIRS}
         includes/spdlog
+        includes/fmt/include
         includes/stb_image
         includes/SOIL
         includes/glad/include)

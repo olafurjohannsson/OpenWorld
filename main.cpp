@@ -24,33 +24,30 @@ using namespace ow::graphics;
 
 void processInput( GLFWwindow *window ) {
     if ( glfwGetKey( window, GLFW_KEY_ESCAPE ) == GLFW_PRESS ) {
-        Application::console->debug( "ESC pressed." );
         glfwSetWindowShouldClose( window, true );
     }
 
     if ( glfwGetKey( window, GLFW_KEY_W ) == GLFW_PRESS ) {
-        Application::console->debug( "W pressed." );
         camera.ProcessKeyboard( FORWARD, deltaTime );
     }
 
     if ( glfwGetKey( window, GLFW_KEY_S ) == GLFW_PRESS ) {
-        Application::console->debug( "S pressed." );
         camera.ProcessKeyboard( BACKWARD, deltaTime );
     }
 
     if ( glfwGetKey( window, GLFW_KEY_A ) == GLFW_PRESS ) {
-        Application::console->debug( "A pressed." );
         camera.ProcessKeyboard( LEFT, deltaTime );
     }
 
     if ( glfwGetKey( window, GLFW_KEY_D ) == GLFW_PRESS ) {
-        Application::console->debug( "D pressed." );
         camera.ProcessKeyboard( RIGHT, deltaTime );
     }
 }
-
+#include <fmt/format.h>
+#include "OpenEngine/Skybox.h"
 
 int main() {
+
     Application::init();
 
     Display *display = DisplayManager::createDisplay( Application::title );
@@ -59,14 +56,7 @@ int main() {
                    "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl" );
     Loader loader;
     Renderer renderer;
-
-    Shader skyboxShader( "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/skybox.vertex.glsl",
-                         "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/skybox.fragment.glsl" );
-    skyboxShader.use();
-    skyboxShader.setInt( "skybox", 0 );
-
-    unsigned int cubemapId = TextureManager::loadCubemap();
-    RawModel skyboxModel = loader.loadToVAO( skyboxVertices );
+    Skybox skybox( loader );
 
     while ( !Display::isCloseRequested()) {
 
@@ -74,16 +64,11 @@ int main() {
 
         renderer.prepare(); // pre-render
 
-        glDepthFunc( GL_LEQUAL );
-        skyboxShader.use();
-
         glm::mat4 view = glm::mat4( glm::mat3( camera.GetViewMatrix()));
         glm::mat4 projection = glm::perspective( glm::radians( camera.Zoom ), (float) 1280 / (float) 720, 0.1f,
                                                  100.0f );
-        skyboxShader.setMat4( "view", view );
-        skyboxShader.setMat4( "projection", projection );
-        renderer.render( skyboxModel );
-        glDepthFunc( GL_LESS );
+
+        skybox.render( renderer, view, projection );
 
         DisplayManager::updateDisplay();
 

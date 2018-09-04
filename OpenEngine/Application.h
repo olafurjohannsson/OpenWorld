@@ -21,7 +21,7 @@ public:
         static Application application;
         if ( !initialized ) {
             console = spdlog::stdout_color_mt( "console" );
-            file = spdlog::basic_logger_mt( "file", "../logs/log.txt" );
+            file = spdlog::basic_logger_mt( "file", "/home/olafurj/Dropbox/dev/OpenWorld/logs/log.txt" );
 
 #ifdef RELEASE
             console->set_level( spdlog::level::warn );

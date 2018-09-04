@@ -10,6 +10,7 @@
 
 #include <GLFW/glfw3.h>
 #include <sstream>
+#include <glad/glad.h>
 
 class Loader {
 
@@ -27,6 +28,14 @@ private:
         return vaoId;
     }
 
+    void bindIndiceBuffer( std::vector<int> indices ) {
+        GLuint vboId;
+        glGenBuffers( 0, &vboId );
+        vbos.push_back( vboId );
+        glBindBuffer( GL_ELEMENT_ARRAY_BUFFER, vboId );
+        glBufferData( GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof( float ), indices.data(), GL_STATIC_DRAW );
+    }
+
     void storeDataInAttributeList( int attributeNumber, std::vector<float> positions ) {
         // generate vbo and store it
         GLuint vboId;
@@ -36,7 +45,7 @@ private:
         // bind buffer and add data
         glBindBuffer( GL_ARRAY_BUFFER, vboId );
 
-        printf( "storeDataInAttrList, positions * flaot: %d\n", positions.size() * sizeof( float ));
+        //printf( "storeDataInAttrList, positions * flaot: %d\n", positions.size() * sizeof( float ));
         glBufferData( GL_ARRAY_BUFFER, positions.size() * sizeof( float ), positions.data(), GL_STATIC_DRAW );
 
         // describe the data
@@ -60,6 +69,7 @@ public:
         rawModels.push_back( rm );
         return rm;
     }
+
 
     RawModel loadToVAO( float *positions, size_t size ) {
         std::vector<float> v( positions, positions + size );

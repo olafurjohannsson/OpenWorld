@@ -22,6 +22,7 @@ public:
     const int getVertexCount() const {
         return vertexCount;
     }
+
     friend std::ostream &operator<<( std::ostream &os, const RawModel &rm ) {
         os << "VAOID: " << rm.getVaoId() << std::endl;
         os << "VTXCNT: " << rm.getVertexCount() << std::endl;

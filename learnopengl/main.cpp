@@ -224,14 +224,14 @@ int init() {
     // -------------
     unsigned int cubeTexture = loadTexture( FileSystem::getPath( "resources/textures/marble.jpg" ).c_str());
     std::cout << "FACES\n";
-    vector<std::string> faces
+    vector<std::string> faces1
             {
                     FileSystem::getPath( "resources/textures/skybox/right.jpg" ),
                     FileSystem::getPath( "resources/textures/skybox/left.jpg" ),
                     FileSystem::getPath( "resources/textures/skybox/top.jpg" ),
                     FileSystem::getPath( "resources/textures/skybox/bottom.jpg" ),
                     FileSystem::getPath( "resources/textures/skybox/front.jpg" ),
-                    FileSystem::getPath( "resources/textures/skybox/back.jpg" )
+                    FileSystem::getPath( "resources/textures/skybox/aback.jpg" )
             };
     unsigned int cubemapTexture = loadCubemap( faces );
 

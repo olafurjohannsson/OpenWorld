@@ -6,6 +6,7 @@
 #include "Cubemap.h"
 
 
+
 using namespace ow::graphics;
 
 Cubemap::~Cubemap() {
@@ -20,7 +21,7 @@ Cubemap::Cubemap( std::vector<std::string> &faces ) : faces( faces ), ok( false 
 
 const bool Cubemap::loadCubemap() const {
     if ( !ok ) {
-        std::cerr << "Cubemap is not OK, invalid faces\n";
+        //Application::console->error( "Cubemap is not OK, invalid faces" );
         return false;
     }
     bool success = true;
@@ -30,8 +31,7 @@ const bool Cubemap::loadCubemap() const {
         if ( data ) {
             glTexImage2D( GL_TEXTURE_CUBE_MAP_POSITIVE_X + i, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE,
                           data );
-        }
-        else {
+        } else {
             std::cerr << "Cubemap texture failed to load at path: " << faces[ i ] << std::endl;
             success = false;
         }
