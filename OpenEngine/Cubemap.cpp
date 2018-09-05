@@ -13,7 +13,7 @@ Cubemap::~Cubemap() {
 
 }
 
-Cubemap::Cubemap( std::vector<std::string> &faces ) : faces( faces ), ok( false ), textureId( -1 ) {
+Cubemap::Cubemap( std::array<std::string, 6> &faces ) : faces( faces ), ok( false ), textureId( -1 ) {
     ok = faces.size() == 6;
     glGenTextures( 1, &textureId );
     glBindTexture( GL_TEXTURE_CUBE_MAP, textureId );

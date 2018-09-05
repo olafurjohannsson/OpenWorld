@@ -11,6 +11,56 @@ CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o
  /home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.c
  includes/glad/include/KHR/khrplatform.h
  includes/glad/include/glad/glad.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.c
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/parsectx.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/wincompat.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.c
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/parsectx.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/wincompat.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.c
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/wincompat.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/parsectx.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.c
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/wincompat.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.c
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.c
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.c
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/wincompat.h
 CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o
  /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.cpp
  /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.h
@@ -23,6 +73,12 @@ CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o
  includes/glad/include/KHR/khrplatform.h
  includes/glad/include/glad/glad.h
  includes/stb_image/stb_image.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.h
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.h++
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfigcpp.c++
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfigcpp.cc
+ /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/wincompat.h
 CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o
  /home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.cpp
  /home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image/stb_image.h
@@ -46,6 +102,8 @@ CMakeFiles/OpenWorld.dir/main.cpp.o
  includes/fmt/include/fmt/format.h
  includes/glad/include/KHR/khrplatform.h
  includes/glad/include/glad/glad.h
+ includes/libconfig/libconfig/libconfig.h++
+ includes/libconfig/libconfig/libconfig.hh
  includes/spdlog/spdlog/common.h
  includes/spdlog/spdlog/details/console_globals.h
  includes/spdlog/spdlog/details/file_helper.h

@@ -5,7 +5,7 @@
 #ifndef OPENWORLD_CUBEMAP_H
 #define OPENWORLD_CUBEMAP_H
 
-#include <vector>
+#include <array>
 #include <string>
 #include <stb_image.h>
 #include <glad/glad.h>
@@ -18,12 +18,12 @@ namespace ow {
 
         class Cubemap {
         public:
-            Cubemap( std::vector<std::string> &faces );
+            Cubemap( std::array<std::string, 6> &faces );
             ~Cubemap();
             const bool loadCubemap() const;
             const unsigned int getTextureId() const;
         private:
-            std::vector<std::string> &faces;
+            std::array<std::string, 6> &faces;
             bool ok;
             unsigned int textureId;
         };

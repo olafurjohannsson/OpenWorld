@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/olafurj/Downloads/clion-2017.3.4/bin/cmake/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /home/olafurj/Downloads/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -153,9 +153,201 @@ CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.provides: CMakeFiles/OpenWorld.d
 CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o
 
 
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/libconfig.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.c
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.c > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.c -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o
+
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o: includes/libconfig/libconfig/libconfigcpp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfigcpp.cc
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfigcpp.cc > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfigcpp.cc -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o
+
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o: includes/libconfig/libconfig/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.c
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.c > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.c -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o
+
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/scanctx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.c
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.c > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.c -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o
+
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o: includes/libconfig/libconfig/strbuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.c
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.c > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.c -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o
+
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o: includes/libconfig/libconfig/strvec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.c
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.c > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.c -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o
+
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.c
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.c > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.c -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o
+
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: CMakeFiles/OpenWorld.dir/flags.make
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/grammar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o   -c /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.c
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.c > CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.i
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.c -o CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.s
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.requires:
+
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.requires
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.provides: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.requires
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.provides.build
+.PHONY : CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.provides
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.provides.build: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o
+
+
 CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o: CMakeFiles/OpenWorld.dir/flags.make
 CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o: OpenEngine/Cubemap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o -c /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.cpp
 
 CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.i: cmake_force
@@ -179,7 +371,7 @@ CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o.provides.build: CMakeFiles/Ope
 
 CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o: CMakeFiles/OpenWorld.dir/flags.make
 CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o: OpenEngine/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o -c /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.cpp
 
 CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.i: cmake_force
@@ -207,6 +399,14 @@ OpenWorld_OBJECTS = \
 "CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o" \
 "CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o" \
 "CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o" \
+"CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o" \
 "CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o" \
 "CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o"
 
@@ -217,6 +417,14 @@ OpenWorld: CMakeFiles/OpenWorld.dir/main.cpp.o
 OpenWorld: CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o
 OpenWorld: CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o
 OpenWorld: CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o
+OpenWorld: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o
 OpenWorld: CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o
 OpenWorld: CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o
 OpenWorld: CMakeFiles/OpenWorld.dir/build.make
@@ -224,7 +432,7 @@ OpenWorld: /usr/lib64/libglfw.so.3.2
 OpenWorld: /usr/lib64/libGL.so
 OpenWorld: /usr/lib64/libGLEW.so
 OpenWorld: CMakeFiles/OpenWorld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OpenWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable OpenWorld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenWorld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -236,6 +444,14 @@ CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/main.cpp.o.requires
 CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o.requires
 CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o.requires
 CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/SOIL/SOIL.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o.requires
+CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o.requires
 CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o.requires
 CMakeFiles/OpenWorld.dir/requires: CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o.requires
 

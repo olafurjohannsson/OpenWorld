@@ -5,6 +5,8 @@
 #ifndef OPENWORLD_SKYBOX_H
 #define OPENWORLD_SKYBOX_H
 
+#include "../learnopengl/shader.h"
+
 static std::vector<float> skyboxVertices = {
         // positions
         -1.0f, 1.0f, -1.0f, -1.0f, -1.0f, -1.0f, 1.0f, -1.0f, -1.0f, 1.0f, -1.0f, -1.0f, 1.0f, 1.0f, -1.0f, -1.0f, 1.0f,

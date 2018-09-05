@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -g  
+C_FLAGS =  
 
 C_DEFINES = -DGLFW_DLL
 
-C_INCLUDES = -I/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog -I/home/olafurj/Dropbox/dev/OpenWorld/includes/fmt/include -I/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image -I/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL -I/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include 
+C_INCLUDES = -I/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog -I/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig -I/home/olafurj/Dropbox/dev/OpenWorld/includes/fmt/include -I/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image -I/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL -I/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include 
 
-CXX_FLAGS = -g   -std=gnu++14
+CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = -DGLFW_DLL
 
-CXX_INCLUDES = -I/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog -I/home/olafurj/Dropbox/dev/OpenWorld/includes/fmt/include -I/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image -I/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL -I/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include 
+CXX_INCLUDES = -I/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog -I/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig -I/home/olafurj/Dropbox/dev/OpenWorld/includes/fmt/include -I/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image -I/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL -I/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include 
 

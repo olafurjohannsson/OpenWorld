@@ -15,8 +15,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e08641f-6fd5-4201-9471-8d3603a3897f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app.config" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/Makefile.am" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/Makefile.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/grammar.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/grammar.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/grammar.y" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig++.pc.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig++.vcproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig++.vcxproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig++Config.cmake.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.h++" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.hh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.pc.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.vcproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.vcxproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfigConfig.cmake.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfigcpp.c++" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/libconfigcpp.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/parsectx.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/scanctx.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/scanctx.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/scanner.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/scanner.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/scanner.l" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/strbuf.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/strbuf.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/strvec.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/strvec.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/util.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/util.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/wincompat.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/libconfig/libconfig/wincompat.h" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" afterPath="$PROJECT_DIR$/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.9.6/CMakeCCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.9.6/CMakeSystem.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/C.includecache" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/C.includecache" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/CXX.includecache" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/build.make" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/depend.internal" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/depend.make" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/flags.make" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/link.txt" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/progress.make" afterPath="$PROJECT_DIR$/CMakeFiles/OpenWorld.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-environment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/CMakeFiles/feature_tests.bin" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/Application.h" afterPath="$PROJECT_DIR$/OpenEngine/Application.h" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/Cubemap.cpp" afterPath="$PROJECT_DIR$/OpenEngine/Cubemap.cpp" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/Cubemap.h" afterPath="$PROJECT_DIR$/OpenEngine/Cubemap.h" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/Display.h" afterPath="$PROJECT_DIR$/OpenEngine/Display.h" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/Renderer.h" afterPath="$PROJECT_DIR$/OpenEngine/Renderer.h" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/Skybox.h" afterPath="$PROJECT_DIR$/OpenEngine/Skybox.h" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/Texture.h" afterPath="$PROJECT_DIR$/OpenEngine/Texture.h" />
+      <change beforePath="$PROJECT_DIR$/OpenEngine/TextureManager.h" afterPath="$PROJECT_DIR$/OpenEngine/TextureManager.h" />
+      <change beforePath="$PROJECT_DIR$/OpenWorld" afterPath="$PROJECT_DIR$/OpenWorld" />
+      <change beforePath="$PROJECT_DIR$/OpenWorld.cbp" afterPath="$PROJECT_DIR$/OpenWorld.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/learnopengl/camera.h" afterPath="$PROJECT_DIR$/learnopengl/camera.h" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/Shaders/fragment.glsl" afterPath="$PROJECT_DIR$/src/Shaders/fragment.glsl" />
+      <change beforePath="$PROJECT_DIR$/src/Shaders/vertex.glsl" afterPath="$PROJECT_DIR$/src/Shaders/vertex.glsl" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -27,95 +104,88 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Skybox.h" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/OpenEngine/Skybox.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="220">
-                    <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <element signature="e#42#64#0" expanded="true" />
-                <element signature="e#1148#1171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextureManager.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenEngine/TextureManager.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cubemap.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenEngine/Cubemap.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#99#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cubemap.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenEngine/Cubemap.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.8612717">
+      <split-first>
+        <splitter split-orientation="horizontal" split-proportion="0.17083333">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="Display.h" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/OpenEngine/Display.h">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="213">
+                      <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/main.cpp">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="2082">
+                      <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+                      <folding>
+                        <element signature="e#42#64#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="camera.h" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/learnopengl/camera.h">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="316">
+                      <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+                      <folding>
+                        <element signature="e#35#57#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="horizontal" split-proportion="0.5">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="fragment.glsl" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/Shaders/fragment.glsl">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="133">
+                      <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="vertex.glsl" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/Shaders/vertex.glsl">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="133">
+                      <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,36 +196,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>compiling vertex</find>
-      <find>loadShaders</find>
-      <find>createProgram</find>
-      <find>linkProgram</find>
-      <find>this-&gt;window</find>
-      <find>cannot star</find>
-      <find>template&lt;</find>
-      <find>vertexPath</find>
-      <find>CORE_PROF</find>
-      <find>glClearColor</find>
-      <find>glDraw</find>
-      <find>glGenVertexArrays</find>
-      <find>vertexAttribP</find>
-      <find>GL_DEPTH_TEST</find>
-      <find>GL_DE</find>
-      <find>glClear</find>
-      <find>glEnabl</find>
-      <find>glEnable</find>
-      <find>GL_DEPTH</find>
-      <find>SKYBOX_VERTICES</find>
-      <find>storeDataInAttributeList</find>
-      <find>1280;</find>
-      <find>processIn</find>
-      <find>processInput</find>
-      <find>back.</find>
-      <find>right.jpg</find>
-      <find>spdlog_ex</find>
       <find>Application::file</find>
       <find>log.txt</find>
       <find>cubemapId</find>
+      <find>__delete_vec</find>
+      <find>strbuf_release</find>
+      <find>libconfig_yyparse</find>
+      <find>grammar</find>
+      <find>default_factory</find>
+      <find>ParseException</find>
+      <find>G</find>
+      <find>glfwTermin</find>
+      <find>= new</find>
+      <find>GLFWwindow</find>
+      <find>glDeleteBuffers</find>
+      <find>shader</find>
+      <find>glfwSetWindowSizeCallback</find>
+      <find>screenWidth</find>
+      <find>glfwSetKeyCallback</find>
+      <find>glfwSetMouseButtonCallback</find>
+      <find>glfwCreateWindow</find>
+      <find>ProcessKeyboard(</find>
+      <find>Camera(</find>
+      <find>FORWARD</find>
+      <find>deltaTime</find>
+      <find>keyCallback</find>
+      <find>ProcessInput</find>
+      <find>setFrame</find>
+      <find>mouseCallback</find>
+      <find>charCallback</find>
+      <find>Position</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/includes</dir>
@@ -188,30 +258,32 @@
         <option value="$PROJECT_DIR$/src/Shaders/skybox.fragment.glsl" />
         <option value="$PROJECT_DIR$/src/Shaders/cubemap.fragment.glsl" />
         <option value="$PROJECT_DIR$/src/Shaders/cubemap.vertex.glsl" />
-        <option value="$PROJECT_DIR$/src/Shaders/skybox.vertex.glsl" />
         <option value="$PROJECT_DIR$/learnopengl/shader_m.h" />
         <option value="$PROJECT_DIR$/learnopengl/filesystem.h" />
         <option value="$PROJECT_DIR$/DisplayManager.h" />
-        <option value="$PROJECT_DIR$/src/Shaders/fragment.glsl" />
-        <option value="$PROJECT_DIR$/src/Shaders/vertex.glsl" />
-        <option value="$PROJECT_DIR$/learnopengl/camera.h" />
-        <option value="$PROJECT_DIR$/OpenEngine/Texture.h" />
-        <option value="$PROJECT_DIR$/OpenEngine/Renderer.h" />
         <option value="$PROJECT_DIR$/OpenEngine/Sync.h" />
         <option value="$PROJECT_DIR$/OpenEngine/DisplayManager.h" />
-        <option value="$PROJECT_DIR$/OpenEngine/Display.h" />
         <option value="$PROJECT_DIR$/learnopengl/shader.h" />
-        <option value="$PROJECT_DIR$/OpenEngine/Cubemap.cpp" />
         <option value="$PROJECT_DIR$/OpenEngine/Loader.h" />
         <option value="$PROJECT_DIR$/OpenEngine/RawModel.h" />
         <option value="$PROJECT_DIR$/learnopengl/main.cpp" />
-        <option value="$PROJECT_DIR$/OpenEngine/TextureManager.h" />
-        <option value="$PROJECT_DIR$/OpenEngine/Application.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/OpenEngine/Cubemap.h" />
-        <option value="$PROJECT_DIR$/OpenEngine/Skybox.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.hh" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/OpenEngine/Skybox.h" />
+        <option value="$PROJECT_DIR$/OpenEngine/Application.h" />
+        <option value="$PROJECT_DIR$/app.config" />
+        <option value="$PROJECT_DIR$/OpenEngine/Cubemap.cpp" />
+        <option value="$PROJECT_DIR$/OpenEngine/Cubemap.h" />
+        <option value="$PROJECT_DIR$/OpenEngine/TextureManager.h" />
+        <option value="$PROJECT_DIR$/OpenEngine/Texture.h" />
+        <option value="$PROJECT_DIR$/src/Shaders/skybox.vertex.glsl" />
+        <option value="$PROJECT_DIR$/src/Shaders/vertex.glsl" />
+        <option value="$PROJECT_DIR$/src/Shaders/fragment.glsl" />
+        <option value="$PROJECT_DIR$/OpenEngine/Renderer.h" />
+        <option value="$PROJECT_DIR$/OpenEngine/Display.h" />
+        <option value="$PROJECT_DIR$/learnopengl/camera.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -226,10 +298,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1720" />
-    <option name="y" value="27" />
-    <option name="width" value="1720" />
-    <option name="height" value="1413" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,18 +321,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="OpenWorld" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenWorld" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="learnopengl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OpenWorld" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
               <item name="OpenEngine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Shaders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +352,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value=".gitigno&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/.gitignore&#10;CMa&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;CMak&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;main.cpp&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/main.cpp&#10;shader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h&#10;getUniform&#9;null&#9;null&#10;Shader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h" />
+    <property name="SearchEverywhereHistoryKey" value="main.cp&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/main.cpp&#10;Display.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Display.h&#10;loader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;Raw&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h&#10;Display&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/DisplayManager.h&#10;Texture&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.h&#10;cubema.&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.h&#10;render&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h&#10;.gitigno&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/.gitignore&#10;CMa&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;CMak&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;main.cpp&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/main.cpp&#10;shader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h&#10;getUniform&#9;null&#9;null&#10;Shader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -279,16 +360,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OpenEngine" />
-      <recent name="$PROJECT_DIR$/learnopengl" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes/libconfig/libconfig" />
       <recent name="$PROJECT_DIR$/includes/spdlog/spdlog" />
       <recent name="$PROJECT_DIR$/learnopengl" />
       <recent name="$PROJECT_DIR$/includes/glad/include/glad" />
       <recent name="$PROJECT_DIR$/includes/glad/include" />
-      <recent name="$PROJECT_DIR$/includes/glaf/include" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes" />
+      <recent name="$PROJECT_DIR$/OpenEngine" />
+      <recent name="$PROJECT_DIR$/learnopengl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -340,28 +422,31 @@
       <workItem from="1535983129716" duration="7176000" />
       <workItem from="1535995728566" duration="4378000" />
       <workItem from="1536053016010" duration="19000" />
-      <workItem from="1536053043196" duration="2517000" />
+      <workItem from="1536053043196" duration="15635000" />
+      <workItem from="1536081773229" duration="280000" />
+      <workItem from="1536092000417" duration="3116000" />
+      <workItem from="1536141846387" duration="3321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87475000" />
+    <option name="totallyTimeSpent" value="107310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="27" width="1920" height="1173" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23646724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23518519" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31718898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953465" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19907407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39922482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -373,21 +458,21 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44340602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23518519" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328585" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19907407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953465" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -399,72 +484,69 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TODO">
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Texture.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="100" lean-forward="false" selection-start-line="1" selection-start-column="100" selection-end-line="1" selection-end-column="100" />
+        <state relative-caret-position="1121">
+          <caret line="59" column="78" lean-forward="false" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glad/glad.h" />
-    <entry file="file://$PROJECT_DIR$/KHR/khrplatform.h" />
-    <entry file="file://$PROJECT_DIR$/learnopengl/model.h">
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Skybox.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="912">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnopengl/mesh.h">
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Display.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="2223">
+          <caret line="117" column="54" lean-forward="false" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/glad/include/glad/glad.c">
+    <entry file="file://$PROJECT_DIR$/learnopengl/camera.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/glad/include/glad/glad.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="94" column="10" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+        <state relative-caret-position="1178">
+          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="e#1034#1046#0" expanded="false" />
-            <element signature="e#2374#3155#0" expanded="false" />
-            <element signature="e#110206#110207#0" expanded="false" />
+            <element signature="e#35#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/SOIL/SOIL.c">
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Renderer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="1226" column="41" lean-forward="false" selection-start-line="1226" selection-start-column="41" selection-end-line="1226" selection-end-column="41" />
+        <state relative-caret-position="209">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/SOIL/image_DXT.h">
+    <entry file="file://$PROJECT_DIR$/src/Shaders/fragment.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="133">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application.h" />
-    <entry file="file://$PROJECT_DIR$/src/Model.h" />
-    <entry file="file://$PROJECT_DIR$/src/Renderer.h" />
-    <entry file="file://$PROJECT_DIR$/src/Shader.h" />
-    <entry file="file://$PROJECT_DIR$/src/World.h" />
+    <entry file="file://$PROJECT_DIR$/src/Shaders/vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learnopengl/filesystem.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -525,48 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shaders/skybox.vertex.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Texture.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Texture.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shaders/fragment.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shaders/vertex.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenEngine/Sync.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#93#110#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,10 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="146" column="8" lean-forward="false" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
-          <folding>
-            <marker date="1535840848000" expanded="true" signature="4442:5019" ph="..." />
-            <marker date="1535840848000" expanded="true" signature="5099:5159" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,44 +639,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="e#35#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Loader.h">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="38" column="88" lean-forward="false" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
+        <state relative-caret-position="361">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Display.h">
+    <entry file="file://$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.hh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding>
-            <element signature="e#99#116#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/DisplayManager.h">
+    <entry file="file://$PROJECT_DIR$/includes/libconfig/libconfig/util.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding>
-            <element signature="e#113#133#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1348">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Renderer.h">
+    <entry file="file://$PROJECT_DIR$/includes/spdlog/spdlog/sinks/basic_file_sink.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="178">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/libconfig/libconfig/libconfig.h++">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="503" column="0" lean-forward="false" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/libconfig/libconfig/libconfigcpp.c++">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="495" column="41" lean-forward="false" selection-start-line="495" selection-start-column="41" selection-end-line="495" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Application.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Cubemap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Cubemap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/TextureManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnopengl/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="302" column="0" lean-forward="false" selection-start-line="302" selection-start-column="0" selection-end-line="307" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -644,92 +737,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Application.h">
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Loader.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="382">
+          <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnopengl/camera.h">
+    <entry file="file://$PROJECT_DIR$/src/Shaders/skybox.vertex.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnopengl/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="182" column="30" lean-forward="true" selection-start-line="182" selection-start-column="30" selection-end-line="182" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Cubemap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#99#116#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/TextureManager.h">
+    <entry file="file://$PROJECT_DIR$/src/Shaders/vertex.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="133">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Cubemap.cpp">
+    <entry file="file://$PROJECT_DIR$/src/Shaders/fragment.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="133">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenEngine/Skybox.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="912">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Texture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Texture.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="78" lean-forward="false" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Renderer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="88" column="35" lean-forward="false" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/DisplayManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/GLFW/glfw3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="3306" column="19" lean-forward="false" selection-start-line="3306" selection-start-column="19" selection-end-line="3306" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Display.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnopengl/camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+          <folding>
+            <element signature="e#35#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="2082">
+          <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
-            <element signature="e#1148#1171#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

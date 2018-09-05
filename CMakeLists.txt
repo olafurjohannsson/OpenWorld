@@ -19,6 +19,27 @@ add_executable(OpenWorld main.cpp
         includes/fmt/include/fmt/format.h
 
 
+        includes/libconfig/libconfig/libconfig.hh
+        includes/libconfig/libconfig/libconfig.h
+        includes/libconfig/libconfig/libconfig.c
+        includes/libconfig/libconfig/libconfigcpp.cc
+        includes/libconfig/libconfig/util.h
+        includes/libconfig/libconfig/util.c
+        includes/libconfig/libconfig/scanctx.c
+        includes/libconfig/libconfig/scanctx.h
+        includes/libconfig/libconfig/parsectx.h
+        includes/libconfig/libconfig/strbuf.h
+        includes/libconfig/libconfig/strbuf.c
+        includes/libconfig/libconfig/strvec.c
+        includes/libconfig/libconfig/strvec.h
+        includes/libconfig/libconfig/scanner.c
+        includes/libconfig/libconfig/scanner.h
+        includes/libconfig/libconfig/scanner.l
+        includes/libconfig/libconfig/grammar.c
+        includes/libconfig/libconfig/grammar.h
+        includes/libconfig/libconfig/grammar.y
+
+
         OpenEngine/Cubemap.cpp
         OpenEngine/Cubemap.h
         OpenEngine/Display.h
@@ -43,6 +64,7 @@ target_include_directories(OpenWorld PUBLIC
         ${GLUT_INCLUDE_DIRS}
         ${glm_INCLUDE_DIRS}
         includes/spdlog
+        includes/libconfig
         includes/fmt/include
         includes/stb_image
         includes/SOIL

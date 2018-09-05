@@ -11,6 +11,56 @@ CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o: includes/glad/incl
 CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o: includes/glad/include/KHR/khrplatform.h
 CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.o: includes/glad/include/glad/glad.h
 
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/grammar.c
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/libconfig.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/parsectx.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/scanctx.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/strbuf.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/strvec.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/util.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o: includes/libconfig/libconfig/wincompat.h
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/grammar.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/libconfig.c
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/libconfig.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/parsectx.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/scanctx.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/scanner.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/strbuf.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/strvec.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/util.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o: includes/libconfig/libconfig/wincompat.h
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/libconfig.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/scanctx.c
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/scanctx.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/strbuf.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/strvec.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/util.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o: includes/libconfig/libconfig/wincompat.h
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/grammar.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/libconfig.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/parsectx.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/scanctx.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/scanner.c
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/strbuf.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/strvec.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/util.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o: includes/libconfig/libconfig/wincompat.h
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o: includes/libconfig/libconfig/strbuf.c
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o: includes/libconfig/libconfig/strbuf.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o: includes/libconfig/libconfig/util.h
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o: includes/libconfig/libconfig/strvec.c
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o: includes/libconfig/libconfig/strvec.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o: includes/libconfig/libconfig/util.h
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o: includes/libconfig/libconfig/util.c
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o: includes/libconfig/libconfig/util.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o: includes/libconfig/libconfig/wincompat.h
+
 CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o: OpenEngine/Cubemap.cpp
 CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o: OpenEngine/Cubemap.h
 CMakeFiles/OpenWorld.dir/OpenEngine/Cubemap.cpp.o: includes/glad/include/KHR/khrplatform.h
@@ -22,6 +72,12 @@ CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o: OpenEngine/Texture.h
 CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o: includes/glad/include/KHR/khrplatform.h
 CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o: includes/glad/include/glad/glad.h
 CMakeFiles/OpenWorld.dir/OpenEngine/Texture.cpp.o: includes/stb_image/stb_image.h
+
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o: includes/libconfig/libconfig/libconfig.h
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o: includes/libconfig/libconfig/libconfig.h++
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o: includes/libconfig/libconfig/libconfigcpp.c++
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o: includes/libconfig/libconfig/libconfigcpp.cc
+CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o: includes/libconfig/libconfig/wincompat.h
 
 CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o: includes/stb_image/stb_image.cpp
 CMakeFiles/OpenWorld.dir/includes/stb_image/stb_image.cpp.o: includes/stb_image/stb_image.h
@@ -45,6 +101,8 @@ CMakeFiles/OpenWorld.dir/main.cpp.o: includes/fmt/include/fmt/format-inl.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: includes/fmt/include/fmt/format.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: includes/glad/include/KHR/khrplatform.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: includes/glad/include/glad/glad.h
+CMakeFiles/OpenWorld.dir/main.cpp.o: includes/libconfig/libconfig/libconfig.h++
+CMakeFiles/OpenWorld.dir/main.cpp.o: includes/libconfig/libconfig/libconfig.hh
 CMakeFiles/OpenWorld.dir/main.cpp.o: includes/spdlog/spdlog/common.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: includes/spdlog/spdlog/details/console_globals.h
 CMakeFiles/OpenWorld.dir/main.cpp.o: includes/spdlog/spdlog/details/file_helper.h

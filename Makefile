@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/olafurj/Downloads/clion-2017.3.4/bin/cmake/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /home/olafurj/Downloads/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,27 +56,27 @@ CMAKE_BINARY_DIR = /home/olafurj/Dropbox/dev/OpenWorld
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/olafurj/Downloads/clion-2017.3.4/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/olafurj/Downloads/clion-2017.3.4/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -231,6 +231,222 @@ includes/glad/include/glad/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/glad/include/glad/glad.c.s
 .PHONY : includes/glad/include/glad/glad.c.s
 
+includes/libconfig/libconfig/grammar.o: includes/libconfig/libconfig/grammar.c.o
+
+.PHONY : includes/libconfig/libconfig/grammar.o
+
+# target to build an object file
+includes/libconfig/libconfig/grammar.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.o
+.PHONY : includes/libconfig/libconfig/grammar.c.o
+
+includes/libconfig/libconfig/grammar.i: includes/libconfig/libconfig/grammar.c.i
+
+.PHONY : includes/libconfig/libconfig/grammar.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/grammar.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.i
+.PHONY : includes/libconfig/libconfig/grammar.c.i
+
+includes/libconfig/libconfig/grammar.s: includes/libconfig/libconfig/grammar.c.s
+
+.PHONY : includes/libconfig/libconfig/grammar.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/grammar.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/grammar.c.s
+.PHONY : includes/libconfig/libconfig/grammar.c.s
+
+includes/libconfig/libconfig/libconfig.o: includes/libconfig/libconfig/libconfig.c.o
+
+.PHONY : includes/libconfig/libconfig/libconfig.o
+
+# target to build an object file
+includes/libconfig/libconfig/libconfig.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.o
+.PHONY : includes/libconfig/libconfig/libconfig.c.o
+
+includes/libconfig/libconfig/libconfig.i: includes/libconfig/libconfig/libconfig.c.i
+
+.PHONY : includes/libconfig/libconfig/libconfig.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/libconfig.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.i
+.PHONY : includes/libconfig/libconfig/libconfig.c.i
+
+includes/libconfig/libconfig/libconfig.s: includes/libconfig/libconfig/libconfig.c.s
+
+.PHONY : includes/libconfig/libconfig/libconfig.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/libconfig.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfig.c.s
+.PHONY : includes/libconfig/libconfig/libconfig.c.s
+
+includes/libconfig/libconfig/libconfigcpp.o: includes/libconfig/libconfig/libconfigcpp.cc.o
+
+.PHONY : includes/libconfig/libconfig/libconfigcpp.o
+
+# target to build an object file
+includes/libconfig/libconfig/libconfigcpp.cc.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.o
+.PHONY : includes/libconfig/libconfig/libconfigcpp.cc.o
+
+includes/libconfig/libconfig/libconfigcpp.i: includes/libconfig/libconfig/libconfigcpp.cc.i
+
+.PHONY : includes/libconfig/libconfig/libconfigcpp.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/libconfigcpp.cc.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.i
+.PHONY : includes/libconfig/libconfig/libconfigcpp.cc.i
+
+includes/libconfig/libconfig/libconfigcpp.s: includes/libconfig/libconfig/libconfigcpp.cc.s
+
+.PHONY : includes/libconfig/libconfig/libconfigcpp.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/libconfigcpp.cc.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/libconfigcpp.cc.s
+.PHONY : includes/libconfig/libconfig/libconfigcpp.cc.s
+
+includes/libconfig/libconfig/scanctx.o: includes/libconfig/libconfig/scanctx.c.o
+
+.PHONY : includes/libconfig/libconfig/scanctx.o
+
+# target to build an object file
+includes/libconfig/libconfig/scanctx.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.o
+.PHONY : includes/libconfig/libconfig/scanctx.c.o
+
+includes/libconfig/libconfig/scanctx.i: includes/libconfig/libconfig/scanctx.c.i
+
+.PHONY : includes/libconfig/libconfig/scanctx.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/scanctx.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.i
+.PHONY : includes/libconfig/libconfig/scanctx.c.i
+
+includes/libconfig/libconfig/scanctx.s: includes/libconfig/libconfig/scanctx.c.s
+
+.PHONY : includes/libconfig/libconfig/scanctx.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/scanctx.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanctx.c.s
+.PHONY : includes/libconfig/libconfig/scanctx.c.s
+
+includes/libconfig/libconfig/scanner.o: includes/libconfig/libconfig/scanner.c.o
+
+.PHONY : includes/libconfig/libconfig/scanner.o
+
+# target to build an object file
+includes/libconfig/libconfig/scanner.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.o
+.PHONY : includes/libconfig/libconfig/scanner.c.o
+
+includes/libconfig/libconfig/scanner.i: includes/libconfig/libconfig/scanner.c.i
+
+.PHONY : includes/libconfig/libconfig/scanner.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/scanner.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.i
+.PHONY : includes/libconfig/libconfig/scanner.c.i
+
+includes/libconfig/libconfig/scanner.s: includes/libconfig/libconfig/scanner.c.s
+
+.PHONY : includes/libconfig/libconfig/scanner.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/scanner.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/scanner.c.s
+.PHONY : includes/libconfig/libconfig/scanner.c.s
+
+includes/libconfig/libconfig/strbuf.o: includes/libconfig/libconfig/strbuf.c.o
+
+.PHONY : includes/libconfig/libconfig/strbuf.o
+
+# target to build an object file
+includes/libconfig/libconfig/strbuf.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.o
+.PHONY : includes/libconfig/libconfig/strbuf.c.o
+
+includes/libconfig/libconfig/strbuf.i: includes/libconfig/libconfig/strbuf.c.i
+
+.PHONY : includes/libconfig/libconfig/strbuf.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/strbuf.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.i
+.PHONY : includes/libconfig/libconfig/strbuf.c.i
+
+includes/libconfig/libconfig/strbuf.s: includes/libconfig/libconfig/strbuf.c.s
+
+.PHONY : includes/libconfig/libconfig/strbuf.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/strbuf.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strbuf.c.s
+.PHONY : includes/libconfig/libconfig/strbuf.c.s
+
+includes/libconfig/libconfig/strvec.o: includes/libconfig/libconfig/strvec.c.o
+
+.PHONY : includes/libconfig/libconfig/strvec.o
+
+# target to build an object file
+includes/libconfig/libconfig/strvec.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.o
+.PHONY : includes/libconfig/libconfig/strvec.c.o
+
+includes/libconfig/libconfig/strvec.i: includes/libconfig/libconfig/strvec.c.i
+
+.PHONY : includes/libconfig/libconfig/strvec.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/strvec.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.i
+.PHONY : includes/libconfig/libconfig/strvec.c.i
+
+includes/libconfig/libconfig/strvec.s: includes/libconfig/libconfig/strvec.c.s
+
+.PHONY : includes/libconfig/libconfig/strvec.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/strvec.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/strvec.c.s
+.PHONY : includes/libconfig/libconfig/strvec.c.s
+
+includes/libconfig/libconfig/util.o: includes/libconfig/libconfig/util.c.o
+
+.PHONY : includes/libconfig/libconfig/util.o
+
+# target to build an object file
+includes/libconfig/libconfig/util.c.o:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.o
+.PHONY : includes/libconfig/libconfig/util.c.o
+
+includes/libconfig/libconfig/util.i: includes/libconfig/libconfig/util.c.i
+
+.PHONY : includes/libconfig/libconfig/util.i
+
+# target to preprocess a source file
+includes/libconfig/libconfig/util.c.i:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.i
+.PHONY : includes/libconfig/libconfig/util.c.i
+
+includes/libconfig/libconfig/util.s: includes/libconfig/libconfig/util.c.s
+
+.PHONY : includes/libconfig/libconfig/util.s
+
+# target to generate assembly for a file
+includes/libconfig/libconfig/util.c.s:
+	$(MAKE) -f CMakeFiles/OpenWorld.dir/build.make CMakeFiles/OpenWorld.dir/includes/libconfig/libconfig/util.c.s
+.PHONY : includes/libconfig/libconfig/util.c.s
+
 includes/stb_image/stb_image.o: includes/stb_image/stb_image.cpp.o
 
 .PHONY : includes/stb_image/stb_image.o
@@ -291,8 +507,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... OpenWorld"
 	@echo "... OpenEngine/Cubemap.o"
 	@echo "... OpenEngine/Cubemap.i"
@@ -306,6 +522,30 @@ help:
 	@echo "... includes/glad/include/glad/glad.o"
 	@echo "... includes/glad/include/glad/glad.i"
 	@echo "... includes/glad/include/glad/glad.s"
+	@echo "... includes/libconfig/libconfig/grammar.o"
+	@echo "... includes/libconfig/libconfig/grammar.i"
+	@echo "... includes/libconfig/libconfig/grammar.s"
+	@echo "... includes/libconfig/libconfig/libconfig.o"
+	@echo "... includes/libconfig/libconfig/libconfig.i"
+	@echo "... includes/libconfig/libconfig/libconfig.s"
+	@echo "... includes/libconfig/libconfig/libconfigcpp.o"
+	@echo "... includes/libconfig/libconfig/libconfigcpp.i"
+	@echo "... includes/libconfig/libconfig/libconfigcpp.s"
+	@echo "... includes/libconfig/libconfig/scanctx.o"
+	@echo "... includes/libconfig/libconfig/scanctx.i"
+	@echo "... includes/libconfig/libconfig/scanctx.s"
+	@echo "... includes/libconfig/libconfig/scanner.o"
+	@echo "... includes/libconfig/libconfig/scanner.i"
+	@echo "... includes/libconfig/libconfig/scanner.s"
+	@echo "... includes/libconfig/libconfig/strbuf.o"
+	@echo "... includes/libconfig/libconfig/strbuf.i"
+	@echo "... includes/libconfig/libconfig/strbuf.s"
+	@echo "... includes/libconfig/libconfig/strvec.o"
+	@echo "... includes/libconfig/libconfig/strvec.i"
+	@echo "... includes/libconfig/libconfig/strvec.s"
+	@echo "... includes/libconfig/libconfig/util.o"
+	@echo "... includes/libconfig/libconfig/util.i"
+	@echo "... includes/libconfig/libconfig/util.s"
 	@echo "... includes/stb_image/stb_image.o"
 	@echo "... includes/stb_image/stb_image.i"
 	@echo "... includes/stb_image/stb_image.s"

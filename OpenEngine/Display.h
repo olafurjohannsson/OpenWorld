@@ -24,7 +24,8 @@ float lastFrame = 0.0f;
 class Display {
 public:
 
-    Display( int screenWidth, int screenHeight, const char *name, bool fullscreen = false ) {
+    Display( int screenWidth, int screenHeight, const char *name, bool fullscreen = false ) : screenWidth(
+            screenWidth ), screenHeight( screenHeight ) {
         if ( !glfwInit()) {
             Application::console->critical( "FAILED TO INIT GLFW" );
             exit( EXIT_FAILURE );
@@ -55,12 +56,20 @@ public:
         // Context and callbacks
 
         glfwMakeContextCurrent( m_window );
-        glfwSetWindowUserPointer( m_window, this );
         glfwSetFramebufferSizeCallback( m_window, [ ]( GLFWwindow *window, int width, int height ) {
             glViewport( 0, 0, width, height );
         } );
+        glfwSetWindowUserPointer( m_window, this );
+        glfwSetErrorCallback( errorCallback );
+        glfwSetWindowSizeCallback( m_window, windowResizeCallback );
+
+        glfwSetMouseButtonCallback( m_window, mouseButtonCallback );
         glfwSetCursorPosCallback( m_window, mouseCallback );
         glfwSetScrollCallback( m_window, scrollCallback );
+
+//        glfwSetCharCallback( m_window, charCallback );
+//        glfwSetKeyCallback( m_window, keyCallback );
+
 
         glfwSetInputMode( m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED );
         glfwSetInputMode( m_window, GLFW_STICKY_KEYS, GL_TRUE );
@@ -74,6 +83,32 @@ public:
         glEnable( GL_DEPTH_TEST );
 
         Application::console->info( "Display created." );
+    }
+//    static void keyCallback( GLFWwindow *window, int key, int scancode, int action, int mods ) {
+//
+//
+//    }
+//    static void charCallback( GLFWwindow *window, unsigned int c ) {
+//
+//    }
+//
+    static void mouseButtonCallback( GLFWwindow *window, int button, int action, int mods ) {
+        Display *win = (Display *) glfwGetWindowUserPointer( window );
+
+
+    }
+
+
+
+    static void errorCallback( int error, const char *description ) {
+        std::cout << "Error:" << std::endl << description << std::endl;
+    }
+
+    static void windowResizeCallback( GLFWwindow *window, int width, int height ) {
+        Display *win = (Display *) glfwGetWindowUserPointer( window );
+        win->screenWidth = width;
+        win->screenHeight = height;
+        glViewport( 0, 0, win->screenWidth, win->screenHeight );
     }
 
     static void mouseCallback( GLFWwindow *glfWwindow, double xpos, double ypos ) {
@@ -116,11 +151,15 @@ public:
     static bool isCloseRequested() {
         return glfwWindowShouldClose( m_window ) || glfwGetKey( m_window, GLFW_KEY_ESCAPE ) == GLFW_PRESS;
     }
+
     static GLFWwindow *getWindow() {
         return m_window;
     }
+
 private:
     static GLFWwindow *m_window;
+    int screenHeight;
+    int screenWidth;
 };
 
 GLFWwindow *Display::m_window = nullptr;

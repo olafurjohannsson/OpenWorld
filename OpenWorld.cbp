@@ -17,21 +17,21 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/fmt/include"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
@@ -73,6 +74,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog"/>
+					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/fmt/include"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
@@ -140,6 +142,63 @@
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include/glad/glad.h">
 			<Option target="OpenWorld"/>
 		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/grammar.y">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfig.hh">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/libconfigcpp.cc">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/parsectx.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanctx.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/scanner.l">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strbuf.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/strvec.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.c">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/libconfig/libconfig/util.h">
+			<Option target="OpenWorld"/>
+		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/includes/spdlog/spdlog/spdlog.h">
 			<Option target="OpenWorld"/>
 		</Unit>
@@ -158,19 +217,22 @@
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
-		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Targets.cmake">
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
 		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
 		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/lib64/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/share/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/share/cmake/glm/glmConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\cmake\glm\"/>
 		</Unit>
 		<Unit filename="/home/olafurj/Dropbox/dev/OpenWorld/../../../../../usr/share/cmake/glm/glmTargets.cmake">
