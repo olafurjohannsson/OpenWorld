@@ -9,7 +9,7 @@
 #include "OpenEngine/Texture.h"
 #include "OpenEngine/TextureManager.h"
 #include "OpenEngine/Skybox.h"
-
+#include <chrono>
 #include <glm/gtc/type_ptr.hpp>
 
 
@@ -68,43 +68,58 @@ int main() {
     Renderer renderer;
 
     RawModel model = loader.loadToVAO( shader, std::vector<float> {
-            -0.25f, -0.25f, 0.0f, // left
-            0.25f, -0.25f, 0.0f, // right
-            0.0f, 0.25f, 0.0f  // top
+            -0.15f, -0.15f, 0.0f, // left
+            0.15f, -0.15f, 0.0f, // right
+            0.0f, 0.15f, 0.0f  // top
+    } );
+
+    RawModel model2 = loader.loadToVAO( shader, std::vector<float> {
+            -0.1f, -0.1f, 0.0f, // left
+            0.1f, -0.1f, 0.0f, // right
+            0.0f, 0.1f, 0.0f  // top
     } );
 
     bool secondPassed;
-    float x = 0.01f;
-    float y = 0.01f;
+    float x = 0.0f;
+    float y = 0.0f;
+
+
     // Let's run it until user wants to close
     while ( !Display::isCloseRequested()) {
-
         // Keyboard input
         processInput( Display::getWindow());
 
         // Pre-render
         renderer.prepare();
 
-        // configure transformation matrices
-        //glm::mat4 projection = glm::perspective(glm::)
-        shader.use();
+        if ( glfwGetKey( Display::getWindow(), GLFW_KEY_UP ) == GLFW_PRESS ) {
+            y += 0.01f;
+        }
+        if ( glfwGetKey( Display::getWindow(), GLFW_KEY_RIGHT ) == GLFW_PRESS ) {
+            x += 0.01f;
+        }
+        if ( glfwGetKey( Display::getWindow(), GLFW_KEY_DOWN ) == GLFW_PRESS ) {
+            y -= 0.01f;
+        }
+        if ( glfwGetKey( Display::getWindow(), GLFW_KEY_LEFT ) == GLFW_PRESS ) {
+            x -= 0.01f;
+        }
+
 
         // render model
-        renderer.render( model );
+        shader.use();
+        loader.transform( shader, glm::vec3( x, y, 0.0f ));
+        renderer.render(model);
+        renderer.render( model2, model.getVertexCount() * sizeof(float) );
+
+
 
         // Update display, get frame info, fps, swap buffers and poll events.
         DisplayManager::updateDisplay( secondPassed );
-
-        if ( secondPassed ) {
-            loader.updatePosition( model, shader, std::vector<float> {
-                    -0.25f + x, -0.25f + y, 0.0f, // left
-                    0.25f, -0.25f, 0.0f, // right
-                    0.0f, 0.25f, 0.0f  // top
-            } );
-            x += 0.05;
-            y -= 0.05;
+        if (secondPassed) {
+            const char *out = "Vao %d - Vao %d\n";
+            printf(out, model.getVaoId(), model2.getVaoId());
         }
-
         glfwSwapBuffers( Display::getWindow());
         glfwPollEvents();
     }

@@ -86,9 +86,7 @@ struct Chunk {
 class Renderer {
 public:
 
-    Renderer() {
-
-    }
+    Renderer() = default;
 
     void prepare() {
         glClearColor( 0.3f, 0.3f, 0.3f, 1.0f );
@@ -118,11 +116,11 @@ public:
         glVertexAttribPointer( 2, 2, GL_FLOAT, GL_FALSE, 2 * sizeof( float ), (void *) (long long) textureOffset );
     }
 
-    void render( const RawModel &rawModel ) {
+    void render( const RawModel &rawModel, GLint offset = 0 ) {
         glBindVertexArray( rawModel.getVaoId());
-        glEnableVertexAttribArray( 0 );
-        glDrawArrays( GL_TRIANGLES, 0, rawModel.getVertexCount());
-        glDisableVertexAttribArray( 0 );
+//        glEnableVertexAttribArray( 0 );
+        glDrawArrays( GL_TRIANGLES, offset, rawModel.getVertexCount());
+//        glDisableVertexAttribArray( 0 );
         glBindVertexArray( 0 );
     }
 };

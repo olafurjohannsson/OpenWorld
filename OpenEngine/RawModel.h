@@ -6,12 +6,9 @@
 #define OPENWORLD_RAWMODEL_H
 
 class RawModel {
-private:
-    int vaoId;
-    int vertexCount;
-    GLuint vboId;
+
 public:
-    RawModel( int vid, GLuint vboId, int vc ) : vaoId( vid ), vboId( vboId ), vertexCount( vc ) {
+    RawModel( GLuint vid, GLuint vboId, int vc ) : vaoId( vid ), vboId( vboId ), vertexCount( vc ) {
 
     }
 
@@ -19,7 +16,7 @@ public:
         return vboId;
     }
 
-    const int getVaoId() const {
+    const GLuint getVaoId() const {
         return vaoId;
     }
 
@@ -32,6 +29,10 @@ public:
         os << "VTXCNT: " << rm.getVertexCount() << std::endl;
         return os;
     }
+private:
+    GLuint vaoId;
+    int vertexCount;
+    GLuint vboId;
 };
 
 #endif //OPENWORLD_RAWMODEL_H

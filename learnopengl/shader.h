@@ -9,6 +9,9 @@
 #include <sstream>
 #include <iostream>
 
+
+class Application;
+
 class Shader {
 public:
     unsigned int ID;
@@ -185,5 +188,22 @@ private:
         }
     }
 };
+
+//class ShaderManager {
+//public:
+//    ShaderManager() {
+//        Application::console->info( "Fetching vertex and fragment config values" );
+//        const char *vertexBasicPath = Application::getConfigValue<const char *>( "basicVertexPath", nullptr );
+//        const char *fragmentBasicPath = Application::getConfigValue<const char *>( "basicFragmentPath", nullptr );
+//        Application::console->info( "\n\t\tVertex fetched, path: {}\n\t\tFragment fetched, path: {}", vertexBasicPath,
+//                                    fragmentBasicPath );
+//
+//
+//        /**
+//         * Create classes to manipulate 3D objects
+//         */
+//        Shader shader( vertexBasicPath, fragmentBasicPath );
+//    }
+//};
 
 #endif

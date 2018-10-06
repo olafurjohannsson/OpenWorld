@@ -19,6 +19,8 @@
 #include "../learnopengl/shader.h"
 #include "Renderer.h"
 
+
+
 /**
  * Application class
  *
@@ -28,7 +30,11 @@
  */
 class Application {
 public:
-
+    enum State {
+        ACTIVE,
+        MENU,
+        WIN
+    };
     /**
      * Kill application
      * @param msg
@@ -73,7 +79,7 @@ public:
     static std::shared_ptr<spdlog::logger> file;
     static std::shared_ptr<libconfig::Config> config;
     static std::shared_ptr<Renderer> renderer;
-
+    static State state;
 private:
     static constexpr char *appPath = (char *) "app.config";
     static bool rendererCreated;
@@ -88,7 +94,7 @@ std::shared_ptr<spdlog::logger> Application::file = nullptr;
 const char *Application::title = nullptr;
 constexpr char *Application::appPath;
 bool Application::rendererCreated = false;
-
+Application::State Application::state = Application::State::ACTIVE;
 
 template<typename T>
 T Application::getConfigValue( const char *key, const T defaultValue, bool &success ) {

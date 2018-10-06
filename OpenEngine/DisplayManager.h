@@ -28,6 +28,7 @@ public:
 
             Application::console->info( "Display {} created using {}x{} resolution - fullscreen: {}", name, width,
                                         height, ( fullscreen ? "Yes" : "No" ));
+
             glViewport( 0, 0, width, height );
         }
     }

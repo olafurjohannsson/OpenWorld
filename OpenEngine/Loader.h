@@ -11,6 +11,9 @@
 #include <GLFW/glfw3.h>
 #include <sstream>
 #include <glad/glad.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 class Loader {
 
@@ -18,6 +21,7 @@ private:
     std::vector<GLuint> vaos;
     std::vector<GLuint> vbos;
     std::vector<RawModel> rawModels;
+    int offset = 0;
 
     GLuint createVAO() {
         GLuint vaoId;
@@ -51,6 +55,7 @@ private:
 
         // describe the data
         glVertexAttribPointer( 0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof( GL_FLOAT ), (void *) 0 );
+        offset += positions.size() * sizeof( float );
         glEnableVertexAttribArray( 0 );
 
         glBindBuffer( GL_ARRAY_BUFFER, 0 );
@@ -63,18 +68,11 @@ private:
 
 public:
 
-    void updatePosition( const RawModel &model, const Shader &shader, const std::vector<float> &positions ) {
-//        glBufferSubData( GL_ARRAY_BUFFER, 0, positions.size() * sizeof( float ), positions.data());
-        glBindBuffer( GL_ARRAY_BUFFER, model.getVboId());
-        glBufferData( GL_ARRAY_BUFFER, sizeof( float ) * positions.size(), positions.data(), GL_STATIC_DRAW );
-//        GLint posAttrib = glGetAttribLocation( shader.ID, "position" );
-//        glEnableVertexAttribArray( posAttrib );
-//        glVertexAttribPointer( posAttrib, 2, GL_FLOAT, GL_FALSE, 3 * sizeof( float ), (void *) 0 );
-
-    }
-
-    void updateData( const RawModel &model, std::vector<float> positions ) {
-        glBufferSubData( GL_ARRAY_BUFFER, 0, 3 * sizeof( GL_FLOAT ), positions.data());
+    void transform( const Shader &shader, const glm::vec3 &vec ) {
+        glm::mat4 transform;
+        transform = glm::translate( transform, vec );
+        GLint uniTrans = glGetUniformLocation( shader.ID, "transform" );
+        glUniformMatrix4fv( uniTrans, 1, GL_FALSE, glm::value_ptr( transform ));
     }
 
     RawModel loadToVAO( const Shader &shader, const std::vector<float> &positions ) {
