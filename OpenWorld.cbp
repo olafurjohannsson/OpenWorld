@@ -11,30 +11,30 @@
 				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/olafurj/Dropbox/dev/OpenWorld"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OpenWorld">
@@ -51,18 +51,12 @@
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 OpenWorld"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 OpenWorld"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OpenWorld/fast">
@@ -79,18 +73,12 @@
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/stb_image"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/SOIL"/>
 					<Add directory="/home/olafurj/Dropbox/dev/OpenWorld/includes/glad/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/../../../../include/c++/6.3.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.3.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 OpenWorld/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 OpenWorld/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/olafurj/Dropbox/dev/OpenWorld/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

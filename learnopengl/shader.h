@@ -1,10 +1,9 @@
 #ifndef SHADER_H
 #define SHADER_H
 
-#include "../OpenEngine/Application.h"
-#include <glad/glad.h>
+//#include <glad/glad.h>
 #include <glm/glm.hpp>
-
+#include <glad/glad.h>
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -20,8 +19,6 @@ public:
     Shader( const char *vertexPath, const char *fragmentPath, const char *geometryPath = nullptr, const char *title = nullptr ) {
 
         title = title == nullptr ? "Anon" : title;
-        Application::console->info( "Constructing shader instance {}\n\t\tVertex path: {}\n\t\tFragment path: {}\n\t\tGeometry path: {}",
-                                    title, vertexPath, fragmentPath, geometryPath == nullptr ? "" : geometryPath );
 
 
         // 1. retrieve the vertex/fragment source code from filePath

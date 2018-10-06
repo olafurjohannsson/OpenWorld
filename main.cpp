@@ -2,7 +2,6 @@
 // Created by olafurj on 01/09/18.
 //
 
-#include <glad/glad.h>
 #include "OpenEngine/DisplayManager.h"
 #include "OpenEngine/Loader.h"
 #include "OpenEngine/Renderer.h"
@@ -10,60 +9,9 @@
 #include "OpenEngine/Texture.h"
 #include "OpenEngine/TextureManager.h"
 #include "OpenEngine/Skybox.h"
-#include "OpenEngine/Application.h"
 
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include "learnopengl/shader.h"
-
-
-class Cube {
-
-public:
-    Cube() {
-        GLushort cube_elements[] = {
-                // front
-                0, 1, 2, 2, 3, 0,
-                // right
-                1, 5, 6, 6, 2, 1,
-                // back
-                7, 6, 5, 5, 4, 7,
-                // left
-                4, 0, 3, 3, 7, 4,
-                // bottom
-                4, 5, 1, 1, 0, 4,
-                // top
-                3, 2, 6, 6, 7, 3, };
-        GLfloat cube_vertices[] = {
-                // front
-                -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0,
-                // back
-                -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0, };
-        GLfloat cube_colors[] = {
-                // front colors
-                1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0,
-                // back colors
-                1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, };
-        glGenBuffers( 1, &ibo_cube_elements );
-        glBindBuffer( GL_ELEMENT_ARRAY_BUFFER, ibo_cube_elements );
-        glBufferData( GL_ELEMENT_ARRAY_BUFFER, sizeof( cube_elements ), cube_elements, GL_STATIC_DRAW );
-        glGetBufferParameteriv( GL_ELEMENT_ARRAY_BUFFER, GL_BUFFER_SIZE, &size );
-    }
-
-    void render() {
-        glDrawElements( GL_TRIANGLES, size / sizeof( GLushort ), GL_UNSIGNED_SHORT, 0 );
-    }
-private:
-
-
-    // buffer handles
-    GLuint vbo_cube_vertices, vbo_cube_colors;
-    GLuint ibo_cube_elements;
-
-    int size;
-};
 
 using namespace ow::graphics;
 
@@ -92,49 +40,73 @@ void processInput( GLFWwindow *window ) {
 
 int main() {
 
+    /**
+     * Initialize app, no OpenGL/D3D setup is done here, only loggers, config and initialization of app
+     */
     Application::init();
 
-    Display *display = DisplayManager::createDisplay( Application::title );
+    /**
+     * Create a display to render objects on
+     */
+    DisplayManager::createDisplay( Application::title );
 
-    Shader shader( "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/vertex.glsl",
-                   "/home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl" );
+    /**
+     * Create shader
+     */
+    Application::console->info( "Fetching vertex and fragment config values" );
+    const char *vertexBasicPath = Application::getConfigValue<const char *>( "basicVertexPath", nullptr );
+    const char *fragmentBasicPath = Application::getConfigValue<const char *>( "basicFragmentPath", nullptr );
+    Application::console->info( "\n\t\tVertex fetched, path: {}\n\t\tFragment fetched, path: {}", vertexBasicPath,
+                                fragmentBasicPath );
+
+
+    /**
+     * Create classes to manipulate 3D objects
+     */
+    Shader shader( vertexBasicPath, fragmentBasicPath );
     Loader loader;
     Renderer renderer;
-    Skybox skybox( loader );
 
-    std::vector<std::pair<int, int>> chunks;
+    RawModel model = loader.loadToVAO( shader, std::vector<float> {
+            -0.25f, -0.25f, 0.0f, // left
+            0.25f, -0.25f, 0.0f, // right
+            0.0f, 0.25f, 0.0f  // top
+    } );
 
-    Texture texture;
-    unsigned int txtId = texture.loadTexture2(
-            "/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/resources/textures/bricks2.jpg" );
-
-    std::vector<float> coords = { 0.0f, 0.0f,  // lower-left corner
-                                  1.0f, 0.0f,  // lower-right corner
-                                  0.5f, 1.0f   // top-center corner
-    };
-    RawModel rawModel = loader.loadToVAO( coords );
-    Application::console->info( rawModel.getVaoId());
-    Cube cube;
+    bool secondPassed;
+    float x = 0.01f;
+    float y = 0.01f;
+    // Let's run it until user wants to close
     while ( !Display::isCloseRequested()) {
 
-        processInput( display->getWindow());
+        // Keyboard input
+        processInput( Display::getWindow());
 
-        renderer.prepare(); // pre-render
+        // Pre-render
+        renderer.prepare();
 
-        // get 4x4 matrix for camera
-        glm::mat4 view = camera.GetViewMatrix(); //();
-        glm::mat4 projection = camera.GetProjectionMatrix( 1280, 720 );
-
-
+        // configure transformation matrices
+        //glm::mat4 projection = glm::perspective(glm::)
         shader.use();
-        renderer.render( rawModel );
-//        glEnable( GL_DEPTH_TEST );
-        cube.render();
 
-        skybox.render( renderer, view, projection );
+        // render model
+        renderer.render( model );
 
-        DisplayManager::updateDisplay();
+        // Update display, get frame info, fps, swap buffers and poll events.
+        DisplayManager::updateDisplay( secondPassed );
 
+        if ( secondPassed ) {
+            loader.updatePosition( model, shader, std::vector<float> {
+                    -0.25f + x, -0.25f + y, 0.0f, // left
+                    0.25f, -0.25f, 0.0f, // right
+                    0.0f, 0.25f, 0.0f  // top
+            } );
+            x += 0.05;
+            y -= 0.05;
+        }
+
+        glfwSwapBuffers( Display::getWindow());
+        glfwPollEvents();
     }
 
     loader.cleanUp();

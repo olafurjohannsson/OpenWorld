@@ -19,6 +19,14 @@ fmt/format.h
 -
 libconfig/libconfig.hh
 -
+iostream
+-
+../learnopengl/shader.h
+/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/shader.h
+Renderer.h
+/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h
+Application.h
+/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.h
 
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.cpp
 Cubemap.h
@@ -37,14 +45,16 @@ iostream
 -
 
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Display.h
-Sync.h
-/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Sync.h
+glad/glad.h
+-
 GLFW/glfw3.h
 -
 cstdlib
 -
 iostream
 -
+Sync.h
+/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Sync.h
 ../learnopengl/camera.h
 /home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h
 Application.h
@@ -183,8 +193,6 @@ arm_neon.h
 -
 
 /home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h
-glad/glad.h
--
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -195,11 +203,9 @@ vector
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.h
 
 /home/olafurj/Dropbox/dev/OpenWorld/learnopengl/shader.h
-../OpenEngine/Application.h
-/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.h
-glad/glad.h
--
 glm/glm.hpp
+-
+glad/glad.h
 -
 string
 -
@@ -211,8 +217,6 @@ iostream
 -
 
 /home/olafurj/Dropbox/dev/OpenWorld/main.cpp
-glad/glad.h
--
 OpenEngine/DisplayManager.h
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/DisplayManager.h
 OpenEngine/Loader.h
@@ -227,16 +231,8 @@ OpenEngine/TextureManager.h
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/TextureManager.h
 OpenEngine/Skybox.h
 /home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Skybox.h
-OpenEngine/Application.h
-/home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.h
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
 glm/gtc/type_ptr.hpp
 -
-learnopengl/shader.h
-/home/olafurj/Dropbox/dev/OpenWorld/learnopengl/shader.h
 
 includes/fmt/include/fmt/core.h
 cassert

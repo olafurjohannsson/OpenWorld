@@ -5,10 +5,15 @@
 #ifndef OPENWORLD_DISPLAY_H
 #define OPENWORLD_DISPLAY_H
 
-#include "Sync.h"
+//#define GLFW_INCLUDE_NONE
+
+
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <cstdlib>
 #include <iostream>
+
+#include "Sync.h"
 #include "../learnopengl/camera.h"
 #include "Application.h"
 
@@ -18,8 +23,10 @@ float lastY = 0;
 bool firstMouse = true;
 
 // timing
-float deltaTime = 0.0f;
-float lastFrame = 0.0f;
+double deltaTime = 0.0f;
+double lastTime = 0.0f;
+double fps = 0.0f;
+int frames = 0;
 
 class Display {
 public:
@@ -29,8 +36,7 @@ public:
         if ( !glfwInit()) {
             Application::console->critical( "FAILED TO INIT GLFW" );
             exit( EXIT_FAILURE );
-        }
-        else {
+        } else {
             Application::console->debug( "GLFW Initialized" );
         }
 
@@ -46,8 +52,7 @@ public:
 
         if ( fullscreen ) {
             m_window = glfwCreateWindow( screenWidth, screenHeight, name, glfwGetPrimaryMonitor(), nullptr );
-        }
-        else {
+        } else {
 
             m_window = glfwCreateWindow( screenWidth, screenHeight, name, nullptr, nullptr );
         }
@@ -56,7 +61,7 @@ public:
         // Context and callbacks
 
         glfwMakeContextCurrent( m_window );
-        glfwSetFramebufferSizeCallback( m_window, [ ]( GLFWwindow *window, int width, int height ) {
+        glfwSetFramebufferSizeCallback( m_window, []( GLFWwindow *window, int width, int height ) {
             glViewport( 0, 0, width, height );
         } );
         glfwSetWindowUserPointer( m_window, this );
@@ -84,6 +89,7 @@ public:
 
         Application::console->info( "Display created." );
     }
+
 //    static void keyCallback( GLFWwindow *window, int key, int scancode, int action, int mods ) {
 //
 //
@@ -97,7 +103,6 @@ public:
 
 
     }
-
 
 
     static void errorCallback( int error, const char *description ) {
@@ -135,13 +140,23 @@ public:
         Sync::sync( fps );
     }
 
-    static void update() {
-        float currentFrame = glfwGetTime();
-        deltaTime = currentFrame - lastFrame;
-        lastFrame = currentFrame;
 
-        glfwSwapBuffers( m_window );
-        glfwPollEvents();
+    static void update( bool &secondPassed ) {
+        double currentTime = glfwGetTime();
+        deltaTime = ( currentTime - lastTime ) / 1000.0f;
+        fps = 1 / deltaTime;
+        frames++;
+
+        // one sec
+        secondPassed = false;
+        if ( currentTime - lastTime >= 1.0 ) {
+            const char *out = "%f ms/frame - %f frames/sec\n";
+            fprintf( stdout, out, ( 1000.0f / double( frames )), fps );
+            frames = 0;
+            lastTime = glfwGetTime();
+            secondPassed = true;
+        }
+
     }
 
     static void destroy() {

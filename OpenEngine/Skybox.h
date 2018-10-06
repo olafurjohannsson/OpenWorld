@@ -39,8 +39,8 @@ namespace ow {
 
 
         public:
-            Skybox( Loader &loader ) : model( loader.loadToVAO( skyboxVertices )),
-                                       shader( Shader( VERTEX_PATH, FRAGMENT_PATH, nullptr, "Skybox" )) {
+            Skybox( Loader &loader ) : shader( Shader( VERTEX_PATH, FRAGMENT_PATH, nullptr, "Skybox" )) {
+                model = std::make_unique<RawModel>( loader.loadToVAO( shader, skyboxVertices ));
                 shader.use();
                 shader.setInt( "skybox", 0 );
                 textureId = TextureManager::loadCubemap();
@@ -53,14 +53,14 @@ namespace ow {
                 shader.setMat4( "view", view );
                 shader.setMat4( "projection", projection );
 
-                renderer.render( model );
+                renderer.render( *this->model );
 
                 glDepthFunc( GL_LESS );
             }
 
         private:
             unsigned int textureId;
-            RawModel model;
+            std::unique_ptr<RawModel> model;
             Shader shader;
         };
     }

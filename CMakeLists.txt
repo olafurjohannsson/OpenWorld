@@ -50,6 +50,7 @@ add_executable(OpenWorld main.cpp
         OpenEngine/Texture.cpp
         OpenEngine/Texture.h
         OpenEngine/TextureManager.h
+
         OpenEngine/Application.h
         )
 find_package(Threads REQUIRED)

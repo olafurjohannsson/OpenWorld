@@ -36,7 +36,8 @@ private:
         glBufferData( GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof( float ), indices.data(), GL_STATIC_DRAW );
     }
 
-    void storeDataInAttributeList( int attributeNumber, std::vector<float> positions ) {
+
+    GLuint storeDataInAttributeList( int attributeNumber, std::vector<float> positions ) {
         // generate vbo and store it
         GLuint vboId;
         glGenBuffers( 1, &vboId );
@@ -53,7 +54,7 @@ private:
         glEnableVertexAttribArray( 0 );
 
         glBindBuffer( GL_ARRAY_BUFFER, 0 );
-
+        return vboId;
     }
 
     void unbindVAO() {
@@ -61,19 +62,38 @@ private:
     }
 
 public:
-    RawModel loadToVAO( std::vector<float> positions ) {
+
+    void updatePosition( const RawModel &model, const Shader &shader, const std::vector<float> &positions ) {
+//        glBufferSubData( GL_ARRAY_BUFFER, 0, positions.size() * sizeof( float ), positions.data());
+        glBindBuffer( GL_ARRAY_BUFFER, model.getVboId());
+        glBufferData( GL_ARRAY_BUFFER, sizeof( float ) * positions.size(), positions.data(), GL_STATIC_DRAW );
+//        GLint posAttrib = glGetAttribLocation( shader.ID, "position" );
+//        glEnableVertexAttribArray( posAttrib );
+//        glVertexAttribPointer( posAttrib, 2, GL_FLOAT, GL_FALSE, 3 * sizeof( float ), (void *) 0 );
+
+    }
+
+    void updateData( const RawModel &model, std::vector<float> positions ) {
+        glBufferSubData( GL_ARRAY_BUFFER, 0, 3 * sizeof( GL_FLOAT ), positions.data());
+    }
+
+    RawModel loadToVAO( const Shader &shader, const std::vector<float> &positions ) {
         GLuint vaoId = createVAO();
-        storeDataInAttributeList( 0, positions );
+        GLint posAttrib = glGetAttribLocation( shader.ID, "position" );
+        GLuint vboId = storeDataInAttributeList( posAttrib, positions );
         unbindVAO();
-        RawModel rm( vaoId, positions.size() / 3 );
+        RawModel rm( vaoId, vboId, positions.size() / 3 );
         rawModels.push_back( rm );
         return rm;
     }
 
+    std::vector<RawModel> &getRawModel() {
+        return rawModels;
+    }
 
-    RawModel loadToVAO( float *positions, size_t size ) {
+    RawModel loadToVAO( const Shader &shader, float *positions, size_t size ) {
         std::vector<float> v( positions, positions + size );
-        return loadToVAO( v );
+        return loadToVAO( shader, v );
     }
 
     void cleanUp() {

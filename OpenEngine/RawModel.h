@@ -9,10 +9,14 @@ class RawModel {
 private:
     int vaoId;
     int vertexCount;
-
+    GLuint vboId;
 public:
-    RawModel( int vid, int vc ) : vaoId( vid ), vertexCount( vc ) {
+    RawModel( int vid, GLuint vboId, int vc ) : vaoId( vid ), vboId( vboId ), vertexCount( vc ) {
 
+    }
+
+    const GLuint getVboId() const {
+        return vboId;
     }
 
     const int getVaoId() const {

@@ -19,7 +19,7 @@ private:
     static Display *display;
 public:
 
-    static Display *createDisplay( const char *name, bool fullscreen = false ) {
+    static void createDisplay( const char *name, bool fullscreen = false ) {
         if ( DisplayManager::display == nullptr ) {
             DisplayManager::display = new Display( WIDTH, HEIGHT, name, fullscreen );
 
@@ -30,13 +30,11 @@ public:
                                         height, ( fullscreen ? "Yes" : "No" ));
             glViewport( 0, 0, width, height );
         }
-        return DisplayManager::display;
     }
 
 
-    static void updateDisplay() {
-        Display::sync( FPS_CAP );
-        Display::update();
+    static void updateDisplay(bool &secondPassed) {
+        Display::update(secondPassed);
     }
 
     static void closeDisplay() {
