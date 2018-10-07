@@ -14,6 +14,12 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <iostream>
+#include "Texture.h"
+#include <string>
+#include <iostream>
+#include <unistd.h>
+
 
 class Loader {
 
@@ -32,47 +38,75 @@ private:
         return vaoId;
     }
 
-    void bindIndiceBuffer( std::vector<int> indices ) {
-        GLuint vboId;
-        glGenBuffers( 0, &vboId );
-        vbos.push_back( vboId );
-        glBindBuffer( GL_ELEMENT_ARRAY_BUFFER, vboId );
-        glBufferData( GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof( float ), indices.data(), GL_STATIC_DRAW );
-    }
-
-
-    GLuint storeDataInAttributeList( int attributeNumber, std::vector<float> positions ) {
-        // generate vbo and store it
-        GLuint vboId;
-        glGenBuffers( 1, &vboId );
-        vbos.push_back( vboId );
-
-        // bind buffer and add data
-        glBindBuffer( GL_ARRAY_BUFFER, vboId );
-
-        //printf( "storeDataInAttrList, positions * flaot: %d\n", positions.size() * sizeof( float ));
-        glBufferData( GL_ARRAY_BUFFER, positions.size() * sizeof( float ), positions.data(), GL_STATIC_DRAW );
-
-        // describe the data
-        glVertexAttribPointer( 0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof( GL_FLOAT ), (void *) 0 );
-        offset += positions.size() * sizeof( float );
-        glEnableVertexAttribArray( 0 );
-
-        glBindBuffer( GL_ARRAY_BUFFER, 0 );
-        return vboId;
-    }
-
     void unbindVAO() {
         glBindVertexArray( 0 );
     }
 
+    GLuint storeDataInAttributeList( int attributeNumber, std::vector<float> positions ) {
+        GLuint vboId;
+        glGenBuffers( 1, &vboId );
+        vbos.push_back( vboId );
+        glBindBuffer( GL_ARRAY_BUFFER, vboId );
+        glBufferData( GL_ARRAY_BUFFER, positions.size() * sizeof( float ), positions.data(), GL_STATIC_DRAW );
+        glEnableVertexAttribArray( 0 );
+        glVertexAttribPointer( 0, 3, GL_FLOAT, GL_FALSE, 0, (void *) 0 );
+        offset += positions.size() * sizeof( float );
+        glBindBuffer( GL_ARRAY_BUFFER, 0 );
+        return vboId;
+    }
+
 public:
 
-    void transform( const Shader &shader, const glm::vec3 &vec ) {
-        glm::mat4 transform;
-        transform = glm::translate( transform, vec );
-        GLint uniTrans = glGetUniformLocation( shader.ID, "transform" );
-        glUniformMatrix4fv( uniTrans, 1, GL_FALSE, glm::value_ptr( transform ));
+    RawModel commit( const Shader &shader,
+                     const std::vector<float> &vertices,
+                     const char *attrName,
+                     const GLint vertexSize,
+                     const GLint textureCoordinatesSize ) {
+        GLuint vaoId, vboId;
+        glGenVertexArrays( 1, &vaoId );
+        glBindVertexArray( vaoId );
+
+        glGenBuffers( 1, &vboId );
+        glBindBuffer( GL_ARRAY_BUFFER, vboId );
+        auto dataSize = vertices.size() * sizeof( float );
+        glBufferData( GL_ARRAY_BUFFER, dataSize, vertices.data(), GL_STATIC_DRAW );
+
+        GLuint vertexCoordinatesAttributeIndex = (GLuint) glGetAttribLocation( shader.ID, "vertexCoordinates" );
+        GLuint textureCoordinatesAttributeIndex = (GLuint) glGetAttribLocation( shader.ID, "textureCoordinates" );
+        if ( vertexCoordinatesAttributeIndex == -1 ) {
+            auto out = fmt::format( "Attribute \"{}\" not found in shader!", "vertexCoordinates" );
+            Application::console->critical( out );
+        }
+        if ( textureCoordinatesAttributeIndex == -1 ) {
+            auto out = fmt::format( "Attribute \"{}\" not found in shader!", "textureCoordinates" );
+            Application::console->critical( out );
+        }
+
+        glEnableVertexAttribArray( vertexCoordinatesAttributeIndex );
+        glVertexAttribPointer( vertexCoordinatesAttributeIndex, vertexSize, GL_FLOAT, GL_FALSE, 0, (GLvoid *) 0 );
+
+
+        glEnableVertexAttribArray( textureCoordinatesAttributeIndex );
+        glVertexAttribPointer( textureCoordinatesAttributeIndex,
+                               textureCoordinatesSize,
+                               GL_FLOAT,
+                               GL_FALSE,
+                // stride is the size in bytes until next texture offset of texture coordinate starts
+                               ( vertexSize + textureCoordinatesSize ) * sizeof( float ),
+                // data starts at offset of first vertex end
+                               (void *) ( vertexSize * sizeof( float )));
+        glBindVertexArray( 0 );
+
+        ow::graphics::Texture texture;
+        GLuint textureId = texture.loadTexture( "./OpenEngine/container.jpg" );
+
+
+
+        RawModel model( vaoId, vboId, vertices.size() / ( vertexSize + textureCoordinatesSize ), textureId );
+        auto out = fmt::format( "Model created (VAO: {}, VBO: {}, TXT: {}, SIZE: {}", model.getVaoId(),
+                                model.getVboId(), model.getVertexCount(), model.getTextureId());
+        Application::console->info( out );
+        return model;
     }
 
     RawModel loadToVAO( const Shader &shader, const std::vector<float> &positions ) {
@@ -84,6 +118,14 @@ public:
         rawModels.push_back( rm );
         return rm;
     }
+
+    void transform( const Shader &shader, const glm::vec3 &vec ) {
+        glm::mat4 transform;
+        transform = glm::translate( transform, vec );
+        GLint uniTrans = glGetUniformLocation( shader.ID, "transform" );
+        glUniformMatrix4fv( uniTrans, 1, GL_FALSE, glm::value_ptr( transform ));
+    }
+
 
     std::vector<RawModel> &getRawModel() {
         return rawModels;
@@ -101,13 +143,7 @@ public:
         for ( const auto &vbo : vbos ) {
             glDeleteBuffers( 1, &vbo );
         }
-//        for ( const auto &rawModel: rawModels ) {
-//            delete rawModel;
-//        }
     }
-
-
 };
-
 
 #endif //OPENWORLD_LOADER_H

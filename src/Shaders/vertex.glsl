@@ -1,11 +1,17 @@
 #version 330 core
-layout (location = 0) in vec3 aPos;
+// Input attributes
+layout (location = 0) in vec2 vertexCoordinates;
+layout (location = 1) in vec2 textureCoordinates;
 
-out vec4 vertexColor;
+// Output to fragment
+out vec4 VertexColor;
+out vec2 TextureCoordinates;
 
+// Shared accros shaders
 uniform mat4 transform;
 
 void main() {
-    gl_Position = transform * vec4(aPos.x, aPos.y, aPos.z, 1.0);
-    vertexColor = vec4(0.5, 0.0, 0.0, 1.0);
+    gl_Position = transform * vec4(vertexCoordinates.x, vertexCoordinates.y, 0.0f, 1.0f);
+    VertexColor = transform * vec4(0.2f, 0.2f, 0.0f, 1.0f);
+    TextureCoordinates = textureCoordinates;
 }

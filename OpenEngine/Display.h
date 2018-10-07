@@ -42,10 +42,15 @@ public:
 
         lastX = (float) screenWidth / 2.0;
         lastY = (float) screenHeight / 2.0;
-
-        glfwWindowHint( GLFW_SAMPLES, 4 );
-        glfwWindowHint( GLFW_CONTEXT_VERSION_MAJOR, 3 );
-        glfwWindowHint( GLFW_CONTEXT_VERSION_MINOR, 3 );
+        int openGlMajor = Application::getConfigValue<int>( "OPENGL_MAJOR_VERSION", -1 );
+        int openGlMinor = Application::getConfigValue<int>( "OPENGL_MINOR_VERSION", -1 );
+        if ( openGlMajor == -1 or openGlMinor == -1 ) {
+            Application::abort( "OpenGL version is invalid (-1.-1)" );
+        }
+        int antiAliasing = Application::getConfigValue<int>( "ANTI_ALIASING", 4 );
+        glfwWindowHint( GLFW_SAMPLES, antiAliasing );
+        glfwWindowHint( GLFW_CONTEXT_VERSION_MAJOR, openGlMajor );
+        glfwWindowHint( GLFW_CONTEXT_VERSION_MINOR, openGlMinor );
         glfwWindowHint( GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE );
         glfwWindowHint( GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE );
         glfwWindowHint( GLFW_RESIZABLE, GL_TRUE );
@@ -78,7 +83,7 @@ public:
 
         glEnable( GL_DEPTH_TEST );
 
-        Application::console->info( "Display created." );
+        Application::console->info( "Display created using OpenGL version {}.{}", openGlMajor, openGlMinor );
     }
 
     static void mouseButtonCallback( GLFWwindow *window, int button, int action, int mods ) {

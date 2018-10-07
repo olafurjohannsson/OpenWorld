@@ -67,17 +67,22 @@ int main() {
     Loader loader;
     Renderer renderer;
 
-    RawModel model = loader.loadToVAO( shader, std::vector<float> {
-            -0.15f, -0.15f, 0.0f, // left
-            0.15f, -0.15f, 0.0f, // right
-            0.0f, 0.15f, 0.0f  // top
-    } );
+    GLint vertexSize = 3;
+    GLint textureCoordinatesSize = 2;
+    const char *attr = "aPos";
+    RawModel model = loader.commit( shader, std::vector<float> {
+            // positions          // texture coords
+            0.5f,  0.5f, 0.0f,   1.0f, 1.0f,   // top right
+            0.5f, -0.5f, 0.0f,   1.0f, 0.0f,   // bottom right
+            -0.5f, -0.5f, 0.0f,  0.0f, 0.0f,   // bottom left
+            -0.5f,  0.5f, 0.0f,  0.0f, 1.0f    // top left
+    }, attr, vertexSize, textureCoordinatesSize );
 
-    RawModel model2 = loader.loadToVAO( shader, std::vector<float> {
-            -0.1f, -0.1f, 0.0f, // left
-            0.1f, -0.1f, 0.0f, // right
-            0.0f, 0.1f, 0.0f  // top
-    } );
+//    GLuint vaoId2 = loader.commit( shader, std::vector<float> {
+//            -1.0f, 0.9f, 0.0f, // left
+//            -0.9f, 0.9f, 0.0f, // right
+//            -0.5f, 1.0f, 0.0f  // top
+//    }, attr, vertexSize, textureCoordinatesSize );
 
     bool secondPassed;
     float x = 0.0f;
@@ -108,17 +113,22 @@ int main() {
 
         // render model
         shader.use();
+
         loader.transform( shader, glm::vec3( x, y, 0.0f ));
-        renderer.render(model);
-        renderer.render( model2, model.getVertexCount() * sizeof(float) );
+        glBindVertexArray( model.getVaoId() );
+        glDrawArrays( GL_TRIANGLES, 0, model.getVertexCount() );
+        glBindVertexArray( 0 );
 
-
+//        loader.transform( shader, glm::vec3( x, y, 0.0f ));
+//        glBindVertexArray( vaoId2 );
+//        glDrawArrays( GL_TRIANGLES, 0, 3 );
+//        glBindVertexArray( 0 );
 
         // Update display, get frame info, fps, swap buffers and poll events.
         DisplayManager::updateDisplay( secondPassed );
-        if (secondPassed) {
+        if ( secondPassed ) {
             const char *out = "Vao %d - Vao %d\n";
-            printf(out, model.getVaoId(), model2.getVaoId());
+//            printf( out, model.getVaoId(), model2.getVaoId());
         }
         glfwSwapBuffers( Display::getWindow());
         glfwPollEvents();

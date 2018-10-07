@@ -20,7 +20,6 @@
 #include "Renderer.h"
 
 
-
 /**
  * Application class
  *
@@ -35,6 +34,7 @@ public:
         MENU,
         WIN
     };
+
     /**
      * Kill application
      * @param msg
@@ -152,9 +152,10 @@ void Application::init() {
             }
 
             // Create libconfig pointer and try to read file
-            config = std::shared_ptr<libconfig::Config>( new libconfig::Config());
+            config = std::make_shared<libconfig::Config>();
             config->readFile( filePath );
-
+            // set title
+            Application::title = config->lookup( "title" );
             // get log path
             std::string logPath = config->lookup( "log_path" );
 
@@ -186,11 +187,13 @@ void Application::init() {
             Application::abort( "Cannot continue app without configuration file!" );
         }
 
-
-        Application::title = config->lookup( "title" );
-
         initialized = true;
-        console->info( "Application {} initialized", Application::title );
+
+        char buff[FILENAME_MAX];
+        getcwd( buff, FILENAME_MAX );
+        std::string cwd( buff );
+
+        console->info( "Application {} initialized from directory {}", Application::title, cwd );
     } else {
         console->info( "Application {} is already initialized", Application::title );
     }
