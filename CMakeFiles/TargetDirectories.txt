@@ -1,3 +1,0 @@
-/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles/edit_cache.dir
-/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles/rebuild_cache.dir
-/home/olafurj/Dropbox/dev/OpenWorld/CMakeFiles/OpenWorld.dir

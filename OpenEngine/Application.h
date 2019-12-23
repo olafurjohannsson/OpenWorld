@@ -15,6 +15,7 @@
 #include <spdlog/common.h>
 #include <fmt/format.h>
 #include <libconfig/libconfig.hh>
+
 #include <iostream>
 #include "../learnopengl/shader.h"
 #include "Renderer.h"
@@ -27,7 +28,8 @@
  *
  * It also keeps the main 3D renderer
  */
-class Application {
+class Application
+{
 public:
     enum State {
         ACTIVE,
@@ -39,7 +41,8 @@ public:
      * Kill application
      * @param msg
      */
-    static void abort( const std::string &msg ) {
+    static void abort( const std::string &msg )
+    {
         console->critical( msg );
         exit( 0 );
     }
@@ -62,68 +65,75 @@ public:
      * @param success Extra param if user wants to use boolean logic instead of default value
      * @return The value or or defaultValue
      */
-    template<typename T>
+    template< typename T >
     static T getConfigValue( const char *key, const T defaultValue, bool &success );
 
     /**
      * Overloaded static function of getConfigValue without the boolean logic
      */
-    template<typename T>
+    template< typename T >
     static T getConfigValue( const char *key, const T defaultValue );
 
     /**
      * Application state
      */
     static const char *title;
-    static std::shared_ptr<spdlog::logger> console;
-    static std::shared_ptr<spdlog::logger> file;
-    static std::shared_ptr<libconfig::Config> config;
-    static std::shared_ptr<Renderer> renderer;
+    static std::shared_ptr< spdlog::logger > console;
+    static std::shared_ptr< spdlog::logger > file;
+    static std::shared_ptr< libconfig::Config > config;
+    static std::shared_ptr< Renderer > renderer;
     static State state;
 private:
-    static constexpr char *appPath = (char *) "app.config";
+    static constexpr char *appPath = ( char * ) "app.config";
     static bool rendererCreated;
 };
 
 #include "Application.h"
 
-std::shared_ptr<Renderer> Application::renderer = nullptr;
-std::shared_ptr<libconfig::Config> Application::config = nullptr;
-std::shared_ptr<spdlog::logger> Application::console = nullptr;
-std::shared_ptr<spdlog::logger> Application::file = nullptr;
+std::shared_ptr< Renderer > Application::renderer = nullptr;
+std::shared_ptr< libconfig::Config > Application::config = nullptr;
+std::shared_ptr< spdlog::logger > Application::console = nullptr;
+std::shared_ptr< spdlog::logger > Application::file = nullptr;
 const char *Application::title = nullptr;
 constexpr char *Application::appPath;
 bool Application::rendererCreated = false;
 Application::State Application::state = Application::State::ACTIVE;
 
-template<typename T>
-T Application::getConfigValue( const char *key, const T defaultValue, bool &success ) {
+template< typename T >
+T Application::getConfigValue( const char *key, const T defaultValue, bool &success )
+{
     success = Application::config->exists( key );
-    if ( success ) {
+    if( success )
+    {
         return Application::config->lookup( key );
     }
     return defaultValue;
 }
 
-template<typename T>
-T Application::getConfigValue( const char *key, const T defaultValue ) {
+template< typename T >
+T Application::getConfigValue( const char *key, const T defaultValue )
+{
     bool success = false;
     return Application::getConfigValue( key, defaultValue, success );
 }
 
-void Application::createRenderer() {
-    if ( Application::rendererCreated ) {
+void Application::createRenderer()
+{
+    if( Application::rendererCreated )
+    {
         return;
     }
-    Application::renderer = std::shared_ptr<Renderer>( new Renderer());
+    Application::renderer = std::shared_ptr< Renderer >( new Renderer() );
     Application::rendererCreated = true;
 }
 
-void Application::init() {
+void Application::init()
+{
     static bool initialized = false;
     static Application application;
 
-    if ( !initialized ) {
+    if( !initialized )
+    {
         /**
          * Initialize stdout logging
          */
@@ -139,27 +149,32 @@ void Application::init() {
         /**
          * Try to read config file on environment var "OPENWORLDAPPPATH" or default to "app.config" relative to root
          */
-        try {
+        try
+        {
             console->info( "Reading app path for config file" );
 
             // Get file path to config file
             char *filePath = std::getenv( "OPENWORLDAPPPATH" );
-            if ( filePath == NULL ) {
-                filePath = (char *) Application::appPath;
+            if( filePath == NULL )
+            {
+                filePath = ( char * ) Application::appPath;
                 console->info( "App path null, using default {}", filePath );
-            } else {
+            }
+            else
+            {
                 console->info( "App path {} used", filePath );
             }
 
             // Create libconfig pointer and try to read file
-            config = std::make_shared<libconfig::Config>();
+            config = std::make_shared< libconfig::Config >();
             config->readFile( filePath );
             // set title
             Application::title = config->lookup( "title" );
             // get log path
             std::string logPath = config->lookup( "log_path" );
 
-            if ( !logPath.empty()) {
+            if( !logPath.empty() )
+            {
                 file = spdlog::basic_logger_mt( "file", logPath );
                 console->info( "File logger on path {} initialized", logPath );
 
@@ -169,32 +184,40 @@ void Application::init() {
                 file->set_level( spdlog::level::trace );
 #endif
 
-            } else {
+            }
+            else
+            {
                 console->info( "Logpath is empty!" );
             }
 
-        } catch ( const libconfig::FileIOException &fioex ) {
+        }
+        catch ( const libconfig::FileIOException &fioex )
+        {
             /**
              * Log to stdout and kill app
              */
             console->error( "I/O error while reading file." );
             Application::abort( "Cannot continue app without configuration file!" );
-        } catch ( const libconfig::ParseException &pex ) {
+        }
+        catch ( const libconfig::ParseException &pex )
+        {
             /**
              * Log to stdout and kill app
              */
-            console->error( "Parse error at {}:{} - {}", pex.getFile(), pex.getLine(), pex.getError());
+            console->error( "Parse error at {}:{} - {}", pex.getFile(), pex.getLine(), pex.getError() );
             Application::abort( "Cannot continue app without configuration file!" );
         }
 
         initialized = true;
 
-        char buff[FILENAME_MAX];
+        char buff[ FILENAME_MAX ];
         getcwd( buff, FILENAME_MAX );
         std::string cwd( buff );
 
         console->info( "Application {} initialized from directory {}", Application::title, cwd );
-    } else {
+    }
+    else
+    {
         console->info( "Application {} is already initialized", Application::title );
     }
 }
