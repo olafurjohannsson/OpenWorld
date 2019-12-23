@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.9.0)
+add_library(
+        libconfig
+        libconfig/libconfig.hh
+        libconfig/libconfig.h
+        libconfig/libconfig.c
+        libconfig/libconfigcpp.cc
+        libconfig/util.h
+        libconfig/util.c
+        libconfig/scanctx.c
+        libconfig/scanctx.h
+        libconfig/parsectx.h
+        libconfig/strbuf.h
+        libconfig/strbuf.c
+        libconfig/strvec.c
+        libconfig/strvec.h
+        libconfig/scanner.c
+        libconfig/scanner.h
+        libconfig/scanner.l
+        libconfig/grammar.c
+        libconfig/grammar.h
+        libconfig/grammar.y
+)
