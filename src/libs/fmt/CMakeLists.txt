@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 3.9.0)
 
 add_library(
-        SOIL
-        SOIL/SOIL.c
-        SOIL/SOIL.h
-        SOIL/image_DXT.c
-        SOIL/image_DXT.h
-        SOIL/image_helper.c
-        SOIL/image_helper.h
-        SOIL/stbi_DDS_aug.h
-        SOIL/stbi_DDS_aug_c.h
-        SOIL/stb_image_aug.h
-        SOIL/stb_image_aug.c
+        fmt
+        fmt/include/fmt/core.h
+        fmt/include/fmt/format-inl.h
+        fmt/include/fmt/format.h
+        fmt/include/fmt/ostream.h
+        fmt/include/fmt/posix.h
+        fmt/include/fmt/printf.h
+        fmt/include/fmt/ranges.h
+        fmt/include/fmt/time.h
+        fmt/src/format.cc
+        fmt/src/posix.cc
 )

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenWorld"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\;CMake Files\src\;CMake Files\src\libs\;CMake Files\src\libs\libconfig\;CMake Files\src\libs\SOIL\;CMake Files\src\libs\glad\;CMake Files\src\libs\fmt\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenWorld">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/OpenWorld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/includes/spdlog"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/libconfig"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/SOIL"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/glad/glad"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/fmt"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/src"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenWorld"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenWorld/fast">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/OpenWorld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/includes/spdlog"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/libconfig"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/SOIL"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/glad/glad"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/fmt"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/src"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenWorld/fast"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libconfig">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/liblibconfig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 libconfig"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libconfig/fast">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/liblibconfig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 libconfig/fast"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/libSOIL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 SOIL"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL/fast">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/libSOIL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 SOIL/fast"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/libfmt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 fmt"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt/fast">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/libfmt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 fmt/fast"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Application.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Cubemap.cpp">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Cubemap.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Display.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/DisplayManager.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Loader.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/RawModel.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Renderer.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Texture.cpp">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/Texture.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/OpenEngine/TextureManager.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/includes/spdlog/spdlog/spdlog.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/learnopengl/camera.h">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/main.cpp">
+			<Option target="OpenWorld"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/SOIL.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/SOIL.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/image_DXT.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/image_DXT.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/image_helper.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/image_helper.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/stb_image_aug.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/stb_image_aug.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/stbi_DDS_aug.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/SOIL/stbi_DDS_aug_c.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/core.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/format-inl.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/format.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/ostream.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/posix.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/printf.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/ranges.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include/fmt/time.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/src/format.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/src/posix.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/glad/glad/KHR/khrplatform.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/glad/glad/glad/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/glad/glad/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/grammar.c">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/grammar.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/grammar.y">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/libconfig.c">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/libconfig.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/libconfig.hh">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/libconfigcpp.cc">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/parsectx.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/scanctx.c">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/scanctx.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/scanner.c">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/scanner.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/scanner.l">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/strbuf.c">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/strbuf.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/strvec.c">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/strvec.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/util.c">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/libconfig/util.h">
+			<Option target="libconfig"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\libconfig\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\SOIL\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\glad\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\fmt\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,17 @@
+/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/OpenWorld.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/libconfig/CMakeFiles/libconfig.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/SOIL/CMakeFiles/SOIL.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/CMakeFiles/glad.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/CMakeFiles/fmt.dir

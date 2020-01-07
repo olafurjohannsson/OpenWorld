@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-8/root/usr/bin/ar qc liblibconfig.a  CMakeFiles/libconfig.dir/libconfig/libconfig.c.o CMakeFiles/libconfig.dir/libconfig/libconfigcpp.cc.o CMakeFiles/libconfig.dir/libconfig/util.c.o CMakeFiles/libconfig.dir/libconfig/scanctx.c.o CMakeFiles/libconfig.dir/libconfig/strbuf.c.o CMakeFiles/libconfig.dir/libconfig/strvec.c.o CMakeFiles/libconfig.dir/libconfig/scanner.c.o CMakeFiles/libconfig.dir/libconfig/grammar.c.o
+/opt/rh/devtoolset-8/root/usr/bin/ranlib liblibconfig.a

@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-8/root/usr/bin/ar qc libglad.a  CMakeFiles/glad.dir/glad/glad/glad.c.o
+/opt/rh/devtoolset-8/root/usr/bin/ranlib libglad.a

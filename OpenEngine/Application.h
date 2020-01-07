@@ -15,7 +15,7 @@
 #include <spdlog/common.h>
 #include <fmt/format.h>
 #include <libconfig/libconfig.hh>
-
+#include <filesystem>
 #include <iostream>
 #include "../learnopengl/shader.h"
 #include "Renderer.h"
@@ -31,7 +31,8 @@
 class Application
 {
 public:
-    enum State {
+    enum State
+    {
         ACTIVE,
         MENU,
         WIN
@@ -44,7 +45,7 @@ public:
     static void abort( const std::string &msg )
     {
         console->critical( msg );
-        exit( 0 );
+        std::exit( 0 );
     }
 
     /****
@@ -77,27 +78,25 @@ public:
     /**
      * Application state
      */
-    static const char *title;
-    static std::shared_ptr< spdlog::logger > console;
-    static std::shared_ptr< spdlog::logger > file;
-    static std::shared_ptr< libconfig::Config > config;
-    static std::shared_ptr< Renderer > renderer;
-    static State state;
+    static inline const char *title;
+    static inline std::shared_ptr< spdlog::logger > console = nullptr;
+    static inline std::shared_ptr< spdlog::logger > file = nullptr;
+    static inline std::shared_ptr< libconfig::Config > config = nullptr;
+    static inline std::shared_ptr< Renderer > renderer = nullptr;
+    static inline State state;
+    static const char* getRootPath()
+    {
+        return Application::rootPath;
+    }
 private:
-    static constexpr char *appPath = ( char * ) "app.config";
-    static bool rendererCreated;
+    static constexpr char *defaultappFilePath = ( char * ) "app.config";
+    static inline char *appFilePath = nullptr;
+    static constexpr char *defaultAppName = ( char * ) "OpenWorld";
+    static inline char *appName = nullptr;
+    static inline char *rootPath = nullptr;
+    static inline bool rendererCreated = false;
 };
 
-#include "Application.h"
-
-std::shared_ptr< Renderer > Application::renderer = nullptr;
-std::shared_ptr< libconfig::Config > Application::config = nullptr;
-std::shared_ptr< spdlog::logger > Application::console = nullptr;
-std::shared_ptr< spdlog::logger > Application::file = nullptr;
-const char *Application::title = nullptr;
-constexpr char *Application::appPath;
-bool Application::rendererCreated = false;
-Application::State Application::state = Application::State::ACTIVE;
 
 template< typename T >
 T Application::getConfigValue( const char *key, const T defaultValue, bool &success )
@@ -127,6 +126,43 @@ void Application::createRenderer()
     Application::rendererCreated = true;
 }
 
+namespace
+{
+std::string formatPath( const std::string &p )
+{
+    std::stringstream ss;
+    ss << Application::getRootPath();
+    ss << "/";
+    ss << p;
+    return ss.str();
+}
+
+std::filesystem::path findRootPath( const std::string &targetPath )
+{
+    /**
+     * This will only be evaluated when the program counter reaches
+     * this instruction and computes it, so it's best called before
+     * changing any working directories
+     */
+    static const std::filesystem::path execPath( std::filesystem::current_path() );
+    for( auto p = execPath; p != p.root_path(); p = p.parent_path() )
+    {
+        if( std::filesystem::directory_entry{ p }.exists() )
+        {
+            const std::size_t fwdSlash( p.string().find_last_of( '/' ) );
+            const std::string s( p.string().substr( fwdSlash + 1, p.string().size() ) );
+
+            if( targetPath == s )
+            {
+                return p;
+            }
+        }
+    }
+
+    return execPath;
+}
+}
+
 void Application::init()
 {
     static bool initialized = false;
@@ -147,31 +183,64 @@ void Application::init()
         console->set_level( spdlog::level::trace );
 #endif
         /**
-         * Try to read config file on environment var "OPENWORLDAPPPATH" or default to "app.config" relative to root
+         * Try to read config file on environment var "OPENWORLDappFilePath" or default to "app.config" relative to root
          */
         try
         {
             console->info( "Reading app path for config file" );
 
-            // Get file path to config file
-            char *filePath = std::getenv( "OPENWORLDAPPPATH" );
-            if( filePath == NULL )
+            // find root path
+            char *appName = std::getenv( "OPENWORLDAPPNAME" );
+            if( nullptr == appName )
             {
-                filePath = ( char * ) Application::appPath;
-                console->info( "App path null, using default {}", filePath );
+                Application::appName = Application::defaultAppName;
+                console->info( "App name null, using default {}", Application::appName );
             }
             else
             {
-                console->info( "App path {} used", filePath );
+                Application::appName = appName;
+                console->info( "AppName {}", Application::appName );
+            }
+
+            const std::string rootPath = findRootPath( std::string( Application::appName ) );
+            if( not std::filesystem::exists( std::filesystem::path( rootPath.c_str() ) ) )
+            {
+                Application::abort( "Root path does not exist!" );
+            }
+            Application::rootPath = const_cast< char* >( rootPath.c_str() );
+
+            // Get file path to config file
+            char *appFilePath = std::getenv( "OPENWORLDAPPFILEPATH" );
+            if( nullptr == appFilePath )
+            {
+                std::stringstream ss;
+                ss << Application::rootPath << "/" << Application::defaultappFilePath;
+                appFilePath = const_cast< char* >( ss.str().c_str() );
+                console->info( "App file path null, using default {}", appFilePath );
+            }
+            else
+            {
+                std::memcpy( Application::appFilePath, appFilePath, std::strlen( appFilePath ) );
+                console->info( "App path {} used", Application::appFilePath );
+            }
+
+
+
+            auto filePath = std::filesystem::path( appFilePath );
+            if( not std::filesystem::exists( filePath ) )
+            {
+                std::stringstream ss;
+                ss << "Filepath " << appFilePath << " does not exist" << std::endl;
+                Application::abort( ss.str() );
             }
 
             // Create libconfig pointer and try to read file
             config = std::make_shared< libconfig::Config >();
-            config->readFile( filePath );
+            config->readFile( appFilePath );
             // set title
             Application::title = config->lookup( "title" );
             // get log path
-            std::string logPath = config->lookup( "log_path" );
+            std::string logPath = formatPath( config->lookup( "log_path" ) );
 
             if( !logPath.empty() )
             {
@@ -189,15 +258,14 @@ void Application::init()
             {
                 console->info( "Logpath is empty!" );
             }
-
         }
         catch ( const libconfig::FileIOException &fioex )
         {
             /**
              * Log to stdout and kill app
              */
-            console->error( "I/O error while reading file." );
-            Application::abort( "Cannot continue app without configuration file!" );
+            console->error( "Cannot continue app without configuration file" );
+            Application::abort( fioex.what() );
         }
         catch ( const libconfig::ParseException &pex )
         {
