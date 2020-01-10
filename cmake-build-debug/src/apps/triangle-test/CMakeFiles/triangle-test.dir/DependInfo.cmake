@@ -8,12 +8,21 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GLFW_DLL"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src/apps/triangle-test/../../../includes/sb6code/include"
+  "../src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/include"
+  "../src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/lib/x11"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -4,7 +4,7 @@
 # compile CXX with /opt/rh/devtoolset-8/root/usr/bin/c++
 CXX_FLAGS = -g   -std=c++17 -std=gnu++1z
 
-CXX_DEFINES = 
+CXX_DEFINES = -DGLFW_DLL
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/include -I/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/include -I/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/lib/x11 
 

@@ -1,1 +1,1 @@
-/opt/rh/devtoolset-8/root/usr/bin/c++  -g   CMakeFiles/triangle-test.dir/main.cpp.o  -o triangle-test -lpthread -ldl -lGL 
+/opt/rh/devtoolset-8/root/usr/bin/c++  -g   CMakeFiles/triangle-test.dir/main.cpp.o  -o triangle-test -lpthread -ldl /usr/lib64/libglfw.so.3.2 ../../libs/glad/libglad.a -lGL /usr/lib64/libGL.so /usr/lib64/libGLEW.so 

@@ -90,6 +90,10 @@ triangle__test_EXTERNAL_OBJECTS =
 
 src/apps/triangle-test/triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o
 src/apps/triangle-test/triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make
+src/apps/triangle-test/triangle-test: /usr/lib64/libglfw.so.3.2
+src/apps/triangle-test/triangle-test: src/libs/glad/libglad.a
+src/apps/triangle-test/triangle-test: /usr/lib64/libGL.so
+src/apps/triangle-test/triangle-test: /usr/lib64/libGLEW.so
 src/apps/triangle-test/triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable triangle-test"
 	cd /home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangle-test.dir/link.txt --verbose=$(VERBOSE)

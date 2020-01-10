@@ -7,6 +7,7 @@
     <generated>
       <config projectName="OpenWorld" targetName="OpenWorld" />
       <config projectName="OpenWorld" targetName="fmt" />
+      <config projectName="OpenWorld" targetName="triangle-test" />
       <config projectName="OpenWorld" targetName="glad" />
       <config projectName="OpenWorld" targetName="SOIL" />
       <config projectName="OpenWorld" targetName="libconfig" />
@@ -19,608 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e08641f-6fd5-4201-9471-8d3603a3897f" name="Default" comment="libs">
-      <change afterPath="$PROJECT_DIR$/src/apps/triangle-test/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenWorld" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenWorld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenWorld.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenWorld.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/alienrain.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/alienrain.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/alienrain.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/alienrain.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/alienrain.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/alienrain.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/alienrain.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/basicfbo.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/basicfbo.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/basicfbo.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/basicfbo.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/basicfbo.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/basicfbo.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/basicfbo.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blendmatrix.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blendmatrix.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blendmatrix.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blendmatrix.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blendmatrix.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blendmatrix.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blendmatrix.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blinnphong.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blinnphong.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blinnphong.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blinnphong.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blinnphong.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blinnphong.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/blinnphong.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/bumpmapping.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/bumpmapping.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/bumpmapping.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/bumpmapping.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/bumpmapping.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/bumpmapping.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/bumpmapping.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/clipdistance.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/clipdistance.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/clipdistance.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/clipdistance.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/clipdistance.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/clipdistance.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/clipdistance.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/csflocking.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/csflocking.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/csflocking.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/csflocking.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/csflocking.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/csflocking.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/csflocking.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubemapenv.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubemapenv.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubemapenv.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubemapenv.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubemapenv.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubemapenv.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubemapenv.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubicbezier.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubicbezier.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubicbezier.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubicbezier.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubicbezier.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubicbezier.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/cubicbezier.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/debug.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/debug.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/debug.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/debug.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/deferredshading.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/deferredshading.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/deferredshading.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/deferredshading.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/deferredshading.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/deferredshading.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/deferredshading.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/depthclamp.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/depthclamp.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/depthclamp.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/depthclamp.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/depthclamp.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/depthclamp.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/depthclamp.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dispmap.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dispmap.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dispmap.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dispmap.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dispmap.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dispmap.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dispmap.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dof.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dof.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dof.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dof.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dof.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dof.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/dof.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/envmapsphere.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/envmapsphere.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/envmapsphere.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/envmapsphere.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/envmapsphere.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/envmapsphere.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/envmapsphere.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/equirectangular.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/equirectangular.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/equirectangular.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/equirectangular.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/equirectangular.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/equirectangular.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/equirectangular.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragcolorfrompos.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragcolorfrompos.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragcolorfrompos.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragcolorfrompos.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragcolorfrompos.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragcolorfrompos.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragcolorfrompos.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragmentlist.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragmentlist.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragmentlist.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragmentlist.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragmentlist.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragmentlist.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/fragmentlist.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/grass.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/grass.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/grass.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/grass.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/grass.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/grass.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/grass.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsculling.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsculling.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsculling.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsculling.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsculling.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsculling.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsculling.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gslayered.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gslayered.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gslayered.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gslayered.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gslayered.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gslayered.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gslayered.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsquads.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsquads.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsquads.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsquads.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsquads.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsquads.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gsquads.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gstessellate.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gstessellate.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gstessellate.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gstessellate.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gstessellate.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gstessellate.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/gstessellate.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrbloom.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrbloom.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrbloom.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrbloom.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrbloom.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrbloom.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrbloom.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrexposure.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrexposure.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrexposure.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrexposure.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrexposure.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrexposure.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrexposure.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrtonemap.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrtonemap.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrtonemap.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrtonemap.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrtonemap.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrtonemap.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/hdrtonemap.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/indexedcube.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/indexedcube.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/indexedcube.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/indexedcube.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/indexedcube.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/indexedcube.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/indexedcube.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/instancedattribs.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/instancedattribs.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/instancedattribs.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/instancedattribs.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/instancedattribs.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/instancedattribs.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/instancedattribs.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/julia.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/julia.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/julia.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/julia.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/julia.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/julia.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/julia.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ktxview.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ktxview.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ktxview.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ktxview.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ktxview.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ktxview.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ktxview.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/linesmooth.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/linesmooth.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/linesmooth.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/linesmooth.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/linesmooth.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/linesmooth.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/linesmooth.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/movingtri.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/movingtri.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/movingtri.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/movingtri.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/movingtri.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/movingtri.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/movingtri.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/msaanative.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/msaanative.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/msaanative.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/msaanative.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/msaanative.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/msaanative.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/msaanative.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multidrawindirect.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multidrawindirect.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multidrawindirect.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multidrawindirect.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multidrawindirect.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multidrawindirect.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multidrawindirect.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multimaterial.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multimaterial.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multimaterial.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multimaterial.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multimaterial.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multimaterial.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multimaterial.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiscissor.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiscissor.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiscissor.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiscissor.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiscissor.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiscissor.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiscissor.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiviewport.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiviewport.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiviewport.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiviewport.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiviewport.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiviewport.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/multiviewport.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noise.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noise.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noise.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noise.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noise.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noise.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noise.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noperspective.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noperspective.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noperspective.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noperspective.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noperspective.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noperspective.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/noperspective.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/normalviewer.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/normalviewer.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/normalviewer.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/normalviewer.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/normalviewer.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/normalviewer.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/normalviewer.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/objectexploder.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/objectexploder.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/objectexploder.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/objectexploder.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/objectexploder.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/objectexploder.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/objectexploder.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perf-readpixels.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perf-readpixels.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perf-readpixels.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perf-readpixels.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perf-readpixels.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perf-readpixels.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perf-readpixels.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perpixelgloss.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perpixelgloss.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perpixelgloss.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perpixelgloss.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perpixelgloss.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perpixelgloss.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/perpixelgloss.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/phonglighting.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/phonglighting.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/phonglighting.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/phonglighting.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/phonglighting.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/phonglighting.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/phonglighting.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/polygonsmooth.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/polygonsmooth.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/polygonsmooth.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/polygonsmooth.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/polygonsmooth.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/polygonsmooth.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/polygonsmooth.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum2d.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum2d.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum2d.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum2d.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum2d.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum2d.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/prefixsum2d.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/programinfo.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/programinfo.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/programinfo.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/programinfo.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/programinfo.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/programinfo.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/programinfo.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/raytracer.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/raytracer.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/raytracer.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/raytracer.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/raytracer.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/raytracer.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/raytracer.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/release.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/release.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/release.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/release.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/rimlight.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/rimlight.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/rimlight.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/rimlight.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/rimlight.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/rimlight.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/rimlight.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sampleshading.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sampleshading.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sampleshading.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sampleshading.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sampleshading.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sampleshading.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sampleshading.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sb6.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shadowmapping.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shadowmapping.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shadowmapping.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shadowmapping.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shadowmapping.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shadowmapping.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shadowmapping.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shapedpoints.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shapedpoints.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shapedpoints.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shapedpoints.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shapedpoints.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shapedpoints.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/shapedpoints.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpleclear.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpleclear.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpleclear.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpleclear.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpleclear.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpleclear.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpleclear.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexcoords.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexcoords.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexcoords.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexcoords.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexcoords.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexcoords.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexcoords.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexture.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexture.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexture.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexture.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexture.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexture.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/simpletexture.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singlepoint.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singlepoint.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singlepoint.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singlepoint.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singlepoint.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singlepoint.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singlepoint.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singletri.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singletri.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singletri.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singletri.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singletri.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singletri.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/singletri.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sparsetexture.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sparsetexture.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sparsetexture.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sparsetexture.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sparsetexture.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sparsetexture.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/sparsetexture.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/spinnycube.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/spinnycube.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/spinnycube.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/spinnycube.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/spinnycube.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/spinnycube.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/spinnycube.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/springmass.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/springmass.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/springmass.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/springmass.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/springmass.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/springmass.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/springmass.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ssao.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ssao.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ssao.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ssao.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ssao.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ssao.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/ssao.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/starfield.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/starfield.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/starfield.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/starfield.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/starfield.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/starfield.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/starfield.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/stereo.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/stereo.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/stereo.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/stereo.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/stereo.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/stereo.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/stereo.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/subroutines.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/subroutines.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/subroutines.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/subroutines.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/subroutines.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/subroutines.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/subroutines.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedcube.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedcube.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedcube.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedcube.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedcube.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedcube.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedcube.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedgstri.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedtri.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedtri.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedtri.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedtri.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedtri.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedtri.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessellatedtri.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tessmodes.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tesssubdivmodes.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/toonshading.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/tunnel.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/CMakeFiles/wrapmodes.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/SuperBible6.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/includes/sb6code/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/triangle-test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/triangle-test.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/apps/triangle-test/triangle-test.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/logger.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/logger.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/logger.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/logger.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/logger.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/logger.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/logger.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/logger/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/logger.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/logger.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/logger.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/logger.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/logger.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/logger.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/spdlog.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/spdlog.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/spdlog.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/spdlog.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/spdlog.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/CMakeFiles/spdlog.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libs/spdlog/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apps/triangle-test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/triangle-test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/triangle-test/triangle-test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/triangle-test/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/triangle-test/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -633,86 +36,74 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-              <folding>
-                <element signature="e#42#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/apps/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayManager.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenEngine/DisplayManager.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenEngine/Application.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="e#157#183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spdlog.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/spdlog/spdlog/spdlog.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/CMakeLists.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/sb6code/README">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="364">
+                  <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HOWTOBUILD.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/sb6code/HOWTOBUILD.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="607">
+                  <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="sb6.h" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/includes/sb6code/include/sb6.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6427">
+                  <caret line="289" selection-start-line="289" selection-end-line="289" />
+                  <folding>
+                    <element signature="e#2268#2288#0" expanded="true" />
+                    <element signature="e#9752#9778#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/sb6code/CMakeLists.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3892">
+                  <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -746,7 +137,6 @@
       <find>#define DECLARE_MAIN</find>
       <find>sb6.h</find>
       <find>sb6.</find>
-      <find>glfw</find>
       <find>glfw.h&gt;</find>
       <find>2.7.6</find>
       <find>GLFWCALL</find>
@@ -754,6 +144,7 @@
       <find>glfwOpenWindowHint</find>
       <find>platform</find>
       <find>extern</find>
+      <find>glfw</find>
     </findStrings>
     <replaceStrings>
       <replace>l</replace>
@@ -815,11 +206,11 @@
         <option value="$PROJECT_DIR$/src/apps/triangle-test.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/includes/sb6code/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/includes/sb6code/include/sb6.h" />
         <option value="$PROJECT_DIR$/includes/sb6code/extern/glfw-2.7.6/lib/internal.h" />
         <option value="$PROJECT_DIR$/src/apps/triangle-test/triangle-test.cpp" />
         <option value="$PROJECT_DIR$/src/apps/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/apps/triangle-test/main.cpp" />
+        <option value="$PROJECT_DIR$/includes/sb6code/include/sb6.h" />
         <option value="$PROJECT_DIR$/src/apps/triangle-test/CMakeLists.txt" />
       </list>
     </option>
@@ -861,6 +252,55 @@
             <path>
               <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="sb6code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="sb6code" type="462c0819:PsiDirectoryNode" />
+              <item name="extern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="sb6code" type="462c0819:PsiDirectoryNode" />
+              <item name="extern" type="462c0819:PsiDirectoryNode" />
+              <item name="glfw-2.7.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="sb6code" type="462c0819:PsiDirectoryNode" />
+              <item name="extern" type="462c0819:PsiDirectoryNode" />
+              <item name="glfw-2.7.6" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="sb6code" type="462c0819:PsiDirectoryNode" />
+              <item name="extern" type="462c0819:PsiDirectoryNode" />
+              <item name="glfw-2.7.6" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="sb6code" type="462c0819:PsiDirectoryNode" />
+              <item name="extern" type="462c0819:PsiDirectoryNode" />
+              <item name="glfw-2.7.6" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="x11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -883,7 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Cmake&#9;ACTION&#9;ActivateCMakeToolWindow&#10;main.cpp&#9;FILE&#9;file:///home/olafurj/dev/OpenWorld/main.cpp&#10;CMake&#9;ACTION&#9;ActivateCMakeToolWindow&#10;main.cp&#9;FILE&#9;file:///home/olafurj/dev/OpenWorld/main.cpp&#10;Appl&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.cpp&#10;CM&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;frag&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl&#10;Text&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.h&#10;Texture&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.cpp&#10;config&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/app.config&#10;glsl&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl&#10;Loader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;loader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;verte&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/vertex.glsl&#10;ren&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h&#10;model&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h&#10;loader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;Shader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/learnopengl/shader.h&#10;RawModel&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h&#10;Loader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;camera&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h&#10;confi&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/app.config&#10;renderer&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h&#10;Display.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Display.h&#10;Raw&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h&#10;Display&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/DisplayManager.h&#10;cubema.&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.h&#10;render&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h&#10;.gitigno&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/.gitignore&#10;CMa&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;CMak&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;shader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h&#10;getUniform&#9;null&#9;null&#10;Shader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h" />
+    <property name="SearchEverywhereHistoryKey" value="main.cpp&#9;FILE&#9;file:///home/olafurj/dev/OpenWorld/main.cpp&#10;Cmake&#9;ACTION&#9;ActivateCMakeToolWindow&#10;CMake&#9;ACTION&#9;ActivateCMakeToolWindow&#10;main.cp&#9;FILE&#9;file:///home/olafurj/dev/OpenWorld/main.cpp&#10;Appl&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Application.cpp&#10;CM&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;frag&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl&#10;Text&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.h&#10;Texture&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Texture.cpp&#10;config&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/app.config&#10;glsl&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/fragment.glsl&#10;Loader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;loader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;verte&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shaders/vertex.glsl&#10;ren&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h&#10;model&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h&#10;loader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;Shader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/learnopengl/shader.h&#10;RawModel&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h&#10;Loader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Loader.h&#10;camera&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/learnopengl/camera.h&#10;confi&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/app.config&#10;renderer&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h&#10;Display.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Display.h&#10;Raw&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/RawModel.h&#10;Display&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/DisplayManager.h&#10;cubema.&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Cubemap.h&#10;render&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/OpenEngine/Renderer.h&#10;.gitigno&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/.gitignore&#10;CMa&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;CMak&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/CMakeLists.txt&#10;shader&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h&#10;getUniform&#9;null&#9;null&#10;Shader.h&#9;FILE&#9;file:///home/olafurj/Dropbox/dev/OpenWorld/src/Shader.h" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -918,8 +358,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Build All">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenWorld" RUN_TARGET_NAME="OpenWorld" EXPLICIT_BUILD_TARGET_NAME="all" />
+  <component name="RunManager" selected="Application.triangle-test">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenWorld" RUN_TARGET_NAME="triangle-test" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="OpenWorld" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenWorld" TARGET_NAME="OpenWorld" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenWorld" RUN_TARGET_NAME="triangle-test" />
     <configuration name="SOIL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenWorld" TARGET_NAME="SOIL" CONFIG_NAME="Debug" />
     <configuration name="fmt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenWorld" TARGET_NAME="fmt" CONFIG_NAME="Debug" />
@@ -977,7 +417,7 @@
       <workItem from="1577122796257" duration="3924000" />
       <workItem from="1577959333852" duration="1807000" />
       <workItem from="1578388146648" duration="7705000" />
-      <workItem from="1578648497473" duration="7409000" />
+      <workItem from="1578648497473" duration="9355000" />
     </task>
     <task id="LOCAL-00001" summary="libs">
       <created>1577125625511</created>
@@ -990,15 +430,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180124000" />
+    <option name="totallyTimeSpent" value="182070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3840" y="0" width="3840" height="2160" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08932292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08932292" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.3754334" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3754334" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3278851" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953465" />
@@ -1122,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenEngine/Texture.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/libs/SOIL/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1215,24 +648,10 @@
         <state relative-caret-position="-4386" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/sb6code/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/sb6code/extern/glfw-2.7.6/docs/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1039">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/sb6code/HOWTOBUILD.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1243,13 +662,6 @@
           <folding>
             <element signature="e#1158#1174#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/sb6code/extern/glfw-2.7.6/include/GL/glfw.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="436" column="26" selection-start-line="436" selection-start-column="26" selection-end-line="436" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1267,13 +679,6 @@
           <folding>
             <element signature="e#60#82#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1308,16 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/sb6code/include/sb6.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding>
-            <element signature="e#2365#2414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/triangle-test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1325,13 +720,6 @@
           <folding>
             <element signature="e#41#58#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/sb6code/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="134" column="56" selection-start-line="134" selection-start-column="56" selection-end-line="134" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1359,34 +747,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        <state relative-caret-position="420">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#42#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/main.cpp">
+    <entry file="file://$PROJECT_DIR$/OpenEngine/Texture.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#124#143#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/includes/sb6code/extern/glfw-2.7.6/include/GL/glfw.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="434" column="21" selection-start-line="434" selection-start-column="21" selection-end-line="434" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/sb6code/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3892">
+          <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/sb6code/include/sb6.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6427">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+          <folding>
+            <element signature="e#2268#2288#0" expanded="true" />
+            <element signature="e#9752#9778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/sb6code/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/sb6code/HOWTOBUILD.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/triangle-test/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="476">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
