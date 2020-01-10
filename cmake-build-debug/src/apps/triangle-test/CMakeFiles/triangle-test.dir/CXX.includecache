@@ -6,9 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/olafurj/dev/OpenWorld/src/apps/triangle-test/triangle-test.cpp
-cstdio
--
-cstdlib
--
+/home/olafurj/dev/OpenWorld/src/apps/triangle-test/main.cpp
 

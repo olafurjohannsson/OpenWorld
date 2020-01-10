@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++17 -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test -I/home/olafurj/dev/OpenWorld/src/apps/triangle-test -I/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code 
+CXX_INCLUDES = 
 

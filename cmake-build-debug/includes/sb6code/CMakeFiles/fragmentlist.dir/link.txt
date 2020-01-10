@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/fragmentlist.dir/src/fragmentlist/fragmentlist.cpp.o  -o ../../bin/fragmentlist  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

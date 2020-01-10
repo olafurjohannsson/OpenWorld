@@ -125,32 +125,32 @@ triangle-test/fast:
 	cd /home/olafurj/dev/OpenWorld/cmake-build-debug && $(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/build
 .PHONY : triangle-test/fast
 
-triangle-test.o: triangle-test.cpp.o
+main.o: main.cpp.o
 
-.PHONY : triangle-test.o
+.PHONY : main.o
 
 # target to build an object file
-triangle-test.cpp.o:
-	cd /home/olafurj/dev/OpenWorld/cmake-build-debug && $(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o
-.PHONY : triangle-test.cpp.o
+main.cpp.o:
+	cd /home/olafurj/dev/OpenWorld/cmake-build-debug && $(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-triangle-test.i: triangle-test.cpp.i
+main.i: main.cpp.i
 
-.PHONY : triangle-test.i
+.PHONY : main.i
 
 # target to preprocess a source file
-triangle-test.cpp.i:
-	cd /home/olafurj/dev/OpenWorld/cmake-build-debug && $(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.i
-.PHONY : triangle-test.cpp.i
+main.cpp.i:
+	cd /home/olafurj/dev/OpenWorld/cmake-build-debug && $(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-triangle-test.s: triangle-test.cpp.s
+main.s: main.cpp.s
 
-.PHONY : triangle-test.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-triangle-test.cpp.s:
-	cd /home/olafurj/dev/OpenWorld/cmake-build-debug && $(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.s
-.PHONY : triangle-test.cpp.s
+main.cpp.s:
+	cd /home/olafurj/dev/OpenWorld/cmake-build-debug && $(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... triangle-test"
-	@echo "... triangle-test.o"
-	@echo "... triangle-test.i"
-	@echo "... triangle-test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

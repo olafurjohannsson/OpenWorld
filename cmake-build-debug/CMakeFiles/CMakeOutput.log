@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/olafurj/dev/OpenWorld/cm
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_c1c31/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_c1c31.dir/build.make CMakeFiles/cmTC_c1c31.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_44924/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_44924.dir/build.make CMakeFiles/cmTC_44924.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c1c31.dir/testCCompiler.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_c1c31.dir/testCCompiler.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_c1c31
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1c31.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_c1c31.dir/testCCompiler.c.o  -o cmTC_c1c31 
+Building C object CMakeFiles/cmTC_44924.dir/testCCompiler.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_44924.dir/testCCompiler.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_44924
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44924.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_44924.dir/testCCompiler.c.o  -o cmTC_44924 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_c0c23/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_c0c23.dir/build.make CMakeFiles/cmTC_c0c23.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_e06cc/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_e06cc.dir/build.make CMakeFiles/cmTC_e06cc.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_c0c23
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c23.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o  -o cmTC_c0c23 
+Building C object CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e06cc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06cc.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o  -o cmTC_e06cc 
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/cc
 COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) 
 COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0c23' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccETBycm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0c23 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0c23' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e06cc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPiPnFz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e06cc /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e06cc' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_c0c23/fast"]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_c0c23.dir/build.make CMakeFiles/cmTC_c0c23.dir/build]
+  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_e06cc/fast"]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_e06cc.dir/build.make CMakeFiles/cmTC_e06cc.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_c0c23]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c23.dir/link.txt --verbose=1]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o  -o cmTC_c0c23 ]
+  ignore line: [Building C object CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e06cc]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06cc.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o  -o cmTC_e06cc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0c23' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccETBycm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0c23 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e06cc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPiPnFz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e06cc /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccETBycm.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPiPnFz.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c0c23] ==> ignore
+    arg [cmTC_e06cc] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-    arg [CMakeFiles/cmTC_c0c23.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e06cc.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -143,14 +143,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_3795e/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_3795e.dir/build.make CMakeFiles/cmTC_3795e.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_b8ed5/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_b8ed5.dir/build.make CMakeFiles/cmTC_b8ed5.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3795e.dir/feature_tests.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3795e.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3795e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3795e.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_3795e.dir/feature_tests.c.o  -o cmTC_3795e 
+Building C object CMakeFiles/cmTC_b8ed5.dir/feature_tests.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b8ed5.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b8ed5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8ed5.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_b8ed5.dir/feature_tests.c.o  -o cmTC_b8ed5 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -163,14 +163,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_a1462/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_a1462.dir/build.make CMakeFiles/cmTC_a1462.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_46153/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_46153.dir/build.make CMakeFiles/cmTC_46153.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a1462.dir/feature_tests.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a1462.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a1462
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1462.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_a1462.dir/feature_tests.c.o  -o cmTC_a1462 
+Building C object CMakeFiles/cmTC_46153.dir/feature_tests.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_46153.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_46153
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46153.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_46153.dir/feature_tests.c.o  -o cmTC_46153 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -183,14 +183,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_97329/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_97329.dir/build.make CMakeFiles/cmTC_97329.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_fd043/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_fd043.dir/build.make CMakeFiles/cmTC_fd043.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_97329.dir/feature_tests.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_97329.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_97329
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97329.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_97329.dir/feature_tests.c.o  -o cmTC_97329 
+Building C object CMakeFiles/cmTC_fd043.dir/feature_tests.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_fd043.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fd043
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd043.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_fd043.dir/feature_tests.c.o  -o cmTC_fd043 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -201,28 +201,28 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_16307/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_16307.dir/build.make CMakeFiles/cmTC_16307.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_3a5b0/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_3a5b0.dir/build.make CMakeFiles/cmTC_3a5b0.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_16307.dir/testCXXCompiler.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_16307.dir/testCXXCompiler.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_16307
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16307.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_16307.dir/testCXXCompiler.cxx.o  -o cmTC_16307 
+Building CXX object CMakeFiles/cmTC_3a5b0.dir/testCXXCompiler.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_3a5b0.dir/testCXXCompiler.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3a5b0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a5b0.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_3a5b0.dir/testCXXCompiler.cxx.o  -o cmTC_3a5b0 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_3b93a/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_3b93a.dir/build.make CMakeFiles/cmTC_3b93a.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_49434/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_49434.dir/build.make CMakeFiles/cmTC_49434.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o
-/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_3b93a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b93a.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3b93a 
+Building CXX object CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o
+/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_49434
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49434.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49434 
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/c++
 COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -232,9 +232,9 @@ Thread model: posix
 gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) 
 COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b93a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwza5NN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3b93a /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b93a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49434' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdXShAY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_49434 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49434' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -242,14 +242,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_3b93a/fast"]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_3b93a.dir/build.make CMakeFiles/cmTC_3b93a.dir/build]
+  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_49434/fast"]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_49434.dir/build.make CMakeFiles/cmTC_49434.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_3b93a]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b93a.dir/link.txt --verbose=1]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3b93a ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_49434]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49434.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49434 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -259,13 +259,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b93a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwza5NN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3b93a /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49434' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdXShAY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_49434 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccwza5NN.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdXShAY.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -280,7 +280,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3b93a] ==> ignore
+    arg [cmTC_49434] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> ignore
@@ -289,7 +289,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-    arg [CMakeFiles/cmTC_3b93a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_49434.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -314,14 +314,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_66a84/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_66a84.dir/build.make CMakeFiles/cmTC_66a84.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_54621/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_54621.dir/build.make CMakeFiles/cmTC_54621.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_66a84.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_66a84.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_66a84
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66a84.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_66a84.dir/feature_tests.cxx.o  -o cmTC_66a84 
+Building CXX object CMakeFiles/cmTC_54621.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_54621.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_54621
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54621.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_54621.dir/feature_tests.cxx.o  -o cmTC_54621 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -387,14 +387,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_12382/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_12382.dir/build.make CMakeFiles/cmTC_12382.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_e2b1c/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_e2b1c.dir/build.make CMakeFiles/cmTC_e2b1c.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_12382.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_12382.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_12382
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12382.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_12382.dir/feature_tests.cxx.o  -o cmTC_12382 
+Building CXX object CMakeFiles/cmTC_e2b1c.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e2b1c.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e2b1c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2b1c.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_e2b1c.dir/feature_tests.cxx.o  -o cmTC_e2b1c 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -460,14 +460,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_66a42/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_66a42.dir/build.make CMakeFiles/cmTC_66a42.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_d336d/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_d336d.dir/build.make CMakeFiles/cmTC_d336d.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_66a42.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_66a42.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_66a42
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66a42.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_66a42.dir/feature_tests.cxx.o  -o cmTC_66a42 
+Building CXX object CMakeFiles/cmTC_d336d.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_d336d.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d336d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d336d.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_d336d.dir/feature_tests.cxx.o  -o cmTC_d336d 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -533,14 +533,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_7a5cf/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_7a5cf.dir/build.make CMakeFiles/cmTC_7a5cf.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_fdaa7/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_fdaa7.dir/build.make CMakeFiles/cmTC_fdaa7.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7a5cf.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_7a5cf.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7a5cf
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a5cf.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_7a5cf.dir/feature_tests.cxx.o  -o cmTC_7a5cf 
+Building CXX object CMakeFiles/cmTC_fdaa7.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_fdaa7.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fdaa7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdaa7.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_fdaa7.dir/feature_tests.cxx.o  -o cmTC_fdaa7 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -604,28 +604,28 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_673b6/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_673b6.dir/build.make CMakeFiles/cmTC_673b6.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_302be/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_302be.dir/build.make CMakeFiles/cmTC_302be.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_673b6.dir/CheckIncludeFile.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_673b6.dir/CheckIncludeFile.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_673b6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_673b6.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_673b6.dir/CheckIncludeFile.c.o  -o cmTC_673b6 
+Building C object CMakeFiles/cmTC_302be.dir/CheckIncludeFile.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_302be.dir/CheckIncludeFile.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_302be
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_302be.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_302be.dir/CheckIncludeFile.c.o  -o cmTC_302be 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_74cff/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_74cff.dir/build.make CMakeFiles/cmTC_74cff.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_8d183/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_8d183.dir/build.make CMakeFiles/cmTC_8d183.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_74cff.dir/CheckFunctionExists.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_74cff.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_74cff
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74cff.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_74cff.dir/CheckFunctionExists.c.o  -o cmTC_74cff -lpthread 
+Building C object CMakeFiles/cmTC_8d183.dir/CheckFunctionExists.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8d183.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8d183
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d183.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8d183.dir/CheckFunctionExists.c.o  -o cmTC_8d183 -lpthread 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -659,28 +659,28 @@ The CXX compiler identification is GNU, found in "/home/olafurj/dev/OpenWorld/cm
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_59f28/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_59f28.dir/build.make CMakeFiles/cmTC_59f28.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_84453/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_84453.dir/build.make CMakeFiles/cmTC_84453.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59f28.dir/testCCompiler.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_59f28.dir/testCCompiler.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_59f28
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59f28.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_59f28.dir/testCCompiler.c.o  -o cmTC_59f28 
+Building C object CMakeFiles/cmTC_84453.dir/testCCompiler.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_84453.dir/testCCompiler.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_84453
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84453.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_84453.dir/testCCompiler.c.o  -o cmTC_84453 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_8964f/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_8964f.dir/build.make CMakeFiles/cmTC_8964f.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_eb575/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_eb575.dir/build.make CMakeFiles/cmTC_eb575.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o   -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_8964f
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8964f.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o  -o cmTC_8964f 
+Building C object CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o   -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_eb575
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb575.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o  -o cmTC_eb575 
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/cc
 COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -690,9 +690,9 @@ Thread model: posix
 gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) 
 COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8964f' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0e7x7C.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8964f /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8964f' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb575' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOezvOi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eb575 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb575' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -700,14 +700,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_8964f/fast"]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_8964f.dir/build.make CMakeFiles/cmTC_8964f.dir/build]
+  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_eb575/fast"]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_eb575.dir/build.make CMakeFiles/cmTC_eb575.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o   -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_8964f]
-  ignore line: [/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8964f.dir/link.txt --verbose=1]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o  -o cmTC_8964f ]
+  ignore line: [Building C object CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc    -o CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o   -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_eb575]
+  ignore line: [/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb575.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/cc     -v CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o  -o cmTC_eb575 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -717,13 +717,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8964f' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0e7x7C.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8964f /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb575' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOezvOi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eb575 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc0e7x7C.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOezvOi.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -738,7 +738,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8964f] ==> ignore
+    arg [cmTC_eb575] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> ignore
@@ -747,7 +747,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-    arg [CMakeFiles/cmTC_8964f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_eb575.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -774,14 +774,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_8be33/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_8be33.dir/build.make CMakeFiles/cmTC_8be33.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_2d541/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_2d541.dir/build.make CMakeFiles/cmTC_2d541.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8be33.dir/feature_tests.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8be33.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8be33
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8be33.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_8be33.dir/feature_tests.c.o  -o cmTC_8be33 
+Building C object CMakeFiles/cmTC_2d541.dir/feature_tests.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2d541.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2d541
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d541.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_2d541.dir/feature_tests.c.o  -o cmTC_2d541 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -794,14 +794,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_dad55/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_dad55.dir/build.make CMakeFiles/cmTC_dad55.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_addf8/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_addf8.dir/build.make CMakeFiles/cmTC_addf8.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dad55.dir/feature_tests.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_dad55.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_dad55
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dad55.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_dad55.dir/feature_tests.c.o  -o cmTC_dad55 
+Building C object CMakeFiles/cmTC_addf8.dir/feature_tests.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_addf8.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_addf8
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_addf8.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_addf8.dir/feature_tests.c.o  -o cmTC_addf8 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -814,14 +814,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_b2173/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_b2173.dir/build.make CMakeFiles/cmTC_b2173.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_736b0/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_736b0.dir/build.make CMakeFiles/cmTC_736b0.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b2173.dir/feature_tests.c.o
-/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_b2173.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b2173
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2173.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_b2173.dir/feature_tests.c.o  -o cmTC_b2173 
+Building C object CMakeFiles/cmTC_736b0.dir/feature_tests.c.o
+/opt/rh/devtoolset-8/root/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_736b0.dir/feature_tests.c.o   -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_736b0
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_736b0.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/cc      CMakeFiles/cmTC_736b0.dir/feature_tests.c.o  -o cmTC_736b0 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -832,28 +832,28 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_43ef5/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_43ef5.dir/build.make CMakeFiles/cmTC_43ef5.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_b24a1/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_b24a1.dir/build.make CMakeFiles/cmTC_b24a1.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_43ef5.dir/testCXXCompiler.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_43ef5.dir/testCXXCompiler.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_43ef5
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43ef5.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_43ef5.dir/testCXXCompiler.cxx.o  -o cmTC_43ef5 
+Building CXX object CMakeFiles/cmTC_b24a1.dir/testCXXCompiler.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_b24a1.dir/testCXXCompiler.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b24a1
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24a1.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_b24a1.dir/testCXXCompiler.cxx.o  -o cmTC_b24a1 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_f0cf7/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_f0cf7.dir/build.make CMakeFiles/cmTC_f0cf7.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_a9b7b/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_a9b7b.dir/build.make CMakeFiles/cmTC_a9b7b.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o
-/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f0cf7
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0cf7.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f0cf7 
+Building CXX object CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o
+/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a9b7b
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b7b.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a9b7b 
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/c++
 COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -863,9 +863,9 @@ Thread model: posix
 gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) 
 COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0cf7' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZshNPT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f0cf7 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0cf7' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a9b7b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFDg1PC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a9b7b /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a9b7b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -873,14 +873,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_f0cf7/fast"]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_f0cf7.dir/build.make CMakeFiles/cmTC_f0cf7.dir/build]
+  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_a9b7b/fast"]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_a9b7b.dir/build.make CMakeFiles/cmTC_a9b7b.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f0cf7]
-  ignore line: [/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0cf7.dir/link.txt --verbose=1]
-  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f0cf7 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++     -o CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o -c /home/olafurj/Downloads/clion-2018.1.7/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a9b7b]
+  ignore line: [/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b7b.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/c++      -v CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a9b7b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-8/root/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -890,13 +890,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.1 20180905 (Red Hat 8.2.1-3) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0cf7' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZshNPT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f0cf7 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a9b7b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFDg1PC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a9b7b /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/rh/devtoolset-8/root/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZshNPT.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFDg1PC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -911,7 +911,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f0cf7] ==> ignore
+    arg [cmTC_a9b7b] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> ignore
@@ -920,7 +920,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-    arg [CMakeFiles/cmTC_f0cf7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a9b7b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -945,14 +945,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_4caad/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_4caad.dir/build.make CMakeFiles/cmTC_4caad.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_913fc/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_913fc.dir/build.make CMakeFiles/cmTC_913fc.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4caad.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_4caad.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4caad
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4caad.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_4caad.dir/feature_tests.cxx.o  -o cmTC_4caad 
+Building CXX object CMakeFiles/cmTC_913fc.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_913fc.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_913fc
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_913fc.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_913fc.dir/feature_tests.cxx.o  -o cmTC_913fc 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -1018,14 +1018,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_cd883/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_cd883.dir/build.make CMakeFiles/cmTC_cd883.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_0930a/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_0930a.dir/build.make CMakeFiles/cmTC_0930a.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cd883.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_cd883.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cd883
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd883.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_cd883.dir/feature_tests.cxx.o  -o cmTC_cd883 
+Building CXX object CMakeFiles/cmTC_0930a.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_0930a.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0930a
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0930a.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_0930a.dir/feature_tests.cxx.o  -o cmTC_0930a 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -1091,14 +1091,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_b4f35/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_b4f35.dir/build.make CMakeFiles/cmTC_b4f35.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_29046/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_29046.dir/build.make CMakeFiles/cmTC_29046.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b4f35.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b4f35.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b4f35
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f35.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_b4f35.dir/feature_tests.cxx.o  -o cmTC_b4f35 
+Building CXX object CMakeFiles/cmTC_29046.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_29046.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_29046
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29046.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_29046.dir/feature_tests.cxx.o  -o cmTC_29046 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -1164,14 +1164,14 @@ gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMake
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_9b685/fast"
-/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_9b685.dir/build.make CMakeFiles/cmTC_9b685.dir/build
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_ca8ad/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_ca8ad.dir/build.make CMakeFiles/cmTC_ca8ad.dir/build
 gmake[1]: Entering directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9b685.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_9b685.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9b685
-/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b685.dir/link.txt --verbose=1
-/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_9b685.dir/feature_tests.cxx.o  -o cmTC_9b685 
+Building CXX object CMakeFiles/cmTC_ca8ad.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-8/root/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_ca8ad.dir/feature_tests.cxx.o -c /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ca8ad
+/home/olafurj/Downloads/clion-2018.1.7/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca8ad.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++       CMakeFiles/cmTC_ca8ad.dir/feature_tests.cxx.o  -o cmTC_ca8ad 
 gmake[1]: Leaving directory '/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

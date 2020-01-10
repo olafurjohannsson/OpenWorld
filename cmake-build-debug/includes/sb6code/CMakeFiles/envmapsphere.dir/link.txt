@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/envmapsphere.dir/src/envmapsphere/envmapsphere.cpp.o  -o ../../bin/envmapsphere  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

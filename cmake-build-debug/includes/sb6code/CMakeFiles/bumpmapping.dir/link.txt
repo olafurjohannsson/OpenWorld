@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/bumpmapping.dir/src/bumpmapping/bumpmapping.cpp.o  -o ../../bin/bumpmapping  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

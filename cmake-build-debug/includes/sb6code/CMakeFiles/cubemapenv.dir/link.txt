@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/cubemapenv.dir/src/cubemapenv/cubemapenv.cpp.o  -o ../../bin/cubemapenv  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

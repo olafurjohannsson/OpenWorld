@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/tesssubdivmodes.dir/src/tesssubdivmodes/tesssubdivmodes.cpp.o  -o ../../bin/tesssubdivmodes  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

@@ -23,11 +23,7 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
 					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 triangle-test"/>
 					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -41,11 +37,7 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
 					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 triangle-test/fast"/>
 					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -54,10 +46,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/olafurj/dev/OpenWorld/includes/sb6code/include/sb6.h">
-			<Option target="triangle-test"/>
-		</Unit>
-		<Unit filename="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/triangle-test.cpp">
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/main.cpp">
 			<Option target="triangle-test"/>
 		</Unit>
 		<Unit filename="/home/olafurj/dev/OpenWorld/CMakeLists.txt">

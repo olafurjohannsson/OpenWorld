@@ -239,15 +239,6 @@ OpenWorld_SOURCE_DIR:STATIC=/home/olafurj/dev/OpenWorld
 //Dependencies for target
 SOIL_LIB_DEPENDS:STATIC=
 
-//Value Computed by CMake
-SuperBible6_BINARY_DIR:STATIC=/home/olafurj/dev/OpenWorld/cmake-build-debug/includes/sb6code
-
-//The directory containing a CMake configuration file for SuperBible6.
-SuperBible6_DIR:PATH=SuperBible6_DIR-NOTFOUND
-
-//Value Computed by CMake
-SuperBible6_SOURCE_DIR:STATIC=/home/olafurj/dev/OpenWorld/includes/sb6code
-
 //Dependencies for target
 fmt_LIB_DEPENDS:STATIC=
 
@@ -259,21 +250,6 @@ glfw3_DIR:PATH=/usr/lib64/cmake/glfw3
 
 //Dependencies for target
 libconfig_LIB_DEPENDS:STATIC=
-
-//The directory containing a CMake configuration file for logger.
-logger_DIR:PATH=logger_DIR-NOTFOUND
-
-//Dependencies for target
-logger_LIB_DEPENDS:STATIC=
-
-//The directory containing a CMake configuration file for sb6.
-sb6_DIR:PATH=sb6_DIR-NOTFOUND
-
-//Dependencies for target
-sb6_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-spdlog_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 triangle-test_BINARY_DIR:STATIC=/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test

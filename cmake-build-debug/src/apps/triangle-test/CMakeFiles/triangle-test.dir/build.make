@@ -57,38 +57,38 @@ include src/apps/triangle-test/CMakeFiles/triangle-test.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/apps/triangle-test/CMakeFiles/triangle-test.dir/flags.make
 
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o: src/apps/triangle-test/CMakeFiles/triangle-test.dir/flags.make
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o: ../src/apps/triangle-test/triangle-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o"
-	cd /home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test && /opt/rh/devtoolset-8/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangle-test.dir/triangle-test.cpp.o -c /home/olafurj/dev/OpenWorld/src/apps/triangle-test/triangle-test.cpp
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o: src/apps/triangle-test/CMakeFiles/triangle-test.dir/flags.make
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o: ../src/apps/triangle-test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o"
+	cd /home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test && /opt/rh/devtoolset-8/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangle-test.dir/main.cpp.o -c /home/olafurj/dev/OpenWorld/src/apps/triangle-test/main.cpp
 
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangle-test.dir/triangle-test.cpp.i"
-	cd /home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test && /opt/rh/devtoolset-8/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olafurj/dev/OpenWorld/src/apps/triangle-test/triangle-test.cpp > CMakeFiles/triangle-test.dir/triangle-test.cpp.i
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangle-test.dir/main.cpp.i"
+	cd /home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test && /opt/rh/devtoolset-8/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olafurj/dev/OpenWorld/src/apps/triangle-test/main.cpp > CMakeFiles/triangle-test.dir/main.cpp.i
 
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangle-test.dir/triangle-test.cpp.s"
-	cd /home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test && /opt/rh/devtoolset-8/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olafurj/dev/OpenWorld/src/apps/triangle-test/triangle-test.cpp -o CMakeFiles/triangle-test.dir/triangle-test.cpp.s
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangle-test.dir/main.cpp.s"
+	cd /home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test && /opt/rh/devtoolset-8/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olafurj/dev/OpenWorld/src/apps/triangle-test/main.cpp -o CMakeFiles/triangle-test.dir/main.cpp.s
 
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.requires:
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.requires:
 
-.PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.requires
+.PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.requires
 
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.provides: src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.requires
-	$(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.provides.build
-.PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.provides
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.provides: src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.requires
+	$(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.provides.build
+.PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.provides
 
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.provides.build: src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.provides.build: src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o
 
 
 # Object files for target triangle-test
 triangle__test_OBJECTS = \
-"CMakeFiles/triangle-test.dir/triangle-test.cpp.o"
+"CMakeFiles/triangle-test.dir/main.cpp.o"
 
 # External object files for target triangle-test
 triangle__test_EXTERNAL_OBJECTS =
 
-src/apps/triangle-test/triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o
+src/apps/triangle-test/triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o
 src/apps/triangle-test/triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make
 src/apps/triangle-test/triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable triangle-test"
@@ -99,7 +99,7 @@ src/apps/triangle-test/CMakeFiles/triangle-test.dir/build: src/apps/triangle-tes
 
 .PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/build
 
-src/apps/triangle-test/CMakeFiles/triangle-test.dir/requires: src/apps/triangle-test/CMakeFiles/triangle-test.dir/triangle-test.cpp.o.requires
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/requires: src/apps/triangle-test/CMakeFiles/triangle-test.dir/main.cpp.o.requires
 
 .PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/requires
 
