@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/cmake_install.cmake")
+  include("/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/cmake_install.cmake")
 
 endif()
 

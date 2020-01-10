@@ -17,7 +17,7 @@
 #include "../learnopengl/camera.h"
 #include "Application.h"
 
-Camera camera( glm::vec3( 0.0f, 0.0f, 3.0f ));
+Camera camera( glm::vec3( 0.0f, 0.0f, 3.0f ) );
 float lastX = 0;
 float lastY = 0;
 bool firstMouse = true;
@@ -28,26 +28,32 @@ double lastTime = 0.0f;
 double fps = 0.0f;
 int frames = 0;
 
-class Display {
+class Display
+{
 public:
 
     Display( int screenWidth, int screenHeight, const char *name, bool fullscreen = false ) : screenWidth(
-            screenWidth ), screenHeight( screenHeight ) {
-        if ( !glfwInit()) {
+            screenWidth ), screenHeight( screenHeight )
+    {
+        if( !glfwInit() )
+        {
             Application::console->critical( "FAILED TO INIT GLFW" );
             exit( EXIT_FAILURE );
-        } else {
+        }
+        else
+        {
             Application::console->debug( "GLFW Initialized" );
         }
 
-        lastX = (float) screenWidth / 2.0;
-        lastY = (float) screenHeight / 2.0;
-        int openGlMajor = Application::getConfigValue<int>( "OPENGL_MAJOR_VERSION", -1 );
-        int openGlMinor = Application::getConfigValue<int>( "OPENGL_MINOR_VERSION", -1 );
-        if ( openGlMajor == -1 or openGlMinor == -1 ) {
+        lastX = ( float ) screenWidth / 2.0;
+        lastY = ( float ) screenHeight / 2.0;
+        int openGlMajor = Application::getConfigValue< int >( "OPENGL_MAJOR_VERSION", -1 );
+        int openGlMinor = Application::getConfigValue< int >( "OPENGL_MINOR_VERSION", -1 );
+        if( openGlMajor == -1 or openGlMinor == -1 )
+        {
             Application::abort( "OpenGL version is invalid (-1.-1)" );
         }
-        int antiAliasing = Application::getConfigValue<int>( "ANTI_ALIASING", 4 );
+        int antiAliasing = Application::getConfigValue< int >( "ANTI_ALIASING", 4 );
         glfwWindowHint( GLFW_SAMPLES, antiAliasing );
         glfwWindowHint( GLFW_CONTEXT_VERSION_MAJOR, openGlMajor );
         glfwWindowHint( GLFW_CONTEXT_VERSION_MINOR, openGlMinor );
@@ -55,9 +61,12 @@ public:
         glfwWindowHint( GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE );
         glfwWindowHint( GLFW_RESIZABLE, GL_TRUE );
 
-        if ( fullscreen ) {
+        if( fullscreen )
+        {
             m_window = glfwCreateWindow( screenWidth, screenHeight, name, glfwGetPrimaryMonitor(), nullptr );
-        } else {
+        }
+        else
+        {
 
             m_window = glfwCreateWindow( screenWidth, screenHeight, name, nullptr, nullptr );
         }
@@ -72,11 +81,12 @@ public:
         glfwSetMouseButtonCallback( m_window, mouseButtonCallback );
         glfwSetCursorPosCallback( m_window, mouseCallback );
         glfwSetScrollCallback( m_window, scrollCallback );
-        glfwSetInputMode( m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED );
+//        glfwSetInputMode( m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED );
         glfwSetInputMode( m_window, GLFW_STICKY_KEYS, GL_TRUE );
 
         /** Initialize GLAD before calling OpenGL functions */
-        if ( !gladLoadGLLoader((GLADloadproc) glfwGetProcAddress )) {
+        if( !gladLoadGLLoader( ( GLADloadproc ) glfwGetProcAddress ) )
+        {
             std::cout << "Failed to initialize GLAD" << std::endl;
             exit( 0 );
         }
@@ -86,26 +96,31 @@ public:
         Application::console->info( "Display created using OpenGL version {}.{}", openGlMajor, openGlMinor );
     }
 
-    static void mouseButtonCallback( GLFWwindow *window, int button, int action, int mods ) {
-        Display *win = (Display *) glfwGetWindowUserPointer( window );
+    static void mouseButtonCallback( GLFWwindow *window, int button, int action, int mods )
+    {
+        Display *win = ( Display * ) glfwGetWindowUserPointer( window );
 
 
     }
 
 
-    static void errorCallback( int error, const char *description ) {
+    static void errorCallback( int error, const char *description )
+    {
         std::cout << "Error:" << std::endl << description << std::endl;
     }
 
-    static void windowResizeCallback( GLFWwindow *window, int width, int height ) {
-        Display *win = (Display *) glfwGetWindowUserPointer( window );
+    static void windowResizeCallback( GLFWwindow *window, int width, int height )
+    {
+        Display *win = ( Display * ) glfwGetWindowUserPointer( window );
         win->screenWidth = width;
         win->screenHeight = height;
         glViewport( 0, 0, win->screenWidth, win->screenHeight );
     }
 
-    static void mouseCallback( GLFWwindow *glfWwindow, double xpos, double ypos ) {
-        if ( firstMouse ) {
+    static void mouseCallback( GLFWwindow *glfWwindow, double xpos, double ypos )
+    {
+        if( firstMouse )
+        {
             lastX = xpos;
             lastY = ypos;
             firstMouse = false;
@@ -120,16 +135,19 @@ public:
         camera.ProcessMouseMovement( xoffset, yoffset );
     }
 
-    static void scrollCallback( GLFWwindow *window, double xoffset, double yoffset ) {
+    static void scrollCallback( GLFWwindow *window, double xoffset, double yoffset )
+    {
         camera.ProcessMouseScroll( yoffset );
     }
 
-    static void sync( int fps ) {
+    static void sync( int fps )
+    {
         Sync::sync( fps );
     }
 
 
-    static void update( bool &secondPassed ) {
+    static void update( bool &secondPassed )
+    {
         double currentTime = glfwGetTime();
         deltaTime = ( currentTime - lastTime ) / 1000.0f;
         fps = 1 / deltaTime;
@@ -137,9 +155,10 @@ public:
 
         // one sec
         secondPassed = false;
-        if ( currentTime - lastTime >= 1.0 ) {
+        if( currentTime - lastTime >= 1.0 )
+        {
             const char *out = "%f ms/frame - %f frames/sec\n";
-            fprintf( stdout, out, ( 1000.0f / double( frames )), fps );
+            fprintf( stdout, out, ( 1000.0f / double( frames ) ), fps );
             frames = 0;
             lastTime = glfwGetTime();
             secondPassed = true;
@@ -147,15 +166,18 @@ public:
 
     }
 
-    static void destroy() {
+    static void destroy()
+    {
         glfwTerminate();
     }
 
-    static bool isCloseRequested() {
+    static bool isCloseRequested()
+    {
         return glfwWindowShouldClose( m_window ) || glfwGetKey( m_window, GLFW_KEY_ESCAPE ) == GLFW_PRESS;
     }
 
-    static GLFWwindow *getWindow() {
+    static GLFWwindow *getWindow()
+    {
         return m_window;
     }
 

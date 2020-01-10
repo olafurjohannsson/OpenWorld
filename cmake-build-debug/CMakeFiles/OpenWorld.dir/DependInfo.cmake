@@ -18,6 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../includes/spdlog"
+  "../includes/sb6code"
+  "../includes/sb6code/include"
   "../src/libs/libconfig"
   "../src/libs/SOIL"
   "../src/libs/glad/glad"

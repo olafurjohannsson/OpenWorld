@@ -15,3 +15,8 @@
 /home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/CMakeFiles/rebuild_cache.dir
 /home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/CMakeFiles/edit_cache.dir
 /home/olafurj/dev/OpenWorld/cmake-build-debug/src/libs/fmt/CMakeFiles/fmt.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/CMakeFiles/edit_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/CMakeFiles/rebuild_cache.dir
+/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/CMakeFiles/triangle-test.dir

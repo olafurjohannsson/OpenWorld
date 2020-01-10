@@ -175,6 +175,19 @@ fmt/fast:
 	$(MAKE) -f src/libs/fmt/CMakeFiles/fmt.dir/build.make src/libs/fmt/CMakeFiles/fmt.dir/build
 .PHONY : fmt/fast
 
+#=============================================================================
+# Target rules for targets named triangle-test
+
+# Build rule for target.
+triangle-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 triangle-test
+.PHONY : triangle-test
+
+# fast build rule for target.
+triangle-test/fast:
+	$(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/build
+.PHONY : triangle-test/fast
+
 OpenEngine/Cubemap.o: OpenEngine/Cubemap.cpp.o
 
 .PHONY : OpenEngine/Cubemap.o
@@ -269,6 +282,7 @@ help:
 	@echo "... SOIL"
 	@echo "... glad"
 	@echo "... fmt"
+	@echo "... triangle-test"
 	@echo "... OpenEngine/Cubemap.o"
 	@echo "... OpenEngine/Cubemap.i"
 	@echo "... OpenEngine/Cubemap.s"

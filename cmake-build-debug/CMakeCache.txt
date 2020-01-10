@@ -239,6 +239,15 @@ OpenWorld_SOURCE_DIR:STATIC=/home/olafurj/dev/OpenWorld
 //Dependencies for target
 SOIL_LIB_DEPENDS:STATIC=
 
+//Value Computed by CMake
+SuperBible6_BINARY_DIR:STATIC=/home/olafurj/dev/OpenWorld/cmake-build-debug/includes/sb6code
+
+//The directory containing a CMake configuration file for SuperBible6.
+SuperBible6_DIR:PATH=SuperBible6_DIR-NOTFOUND
+
+//Value Computed by CMake
+SuperBible6_SOURCE_DIR:STATIC=/home/olafurj/dev/OpenWorld/includes/sb6code
+
 //Dependencies for target
 fmt_LIB_DEPENDS:STATIC=
 
@@ -257,8 +266,20 @@ logger_DIR:PATH=logger_DIR-NOTFOUND
 //Dependencies for target
 logger_LIB_DEPENDS:STATIC=
 
+//The directory containing a CMake configuration file for sb6.
+sb6_DIR:PATH=sb6_DIR-NOTFOUND
+
+//Dependencies for target
+sb6_LIB_DEPENDS:STATIC=
+
 //Dependencies for target
 spdlog_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+triangle-test_BINARY_DIR:STATIC=/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test
+
+//Value Computed by CMake
+triangle-test_SOURCE_DIR:STATIC=/home/olafurj/dev/OpenWorld/src/apps/triangle-test
 
 
 ########################
@@ -371,7 +392,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

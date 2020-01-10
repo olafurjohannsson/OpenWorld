@@ -347,6 +347,79 @@ clean: src/libs/fmt/CMakeFiles/fmt.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory src/apps
+
+# Convenience name for "all" pass in the directory.
+src/apps/all: src/apps/triangle-test/all
+
+.PHONY : src/apps/all
+
+# Convenience name for "clean" pass in the directory.
+src/apps/clean: src/apps/triangle-test/clean
+
+.PHONY : src/apps/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/apps/preinstall: src/apps/triangle-test/preinstall
+
+.PHONY : src/apps/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/apps/triangle-test
+
+# Convenience name for "all" pass in the directory.
+src/apps/triangle-test/all: src/apps/triangle-test/CMakeFiles/triangle-test.dir/all
+
+.PHONY : src/apps/triangle-test/all
+
+# Convenience name for "clean" pass in the directory.
+src/apps/triangle-test/clean: src/apps/triangle-test/CMakeFiles/triangle-test.dir/clean
+
+.PHONY : src/apps/triangle-test/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/apps/triangle-test/preinstall:
+
+.PHONY : src/apps/triangle-test/preinstall
+
+#=============================================================================
+# Target rules for target src/apps/triangle-test/CMakeFiles/triangle-test.dir
+
+# All Build rule for target.
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/all:
+	$(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/depend
+	$(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target triangle-test"
+.PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/all
+
+# Include target in all.
+all: src/apps/triangle-test/CMakeFiles/triangle-test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/apps/triangle-test/CMakeFiles/triangle-test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olafurj/dev/OpenWorld/cmake-build-debug/CMakeFiles 0
+.PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/rule
+
+# Convenience name for target.
+triangle-test: src/apps/triangle-test/CMakeFiles/triangle-test.dir/rule
+
+.PHONY : triangle-test
+
+# clean rule for target.
+src/apps/triangle-test/CMakeFiles/triangle-test.dir/clean:
+	$(MAKE) -f src/apps/triangle-test/CMakeFiles/triangle-test.dir/build.make src/apps/triangle-test/CMakeFiles/triangle-test.dir/clean
+.PHONY : src/apps/triangle-test/CMakeFiles/triangle-test.dir/clean
+
+# clean rule for target.
+clean: src/apps/triangle-test/CMakeFiles/triangle-test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

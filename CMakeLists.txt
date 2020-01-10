@@ -17,8 +17,8 @@ add_executable(OpenWorld main.cpp
         OpenEngine/Texture.h
         OpenEngine/TextureManager.h
         OpenEngine/Application.h
-
         includes/spdlog/spdlog/spdlog.h
+#        src/apps/triangle-test.cpp
         )
 find_package(Threads REQUIRED)
 find_package(glfw3 3.2 REQUIRED)
@@ -26,13 +26,17 @@ find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
 
 add_subdirectory(src/libs/)
+add_subdirectory(src/apps/)
+
+#add_subdirectory(includes/sb6code)
 
 target_include_directories(OpenWorld PUBLIC
         ${OPENGL_INCLUDE_DIR}
         ${GLEW_INCLUDE_DIRS}
         ${GLUT_INCLUDE_DIRS}
         includes/spdlog/
-
+        includes/sb6code
+        includes/sb6code/include
         src/libs/libconfig
         src/libs/SOIL
         src/libs/glad/glad
@@ -48,6 +52,8 @@ target_link_libraries(OpenWorld
         stdc++fs
         SOIL
         fmt
+#        sb6
+#        SuperBible6
         dl
         ${OPENGL_gl_LIBRARY}
         ${GLEW_LIBRARIES}

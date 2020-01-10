@@ -36,6 +36,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeSystem.cmake"
+  "../src/apps/CMakeLists.txt"
+  "../src/apps/triangle-test/CMakeLists.txt"
   "../src/libs/CMakeLists.txt"
   "../src/libs/SOIL/CMakeLists.txt"
   "../src/libs/fmt/CMakeLists.txt"
@@ -61,6 +63,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/libs/SOIL/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/libs/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/libs/fmt/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/apps/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/apps/triangle-test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -70,4 +74,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/libs/SOIL/CMakeFiles/SOIL.dir/DependInfo.cmake"
   "src/libs/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "src/libs/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
+  "src/apps/triangle-test/CMakeFiles/triangle-test.dir/DependInfo.cmake"
   )

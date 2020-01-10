@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = -DGLFW_DLL
 
-CXX_INCLUDES = -I/home/olafurj/dev/OpenWorld/includes/spdlog -I/home/olafurj/dev/OpenWorld/src/libs/libconfig -I/home/olafurj/dev/OpenWorld/src/libs/SOIL -I/home/olafurj/dev/OpenWorld/src/libs/glad/glad -I/home/olafurj/dev/OpenWorld/src/libs/fmt -I/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/src -I/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include 
+CXX_INCLUDES = -I/home/olafurj/dev/OpenWorld/includes/spdlog -I/home/olafurj/dev/OpenWorld/includes/sb6code -I/home/olafurj/dev/OpenWorld/includes/sb6code/include -I/home/olafurj/dev/OpenWorld/src/libs/libconfig -I/home/olafurj/dev/OpenWorld/src/libs/SOIL -I/home/olafurj/dev/OpenWorld/src/libs/glad/glad -I/home/olafurj/dev/OpenWorld/src/libs/fmt -I/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/src -I/home/olafurj/dev/OpenWorld/src/libs/fmt/fmt/include 
 
