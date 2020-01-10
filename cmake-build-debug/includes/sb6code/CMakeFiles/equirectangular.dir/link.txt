@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/equirectangular.dir/src/equirectangular/equirectangular.cpp.o  -o ../../bin/equirectangular  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

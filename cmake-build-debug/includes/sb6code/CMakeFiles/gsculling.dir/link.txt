@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/gsculling.dir/src/gsculling/gsculling.cpp.o  -o ../../bin/gsculling  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-8/root/usr/bin/c++   -D_LINUX -g  -rdynamic CMakeFiles/wrapmodes.dir/src/wrapmodes/wrapmodes.cpp.o  -o ../../bin/wrapmodes  -L/home/olafurj/dev/OpenWorld/lib -Wl,-rpath,/home/olafurj/dev/OpenWorld/lib ../../lib/libsb6.a 

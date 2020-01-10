@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-8/root/usr/bin/c++  -g   CMakeFiles/triangle-test.dir/triangle-test.cpp.o  -o triangle-test -lpthread -ldl -lGL 

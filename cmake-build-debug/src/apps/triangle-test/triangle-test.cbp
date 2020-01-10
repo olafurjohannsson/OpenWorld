@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="triangle-test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\;CMake Files\src\;CMake Files\src\libs\;CMake Files\src\libs\libconfig\;CMake Files\src\libs\SOIL\;CMake Files\src\libs\glad\;CMake Files\src\libs\fmt\;CMake Files\src\apps\;CMake Files\src\apps\triangle-test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle-test">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/triangle-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 triangle-test"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle-test/fast">
+				<Option output="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/triangle-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test"/>
+					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 triangle-test/fast"/>
+					<CompileFile command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/olafurj/dev/OpenWorld/includes/sb6code/include/sb6.h">
+			<Option target="triangle-test"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/triangle-test.cpp">
+			<Option target="triangle-test"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/../../../../usr/lib64/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/libconfig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\libconfig\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/SOIL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\SOIL\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\glad\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/libs/fmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\fmt\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\apps\"/>
+		</Unit>
+		<Unit filename="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\apps\triangle-test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

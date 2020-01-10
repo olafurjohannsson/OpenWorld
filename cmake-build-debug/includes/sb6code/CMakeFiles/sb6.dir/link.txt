@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-8/root/usr/bin/ar qc ../../lib/libsb6.a  CMakeFiles/sb6.dir/src/sb6/sb6.cpp.o CMakeFiles/sb6.dir/src/sb6/sb6ktx.cpp.o CMakeFiles/sb6.dir/src/sb6/sb6object.cpp.o CMakeFiles/sb6.dir/src/sb6/sb6shader.cpp.o CMakeFiles/sb6.dir/src/sb6/gl3w.c.o
+/opt/rh/devtoolset-8/root/usr/bin/ranlib ../../lib/libsb6.a
