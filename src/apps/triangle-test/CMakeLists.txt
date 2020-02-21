@@ -13,13 +13,13 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         ${GLUT_INCLUDE_DIRS}
         )
 
-include_directories(../../../includes/sb6code/include)
-include_directories(../../../includes/sb6code/extern/glfw-2.7.6/include)
-include_directories(../../../includes/sb6code/extern/glfw-2.7.6/lib/x11/)
-
-link_libraries(../../../includes/sb6code/extern/glfw-2.7.6/lib/x11/)
-link_libraries(../../../includes/sb6code/lib/)
-link_libraries(../../../includes/sb6code/extern/glfw-2.7.6/lib)
+#include_directories(../../../includes/sb6code/include)
+#include_directories(../../../includes/sb6code/extern/glfw-2.7.6/include)
+#include_directories(../../../includes/sb6code/extern/glfw-2.7.6/lib/x11/)
+#
+#link_libraries(../../../includes/sb6code/extern/glfw-2.7.6/lib/x11/)
+#link_libraries(../../../includes/sb6code/lib/)
+#link_libraries(../../../includes/sb6code/extern/glfw-2.7.6/lib)
 
 
 SET( POC_LIBS

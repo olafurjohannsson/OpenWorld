@@ -15,9 +15,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src/apps/triangle-test/../../../includes/sb6code/include"
-  "../src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/include"
-  "../src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/lib/x11"
   )
 
 # Targets to which this target links.

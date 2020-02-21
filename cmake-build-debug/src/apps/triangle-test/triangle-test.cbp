@@ -25,9 +25,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/include"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/include"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/lib/x11"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 triangle-test"/>
@@ -44,9 +41,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/include"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/include"/>
-					<Add directory="/home/olafurj/dev/OpenWorld/src/apps/triangle-test/../../../includes/sb6code/extern/glfw-2.7.6/lib/x11"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/opt/rh/devtoolset-8/root/usr/bin/gmake -f &quot;/home/olafurj/dev/OpenWorld/cmake-build-debug/src/apps/triangle-test/Makefile&quot;  VERBOSE=1 triangle-test/fast"/>
